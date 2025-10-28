@@ -1,5 +1,0 @@
-Database B rebuild summary
-Total customers: 1291
-Total transactions: 1985
-Transactions added from Database A (>= 2025-08-28): 54
-Latest transaction date: 2025-10-26
