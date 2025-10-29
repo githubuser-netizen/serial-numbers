@@ -1,0 +1,55 @@
+customer_id,customer_key,source,match_type,transaction_date,transaction_name,normalized_phone,normalized_serial,matched_customer_key,matched_name,matched_phone
+CUST01213,phone:811369697,database_a,new,2025-08-30,Dzul - DZULKIFLI BIN JA'AFAR,811369697,GB2B630543,,,
+CUST00964,phone:97399362,database_a,exact_name,2025-08-31,Wisman siew,973993627,GBH2010249,phone:97399362,Wisman Siew,97399362
+CUST01214,phone:81666690,database_a,new,2025-09-01,Chan Chong You c/o Ong Su May,81666690,GB2B630538,,,
+CUST01215,phone:979900387,database_a,new,2025-09-02,Kenneth Lek,979900387,,,,
+CUST01216,phone:829805857,database_a,new,2025-09-02,Yin Peishi Jessica,829805857,,,,
+CUST01146,phone:81880703,database_a,exact_name,2025-09-04,Pauline Siang po Ling ,,,phone:81880703,Pauline Siang po Ling ,81880703
+CUST00338,phone:90035906,database_a,partial_name,2025-09-04,Avi,984732577,,phone:90035906,Alexandre Gravier,90035906
+CUST01218,phone:98713921,database_a,new,2025-09-05,Joel Wee,98713921,GB2B560858,,,
+CUST01220,phone:947942457,database_a,new,2025-09-09,Idran Junadi,947942457,,,,
+CUST01221,phone:924777237,database_a,new,2025-09-09,Mohammed Nestaz,924777237,J378249248693,,,
+CUST01222,phone:87264187,database_a,new,2025-09-09,Nicholas Lim Kai Hung,87264187,GB2B630535,,,
+CUST01219,phone:88603857,database_a,new,2025-09-09,Cheryl Yi Mei Ying (Medipurpose),88603857,GB2B630529,,,
+CUST00754,phone:96913836,database_a,exact_name,2025-09-10,Colin Koh,969138367,,phone:96913836,Colin Koh,96913836
+CUST01223,phone:975853047,database_a,new,2025-09-13,Then Aik Bei (Deng yubei),975853047,GB2B630532,,,
+CUST01225,phone:982565677,database_a,new,2025-09-14,Jansen Sng Kai Rong - Jansen KR,982565677,GB2B560860,,,
+CUST01118,phone:97847336,database_a,partial_name,2025-09-14,Michael Goh ,948942337,GB2B630545,phone:97847336,Michael Goh (Goh Tan Hock Goh Hwee Lan),97847336
+CUST01224,phone:810098767,database_a,new,2025-09-14,Hafidz (Zohra) MUHAMMAD HAFIDZ BASRI,810098767,GB2B630527,,,
+CUST00974,phone:88683999,database_a,phone,2025-09-15,Timothy Ngui,88683999,,phone:88683999,Timothy Ngui Choon Ming / Wei Junming,88683999
+CUST01212,phone:92992454,database_a,phone,2025-09-15,Roselen binte Rosenen - Elen - Elenjelly,92992454,,phone:92992454,Roselen binte Rosenen,92992454
+CUST01226,phone:984218877,database_a,new,2025-09-16,Yap Soon Mong c/o Suvene lim ,984218877,GB2B630540,,,
+CUST01227,phone:906665957,database_a,new,2025-09-19,Mansha w/o Ashok,906665957,,,,
+CUST01228,phone:974915197,database_a,new,2025-09-21,Lawrence Wee - WEE ENG SIANG (WANG YINGXIANG),974915197,GB2B630541,,,
+CUST01229,phone:96691933,database_a,partial_name,2025-09-22,Jason Lim Jia Yinn - Lim Jia Yinn Jason,945644517,GB2B630525,phone:96691933,Jason Lim,96691933
+CUST00552,phone:98425255,database_a,partial_name,2025-09-23,Richard Lee,912523077,J378251276E71,phone:98425255,Richard,98425255
+CUST01230,phone:96176027,database_a,new,2025-09-26,Tan Soo Khoon,96176027,GB2B560863,,,
+CUST00872,phone:98255483,database_a,partial_name,2025-09-27,Quah Siew Hock c/o Wei Yiming,982554837,,phone:98255483,Wei Yiming,98255483
+CUST01082,phone:61406157533,database_a,phone,2025-09-28,Christopher Lee,61406157533,GBH2015345,phone:61406157533,Christopher Lee - paid cash 21 jan 2024,61406157533
+CUST01118,phone:97847336,database_a,phone,2025-09-28,Michael,948942337,P20252503,phone:97847336,Michael Goh ,948942337
+CUST01185,phone:87970699,database_a,partial_name,2025-09-28,Kristy wong,974535737,GB28630526,phone:87970699,Wong,87970699
+CUST00632,phone:75,database_a,partial_name,2025-09-29,Victor goh Shui Hsin,84908351988,,phone:75,Hsin,75
+CUST01231,phone:933652367,database_a,new,2025-09-29,Amos Yeo aysh - Yeo Sung Hur Amos,933652367,GB2B630534,,,
+CUST00513,phone:90615530,database_a,exact_name,2025-09-30,Matthew Low Guang Wei,,,phone:90615530,Matthew Low Guang Wei,90615530
+CUST00781,phone:97383898,database_a,partial_name,2025-09-30,Desmond Ong Kian san,973838987,GBH2008811,phone:97383898,Desmond Ong,97383898
+CUST01232,phone:961977097,database_a,new,2025-09-30,Julian Colin,961977097,GB2B564133,,,
+CUST00217,phone:86869168,database_a,partial_name,2025-10-02,Dylan Hou - Hou junwei,868691687,GBH2015347,phone:86869168,Dylan Hou,86869168
+CUST01233,phone:40,database_a,new,2025-10-03,liyakamil,40,,,,
+CUST01212,phone:92992454,database_a,partial_name,2025-10-03,elenjelly,54,,phone:92992454,Roselen binte Rosenen - Elen - Elenjelly,92992454
+CUST00557,name:edmund,database_a,exact_name,2025-10-04,Edmund,981800837,GB2B630533,name:edmund,Edmund,
+CUST01234,phone:983450157,database_a,new,2025-10-06,Gan Choon Wah “Aerrick”,983450157,,,,
+CUST01128,phone:98419658,database_a,exact_name,2025-10-06,Don Mtmdon - MOHD TAHIR BIN MAHMOOD,984196587,GBH2015346,phone:98419658,Don Mtmdon - MOHD TAHIR BIN MAHMOOD,98419658
+CUST01229,phone:96691933,database_a,exact_name,2025-10-07,Jason Lim,945643517,SN23233471620,phone:96691933,Jason Lim,96691933
+CUST01219,phone:88603857,database_a,exact_name,2025-10-08,Cheryl Yi Mei Ying (Medipurpose),88603850,,phone:88603857,Cheryl Yi Mei Ying (Medipurpose),88603857
+CUST01235,phone:812557717,database_a,new,2025-10-09,Cheah Fatt,812557717,GB2B630548,,,
+CUST01236,phone:851820627,database_a,new,2025-10-10,Denise Ong Mei Yan,851820627,,,,
+CUST01237,phone:878876037,database_a,new,2025-10-13,Jibraan Rasheed,878876037,GB2B639066,,,
+CUST01238,phone:968997517,database_a,new,2025-10-15,Boon Teck,968997517,GB2B639049,,,
+CUST01239,phone:975442177,database_a,new,2025-10-15,Nazree,975442177,GB2B639062,,,
+CUST01240,phone:981799957,database_a,new,2025-10-18,Heng - Seow Kuan heng,981799957,,,,
+CUST00589,phone:96806961,database_a,exact_name,2025-10-18,Art lim,968069617,,phone:96806961,Art Lim,96806961
+CUST01241,phone:966262937,database_a,new,2025-10-20,Kelly Leong,966262937,GB2B564120,,,
+CUST01028,phone:98591069,database_a,exact_name,2025-10-21,Lim Seow thong,985910697,,phone:98591069,Lim Seow Thong,98591069
+CUST00803,phone:97247799,database_a,exact_name,2025-10-23,Lim Yu Leong,972477997,,phone:97247799,Lim Yu Leong,97247799
+CUST00934,phone:91800913,database_a,exact_name,2025-10-25,Eden toh kim yang,918009137,,phone:91800913,Eden Toh Kim Yang,91800913
+CUST00585,phone:97101290,database_a,partial_name,2025-10-26,Peggy,985207427,GB2B639053,phone:97101290,Peggy Chia,97101290
