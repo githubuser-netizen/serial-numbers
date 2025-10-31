@@ -41,6 +41,30 @@ HEADER_OVERRIDES = {
     "column_57": "extra_column_57",
 }
 
+DATE_HEADER_NAME = "transaction_date"
+
+REMOVED_COLUMNS = {
+    "customer_tags",
+    "recent_check_in",
+    "person_replied",
+    "internal_note_1",
+    "internal_note_2",
+    "number_text_primary",
+    "number_text_secondary",
+    "legacy_info",
+    "social_contact_name",
+    "social_contact_handle",
+    "extra_column_51",
+    "extra_column_52",
+    "extra_column_53",
+    "extra_column_54",
+    "extra_column_55",
+    "extra_column_56",
+    "extra_column_57",
+}
+
+PRIORITY_COLUMNS = ["name", DATE_HEADER_NAME, "number", "billing_address"]
+
 NUMERIC_TEXT_COLUMNS = {"number", "number_text_primary", "number_text_secondary"}
 SCIENTIFIC_NOTATION_RE = re.compile(r"^[+-]?\d+(?:\.\d+)?[eE][+-]?\d+$")
 MONTH_NAME_MAP = {
@@ -80,6 +104,8 @@ TEXTUAL_DATE_PATTERNS = [
         r"(?i)^(?P<year>\d{4})\s+(?P<month>[A-Za-z\.]+)\s+(?P<day>\d{1,2})(?:st|nd|rd|th)?$"
     ),
 ]
+
+FILENAME_DATE_RE = re.compile(r"(\d{1,2})\s*([A-Za-z]+)\s*(\d{4})")
 
 
 @dataclass
@@ -238,6 +264,10 @@ def apply_header_overrides(headers: List[str]) -> List[str]:
     return [HEADER_OVERRIDES.get(name, name) for name in headers]
 
 
+def rename_date_header(headers: List[str]) -> List[str]:
+    return [DATE_HEADER_NAME if name == "date" else name for name in headers]
+
+
 def parse_textual_date(value: str) -> Optional[datetime]:
     cleaned = (value or "").strip()
     if not cleaned:
@@ -356,6 +386,175 @@ def normalize_numeric_text(value: str) -> str:
     return value
 
 
+def extract_date_from_filename(name: str) -> Optional[datetime]:
+    match = FILENAME_DATE_RE.search(name)
+    if not match:
+        return None
+    day_raw, month_raw, year_raw = match.groups()
+    try:
+        day = int(day_raw)
+        year = int(year_raw)
+    except ValueError:
+        return None
+    month_key = month_raw.lower().rstrip(".")
+    month = MONTH_NAME_MAP.get(month_key)
+    if not month:
+        return None
+    try:
+        return datetime(year, month, day)
+    except ValueError:
+        return None
+
+
+def choose_database_a_path(base_dir: Path) -> Path:
+    candidates = list(base_dir.glob("Database A*.xlsx")) + list(
+        base_dir.glob("Datbase A*.xlsx")
+    )
+    if not candidates:
+        raise SystemExit("Refusing to proceed: Database A workbook not found")
+
+    def sort_key(path: Path) -> Tuple[datetime, float, str]:
+        extracted = extract_date_from_filename(path.name) or datetime.min
+        try:
+            mtime = path.stat().st_mtime
+        except OSError:
+            mtime = 0.0
+        return extracted, mtime, path.name
+
+    return max(candidates, key=sort_key)
+
+
+def guess_first_name(name: str) -> str:
+    cleaned = re.sub(r"[^A-Za-z]+", " ", name or "").strip()
+    if not cleaned:
+        return ""
+    parts = cleaned.split()
+    if not parts:
+        return ""
+    return parts[0].title()
+
+
+def enhance_record(
+    record: Record,
+    index_map: Dict[str, int],
+    date_by_serial: Dict[str, datetime],
+    date_by_phone_name: Dict[Tuple[str, str], datetime],
+    date_by_name: Dict[str, datetime],
+) -> None:
+    if not record.date:
+        filled_date: Optional[datetime] = None
+        if record.serial_norm and record.serial_norm in date_by_serial:
+            filled_date = date_by_serial[record.serial_norm]
+        elif record.phone_norm and record.name_norm:
+            key = (record.phone_norm, record.name_norm)
+            if key in date_by_phone_name:
+                filled_date = date_by_phone_name[key]
+        if not filled_date and record.name_norm and record.name_norm in date_by_name:
+            filled_date = date_by_name[record.name_norm]
+        if filled_date:
+            record.date = filled_date
+            iso = format_date(filled_date)
+            record.fields[DATE_HEADER_NAME] = iso
+            date_idx = index_map.get(DATE_HEADER_NAME)
+            if date_idx is not None and date_idx < len(record.row):
+                record.row[date_idx] = iso
+
+    numbers: List[str] = []
+    for column in ("number", "number_text_primary", "number_text_secondary"):
+        idx = index_map.get(column)
+        value = record.fields.get(column, "")
+        if value:
+            normalized = normalize_numeric_text(value)
+            if normalized != value:
+                record.fields[column] = normalized
+                if idx is not None and idx < len(record.row):
+                    record.row[idx] = normalized
+            digits = normalize_phone(normalized or value)
+        else:
+            digits = ""
+        if digits and digits not in numbers:
+            numbers.append(digits)
+    if numbers:
+        filtered_numbers: List[str] = []
+        for value in numbers:
+            drop = False
+            for other in numbers:
+                if value == other:
+                    continue
+                if (
+                    other.startswith(value)
+                    and len(other) == len(value) + 1
+                    and other.endswith("0")
+                ):
+                    drop = True
+                    break
+            if not drop:
+                filtered_numbers.append(value)
+        if filtered_numbers:
+            numbers = filtered_numbers
+        combined = "; ".join(numbers)
+        record.fields["number"] = combined
+        number_idx = index_map.get("number")
+        if number_idx is not None and number_idx < len(record.row):
+            record.row[number_idx] = combined
+        record.phone_norm = normalize_phone(numbers[0])
+    else:
+        record.phone_norm = ""
+
+    remarks_candidates = [
+        record.fields.get("remarks", ""),
+        record.fields.get("customer_tags", ""),
+        record.fields.get("legacy_info", ""),
+    ]
+    merged_parts: List[str] = []
+    for part in remarks_candidates:
+        cleaned = (part or "").strip()
+        if cleaned and cleaned not in merged_parts:
+            merged_parts.append(cleaned)
+    combined_remarks = "; ".join(merged_parts)
+    record.fields["remarks"] = combined_remarks
+    remarks_idx = index_map.get("remarks")
+    if remarks_idx is not None and remarks_idx < len(record.row):
+        record.row[remarks_idx] = combined_remarks
+    for column in ("customer_tags", "legacy_info"):
+        if column in record.fields:
+            record.fields[column] = ""
+        idx = index_map.get(column)
+        if idx is not None and idx < len(record.row):
+            record.row[idx] = ""
+
+    if not record.fields.get("first_name"):
+        guessed = guess_first_name(record.fields.get("name", ""))
+        if guessed:
+            record.fields["first_name"] = guessed
+            first_idx = index_map.get("first_name")
+            if first_idx is not None and first_idx < len(record.row):
+                record.row[first_idx] = guessed
+
+
+def build_final_headers(headers: List[str]) -> List[str]:
+    drop_after_idx: Optional[int] = None
+    if "social_contact_name" in headers:
+        drop_after_idx = headers.index("social_contact_name")
+
+    kept: List[str] = []
+    for idx, name in enumerate(headers):
+        if drop_after_idx is not None and idx >= drop_after_idx:
+            continue
+        if name in REMOVED_COLUMNS:
+            continue
+        kept.append(name)
+
+    ordered: List[str] = []
+    for name in PRIORITY_COLUMNS:
+        if name in kept and name not in ordered:
+            ordered.append(name)
+    for name in kept:
+        if name not in ordered:
+            ordered.append(name)
+    return ordered
+
+
 def make_customer_key(phone_norm: str, name_norm: str, fallback: List[int]) -> str:
     if phone_norm:
         return f"phone:{phone_norm}"
@@ -408,7 +607,15 @@ def build_record(
     source: str,
     existing_key: Optional[str] = None,
 ) -> Record:
-    fields = {name: row[idx] for name, idx in index_map.items() if idx < len(row)}
+    fields: Dict[str, str] = {}
+    for name, idx in index_map.items():
+        if idx >= len(row):
+            continue
+        value = row[idx]
+        if name in NUMERIC_TEXT_COLUMNS:
+            value = normalize_numeric_text(value)
+            row[idx] = value
+        fields[name] = value
     if "name" in fields:
         cleaned_name = strip_invoice_parenthetical(fields["name"])
         if cleaned_name != fields["name"]:
@@ -416,7 +623,7 @@ def build_record(
             name_idx = index_map.get("name")
             if name_idx is not None and name_idx < len(row):
                 row[name_idx] = cleaned_name
-    date = parse_excel_date(fields.get("date", ""))
+    date = parse_excel_date(fields.get(DATE_HEADER_NAME, ""))
     settlement = parse_excel_date(fields.get("actual_settlement_date", ""))
     name_norm = normalize_name(fields.get("name", ""))
     phone_norm = normalize_phone(fields.get("number", ""))
@@ -436,7 +643,7 @@ def build_record(
 
 
 def update_row_dates(record: Record, index_map: Dict[str, int]) -> None:
-    date_idx = index_map.get("date")
+    date_idx = index_map.get(DATE_HEADER_NAME)
     if record.date and date_idx is not None and date_idx < len(record.row):
         record.row[date_idx] = format_date(record.date)
     settlement_idx = index_map.get("actual_settlement_date")
@@ -451,10 +658,7 @@ def update_row_dates(record: Record, index_map: Dict[str, int]) -> None:
 def main(argv: Iterable[str]) -> None:
     base_dir = Path.cwd()
     b_path = base_dir / "Backup Copy of CPAP Stock Records and Serial Numbers 28 Aug 2025 (5).xlsx"
-    a_candidates = sorted(base_dir.glob("Database A*.xlsx"))
-    if not a_candidates:
-        raise SystemExit("Refusing to proceed: Database A workbook not found")
-    a_path = a_candidates[-1]
+    a_path = choose_database_a_path(base_dir)
     output_dir = base_dir / "supabase"
     output_dir.mkdir(exist_ok=True)
 
@@ -466,17 +670,61 @@ def main(argv: Iterable[str]) -> None:
     sheet_b = load_sheet(b_path, "Outgoing Serial Numbers")
     if not sheet_b:
         raise SystemExit("Database B sheet is empty")
-    headers = apply_header_overrides(sanitize_headers(sheet_b[0]))
+    headers = rename_date_header(apply_header_overrides(sanitize_headers(sheet_b[0])))
     width = len(headers)
 
+    index_map = {name: idx for idx, name in enumerate(headers)}
+
+    sheet_a = load_sheet(a_path, "Outgoing Serial Numbers")
+    if not sheet_a:
+        raise SystemExit("Database A sheet is empty")
+    headers_a = rename_date_header(apply_header_overrides(sanitize_headers(sheet_a[0])))
+    index_map_a = {name: idx for idx, name in enumerate(headers_a)}
+
+    rows_a: List[List[str]] = []
+    date_by_serial: Dict[str, datetime] = {}
+    date_by_phone_name: Dict[Tuple[str, str], datetime] = {}
+    date_by_name: Dict[str, datetime] = {}
+    for row in sheet_a[1:]:
+        if not any(row):
+            continue
+        if len(row) < len(headers_a):
+            row = row + [""] * (len(headers_a) - len(row))
+        date_idx_a = index_map_a.get(DATE_HEADER_NAME)
+        date_value = row[date_idx_a] if date_idx_a is not None else ""
+        record_date = parse_excel_date(date_value)
+        serial_idx_a = index_map_a.get("serial_number")
+        serial_value = row[serial_idx_a] if serial_idx_a is not None else ""
+        serial_norm = normalize_serial(serial_value)
+        if record_date and serial_norm and serial_norm not in date_by_serial:
+            date_by_serial[serial_norm] = record_date
+        phone_idx_a = index_map_a.get("number")
+        phone_value = row[phone_idx_a] if phone_idx_a is not None else ""
+        normalized_phone_value = normalize_numeric_text(phone_value)
+        if phone_idx_a is not None:
+            row[phone_idx_a] = normalized_phone_value
+        phone_norm = normalize_phone(normalized_phone_value)
+        name_idx_a = index_map_a.get("name")
+        name_value = row[name_idx_a] if name_idx_a is not None else ""
+        name_norm = normalize_name(name_value)
+        if record_date and phone_norm and name_norm:
+            date_by_phone_name.setdefault((phone_norm, name_norm), record_date)
+        if record_date and name_norm and name_norm not in date_by_name:
+            date_by_name[name_norm] = record_date
+        rows_a.append(row)
+
     rows_b: List[List[str]] = []
+    seen_rows_b: Set[Tuple[str, ...]] = set()
     for row in sheet_b[1:]:
         if len(row) < width:
             row = row + [""] * (width - len(row))
-        if any(cell for cell in row):
-            rows_b.append(row)
-
-    index_map = {name: idx for idx, name in enumerate(headers)}
+        trimmed = tuple(row[:width])
+        if not any(trimmed):
+            continue
+        if trimmed in seen_rows_b:
+            continue
+        seen_rows_b.add(trimmed)
+        rows_b.append(row)
 
     fallback_counter = [0]
     records: List[Record] = []
@@ -488,6 +736,7 @@ def main(argv: Iterable[str]) -> None:
 
     for row in rows_b:
         record = build_record(row, index_map, fallback_counter, source="existing")
+        enhance_record(record, index_map, date_by_serial, date_by_phone_name, date_by_name)
         update_row_dates(record, index_map)
         records.append(record)
         if record.serial_norm and record.serial_norm not in serial_index:
@@ -497,20 +746,10 @@ def main(argv: Iterable[str]) -> None:
         if record.name_norm and record.name_norm not in name_index:
             name_index[record.name_norm] = record
 
-    sheet_a = load_sheet(a_path, "Outgoing Serial Numbers")
-    if not sheet_a:
-        raise SystemExit("Database A sheet is empty")
-    headers_a = apply_header_overrides(sanitize_headers(sheet_a[0]))
-    index_map_a = {name: idx for idx, name in enumerate(headers_a)}
-
     total_rows_a = 0
     existing_serial_matches = 0
     added_rows = 0
-    for row in sheet_a[1:]:
-        if not any(row):
-            continue
-        if len(row) < len(headers_a):
-            row = row + [""] * (len(headers_a) - len(row))
+    for row in rows_a:
         total_rows_a += 1
 
         serial_idx_a = index_map_a.get("serial_number")
@@ -568,6 +807,7 @@ def main(argv: Iterable[str]) -> None:
             source="database_a",
             existing_key=existing_key,
         )
+        enhance_record(record, index_map, date_by_serial, date_by_phone_name, date_by_name)
         update_row_dates(record, index_map)
         if (
             matched_record
@@ -575,10 +815,11 @@ def main(argv: Iterable[str]) -> None:
             and record.date
         ):
             iso_date = format_date(record.date)
-            date_idx = index_map.get("date")
+            date_idx = index_map.get(DATE_HEADER_NAME)
             if date_idx is not None and date_idx < len(matched_record.row):
                 matched_record.row[date_idx] = iso_date
-            matched_record.fields["date"] = iso_date
+            matched_record.fields[DATE_HEADER_NAME] = iso_date
+            matched_record.date = record.date
         if record.source == "database_a":
             matched_name = matched_record.fields.get("name", "") if matched_record else ""
             matched_phone_norm = matched_record.phone_norm if matched_record else ""
@@ -654,9 +895,20 @@ def main(argv: Iterable[str]) -> None:
     existing_ids, used_ids, max_existing = load_existing_customer_ids(transactions_path)
     next_id = max_existing + 1
     customer_id_map: Dict[str, str] = {}
+    overrides: Dict[str, str] = {}
+    for key, recs in customers.items():
+        for record in recs:
+            name_upper = record.fields.get("name", "").upper()
+            if "PANG CHONG REN ALEXANDER" in name_upper:
+                overrides[key] = "CUST00739"
+                break
+    for override in overrides.values():
+        used_ids.add(override)
     for key in sorted_keys:
         customer_id: str
-        if key in existing_ids:
+        if key in overrides:
+            customer_id = overrides[key]
+        elif key in existing_ids:
             customer_id = existing_ids[key]
         else:
             while True:
@@ -684,14 +936,35 @@ def main(argv: Iterable[str]) -> None:
         )
     )
 
+    final_headers = build_final_headers(headers)
+    display_headers = [
+        "transaction date" if name == DATE_HEADER_NAME else name for name in final_headers
+    ]
+
+    def resolve_value(record: Record, column: str) -> str:
+        if column == DATE_HEADER_NAME:
+            if record.date:
+                return format_date(record.date)
+            return record.fields.get(DATE_HEADER_NAME, "")
+        value = record.fields.get(column)
+        if value is not None:
+            return value
+        idx = index_map.get(column)
+        if idx is not None and idx < len(record.row):
+            return record.row[idx]
+        return ""
+
     with transactions_path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(headers)
+        writer.writerow(display_headers)
+        seen_rows: Set[Tuple[str, ...]] = set()
         for record in records:
-            row = record.row
-            if len(row) < width:
-                row = row + [""] * (width - len(row))
-            writer.writerow(row[:width])
+            row_values = [resolve_value(record, column) for column in final_headers]
+            row_tuple = tuple(row_values)
+            if row_tuple in seen_rows:
+                continue
+            seen_rows.add(row_tuple)
+            writer.writerow(row_values)
 
     customer_headers = [
         "customer_id",

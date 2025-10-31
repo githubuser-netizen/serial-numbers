@@ -1,5 +1,6 @@
 customer_id,customer_key,match_type,transaction_name,transaction_phone,matched_name,matched_phone,reason
-CUST00408,phone:975946767,exact_name,Melvin Wong,97564676,Melvin Wong,975946767,Name match but phone numbers differ
+CUST00076,phone:97724240,partial_name,Jasmine Wong,9772424,Jasmine Wong,97724240,Name match but phone numbers differ
+CUST00386,phone:97594676,exact_name,Melvin Wong,97564676,Melvin Wong,97594676,Name match but phone numbers differ
 CUST00462,phone:90467759,exact_name,Moonnisa,,Moonnisa,90467759,Name match; new transaction missing phone number
 CUST00473,name:thomas tan,exact_name,Thomas Tan,87178933,Thomas Tan,,Name match; existing record missing phone number
 CUST00492,phone:90014006,partial_name,Samuel Lee,,Samuel Lee Kim Choon,90014006,Name match; new transaction missing phone number
@@ -15,11 +16,9 @@ CUST00537,phone:97836127,partial_name,tayejenbrandon Brandon Tay,,Jen,97836127,N
 CUST01206,phone:97348973,exact_name,Gayathiri Selvam,,Gayathiri Selvam,97348973,Name match; new transaction missing phone number
 CUST00956,phone:96477710,exact_name,Reza Ho,,Reza Ho,96477710,Name match; new transaction missing phone number
 CUST01158,phone:81880703,exact_name,Pauline Siang po Ling,,Pauline Siang po Ling,81880703,Name match; new transaction missing phone number
-CUST00349,phone:90035906,partial_name,Avi,98473257,Alexandre Gravier,90035906,Name match but phone numbers differ
 CUST01130,phone:97847336,partial_name,Michael Goh,94894233,Michael Goh (Goh Tan Hock Goh Hwee Lan),97847336,Name match but phone numbers differ
 CUST01240,phone:96691933,partial_name,Jason Lim Jia Yinn - Lim Jia Yinn Jason,94564451,Jason Lim,96691933,Name match but phone numbers differ
 CUST00564,phone:98425255,partial_name,Richard Lee,91252307,Richard,98425255,Name match but phone numbers differ
-CUST00362,phone:90472077,partial_name,Michael,94894233,Alvin Heah / Michael Lim,90472077,Name match but phone numbers differ
 CUST01197,phone:87970699,partial_name,Kristy wong,97453573,Wong,87970699,Name match but phone numbers differ
 CUST00645,phone:75,partial_name,Victor goh Shui Hsin,84908351988,Hsin,75,Name match but phone numbers differ
 CUST00525,phone:90615530,exact_name,Matthew Low Guang Wei,,Matthew Low Guang Wei,90615530,Name match; new transaction missing phone number
