@@ -1,24 +1,18 @@
 customer_id,customer_key,match_type,transaction_name,transaction_phone,matched_name,matched_phone,reason
-CUST00964,phone:97399362,exact_name,Wisman siew,973993627,Wisman Siew,97399362,Name match but phone numbers differ
+CUST01194,phone:97348973,exact_name,Gayathiri Selvam ,,Gayathiri Selvam ,97348973,Name match; new transaction missing phone number
+CUST00944,phone:96477710,exact_name,Reza Ho,,Reza Ho,96477710,Name match; new transaction missing phone number
 CUST01146,phone:81880703,exact_name,Pauline Siang po Ling ,,Pauline Siang po Ling ,81880703,Name match; new transaction missing phone number
-CUST00338,phone:90035906,partial_name,Avi,984732577,Alexandre Gravier,90035906,Name match but phone numbers differ
-CUST00754,phone:96913836,exact_name,Colin Koh,969138367,Colin Koh,96913836,Name match but phone numbers differ
-CUST01118,phone:97847336,partial_name,Michael Goh ,948942337,Michael Goh (Goh Tan Hock Goh Hwee Lan),97847336,Name match but phone numbers differ
-CUST01229,phone:96691933,partial_name,Jason Lim Jia Yinn - Lim Jia Yinn Jason,945644517,Jason Lim,96691933,Name match but phone numbers differ
-CUST00552,phone:98425255,partial_name,Richard Lee,912523077,Richard,98425255,Name match but phone numbers differ
-CUST00872,phone:98255483,partial_name,Quah Siew Hock c/o Wei Yiming,982554837,Wei Yiming,98255483,Name match but phone numbers differ
-CUST01185,phone:87970699,partial_name,Kristy wong,974535737,Wong,87970699,Name match but phone numbers differ
+CUST00338,phone:90035906,partial_name,Avi,98473257,Alexandre Gravier,90035906,Name match but phone numbers differ
+CUST01118,phone:97847336,partial_name,Michael Goh ,94894233,Michael Goh (Goh Tan Hock Goh Hwee Lan),97847336,Name match but phone numbers differ
+CUST01228,phone:96691933,partial_name,Jason Lim Jia Yinn - Lim Jia Yinn Jason,94564451,Jason Lim,96691933,Name match but phone numbers differ
+CUST00552,phone:98425255,partial_name,Richard Lee,91252307,Richard,98425255,Name match but phone numbers differ
+CUST00351,phone:90472077,partial_name,Michael,94894233,Alvin Heah / Michael Lim,90472077,Name match but phone numbers differ
+CUST01185,phone:87970699,partial_name,Kristy wong,97453573,Wong,87970699,Name match but phone numbers differ
 CUST00632,phone:75,partial_name,Victor goh Shui Hsin,84908351988,Hsin,75,Name match but phone numbers differ
 CUST00513,phone:90615530,exact_name,Matthew Low Guang Wei,,Matthew Low Guang Wei,90615530,Name match; new transaction missing phone number
-CUST00781,phone:97383898,partial_name,Desmond Ong Kian san,973838987,Desmond Ong,97383898,Name match but phone numbers differ
-CUST00217,phone:86869168,partial_name,Dylan Hou - Hou junwei,868691687,Dylan Hou,86869168,Name match but phone numbers differ
 CUST01212,phone:92992454,partial_name,elenjelly,54,Roselen binte Rosenen - Elen - Elenjelly,92992454,Name match but phone numbers differ
-CUST00557,name:edmund,exact_name,Edmund,981800837,Edmund,,Name match; existing record missing phone number
-CUST01128,phone:98419658,exact_name,Don Mtmdon - MOHD TAHIR BIN MAHMOOD,984196587,Don Mtmdon - MOHD TAHIR BIN MAHMOOD,98419658,Name match but phone numbers differ
-CUST01229,phone:96691933,exact_name,Jason Lim,945643517,Jason Lim,96691933,Name match but phone numbers differ
-CUST01219,phone:88603857,exact_name,Cheryl Yi Mei Ying (Medipurpose),88603850,Cheryl Yi Mei Ying (Medipurpose),88603857,Name match but phone numbers differ
-CUST00589,phone:96806961,exact_name,Art lim,968069617,Art Lim,96806961,Name match but phone numbers differ
-CUST01028,phone:98591069,exact_name,Lim Seow thong,985910697,Lim Seow Thong,98591069,Name match but phone numbers differ
-CUST00803,phone:97247799,exact_name,Lim Yu Leong,972477997,Lim Yu Leong,97247799,Name match but phone numbers differ
-CUST00934,phone:91800913,exact_name,Eden toh kim yang,918009137,Eden Toh Kim Yang,91800913,Name match but phone numbers differ
-CUST00585,phone:97101290,partial_name,Peggy,985207427,Peggy Chia,97101290,Name match but phone numbers differ
+CUST00557,name:edmund,exact_name,Edmund,98180083,Edmund,,Name match; existing record missing phone number
+CUST01228,phone:96691933,exact_name,Jason Lim,94564351,Jason Lim,96691933,Name match but phone numbers differ
+CUST01219,phone:8860385,exact_name,Cheryl Yi Mei Ying (Medipurpose),88603850,Cheryl Yi Mei Ying (Medipurpose),8860385,Name match but phone numbers differ
+CUST00585,phone:97101290,partial_name,Peggy,98520742,Peggy Chia,97101290,Name match but phone numbers differ
+CUST01185,phone:87970699,partial_name,Serene wong,90266696,Wong,87970699,Name match but phone numbers differ

@@ -6,12 +6,13 @@ import csv
 import math
 import re
 import sys
+import zipfile
 from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime, timedelta
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple
-import zipfile
 from xml.etree import ElementTree as ET
 
 NS_MAIN = {"main": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
@@ -37,6 +38,9 @@ HEADER_OVERRIDES = {
     "column_56": "extra_column_56",
     "column_57": "extra_column_57",
 }
+
+NUMERIC_TEXT_COLUMNS = {"number", "number_text_primary", "number_text_secondary"}
+SCIENTIFIC_NOTATION_RE = re.compile(r"^[+-]?\d+(?:\.\d+)?[eE][+-]?\d+$")
 
 
 @dataclass
@@ -229,6 +233,20 @@ def normalize_serial(value: str) -> str:
     return re.sub(r"[^0-9A-Za-z]+", "", (value or "").upper())
 
 
+def normalize_numeric_text(value: str) -> str:
+    text = (value or "").strip()
+    if not text:
+        return value
+    if SCIENTIFIC_NOTATION_RE.match(text):
+        try:
+            normalized = format(Decimal(text), "f")
+        except InvalidOperation:
+            return value
+        normalized = normalized.rstrip("0").rstrip(".")
+        return normalized or "0"
+    return value
+
+
 def make_customer_key(phone_norm: str, name_norm: str, fallback: List[int]) -> str:
     if phone_norm:
         return f"phone:{phone_norm}"
@@ -277,7 +295,10 @@ def update_row_dates(record: Record, index_map: Dict[str, int]) -> None:
 def main(argv: Iterable[str]) -> None:
     base_dir = Path.cwd()
     b_path = base_dir / "Backup Copy of CPAP Stock Records and Serial Numbers 28 Aug 2025 (5).xlsx"
-    a_path = base_dir / "Database A - CPAP Stock Records and Serial Numbers.xlsx"
+    a_candidates = sorted(base_dir.glob("Database A*.xlsx"))
+    if not a_candidates:
+        raise SystemExit("Refusing to proceed: Database A workbook not found")
+    a_path = a_candidates[-1]
     output_dir = base_dir / "supabase"
     output_dir.mkdir(exist_ok=True)
 
@@ -326,7 +347,7 @@ def main(argv: Iterable[str]) -> None:
     headers_a = apply_header_overrides(sanitize_headers(sheet_a[0]))
     index_map_a = {name: idx for idx, name in enumerate(headers_a)}
 
-    cutoff = datetime(2025, 8, 28)
+    cutoff = datetime(2025, 7, 1)
     added_rows = 0
     for row in sheet_a[1:]:
         if not any(row):
@@ -381,7 +402,10 @@ def main(argv: Iterable[str]) -> None:
         new_row = [""] * width
         for name, idx in index_map_a.items():
             if name in index_map and idx < len(row):
-                new_row[index_map[name]] = row[idx]
+                value = row[idx]
+                if name in NUMERIC_TEXT_COLUMNS:
+                    value = normalize_numeric_text(value)
+                new_row[index_map[name]] = value
 
         record = build_record(new_row, index_map, fallback_counter, source="database_a", existing_key=existing_key)
         update_row_dates(record, index_map)
@@ -434,7 +458,11 @@ def main(argv: Iterable[str]) -> None:
             name_index[record.name_norm] = record
         added_rows += 1
 
-    print(f"Added {added_rows} new transactions from Database A >= 28 Aug 2025")
+    print(
+        "Added "
+        f"{added_rows} new transactions from Database A >= {cutoff:%Y-%m-%d}"
+        f" using {a_path.name}"
+    )
 
     customers: Dict[str, List[Record]] = defaultdict(list)
     for record in records:
@@ -677,7 +705,7 @@ def main(argv: Iterable[str]) -> None:
             "Database B rebuild summary\n"
             f"Total customers: {total_customers}\n"
             f"Total transactions: {total_transactions}\n"
-            f"Transactions added from Database A (>= 2025-08-28): {new_transactions}\n"
+            f"Transactions added from Database A (>= {cutoff:%Y-%m-%d}): {new_transactions}\n"
             f"Latest transaction date: {format_date(latest_date)}\n"
             f"Potential manual review items: {manual_review_count}\n"
         )
