@@ -12,7 +12,7 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Tuple
+from typing import Dict, Iterable, List, Optional, Set, Tuple
 from xml.etree import ElementTree as ET
 
 NS_MAIN = {"main": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
@@ -365,6 +365,42 @@ def make_customer_key(phone_norm: str, name_norm: str, fallback: List[int]) -> s
     return f"anon:{fallback[0]}"
 
 
+def load_existing_customer_ids(path: Path) -> Tuple[Dict[str, str], Set[str], int]:
+    if not path.exists():
+        return {}, set(), 0
+
+    mapping: Dict[str, str] = {}
+    used_ids: Set[str] = set()
+    max_numeric = 0
+
+    with path.open(newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            customer_id = (row.get("customer_id") or "").strip()
+            if not customer_id:
+                continue
+            used_ids.add(customer_id)
+            if customer_id.startswith("CUST"):
+                try:
+                    numeric = int(customer_id[4:])
+                except ValueError:
+                    numeric = 0
+                if numeric > max_numeric:
+                    max_numeric = numeric
+
+            phone_norm = normalize_phone(row.get("number", ""))
+            name_norm = normalize_name(row.get("name", ""))
+            if phone_norm:
+                key = f"phone:{phone_norm}"
+            elif name_norm:
+                key = f"name:{name_norm}"
+            else:
+                continue
+            mapping.setdefault(key, customer_id)
+
+    return mapping, used_ids, max_numeric
+
+
 def build_record(
     row: List[str],
     index_map: Dict[str, int],
@@ -525,8 +561,24 @@ def main(argv: Iterable[str]) -> None:
                     value = normalize_numeric_text(value)
                 new_row[index_map[name]] = value
 
-        record = build_record(new_row, index_map, fallback_counter, source="database_a", existing_key=existing_key)
+        record = build_record(
+            new_row,
+            index_map,
+            fallback_counter,
+            source="database_a",
+            existing_key=existing_key,
+        )
         update_row_dates(record, index_map)
+        if (
+            matched_record
+            and match_type in {"phone", "exact_name", "partial_name"}
+            and record.date
+        ):
+            iso_date = format_date(record.date)
+            date_idx = index_map.get("date")
+            if date_idx is not None and date_idx < len(matched_record.row):
+                matched_record.row[date_idx] = iso_date
+            matched_record.fields["date"] = iso_date
         if record.source == "database_a":
             matched_name = matched_record.fields.get("name", "") if matched_record else ""
             matched_phone_norm = matched_record.phone_norm if matched_record else ""
@@ -598,10 +650,23 @@ def main(argv: Iterable[str]) -> None:
         key=lambda key: (earliest_key_info(key)[0], earliest_key_info(key)[1], key),
     )
 
-    customer_id_map: Dict[str, str] = {
-        key: f"CUST{idx:05d}"
-        for idx, key in enumerate(sorted_keys, start=1)
-    }
+    transactions_path = output_dir / "database_b_transactions.csv"
+    existing_ids, used_ids, max_existing = load_existing_customer_ids(transactions_path)
+    next_id = max_existing + 1
+    customer_id_map: Dict[str, str] = {}
+    for key in sorted_keys:
+        customer_id: str
+        if key in existing_ids:
+            customer_id = existing_ids[key]
+        else:
+            while True:
+                candidate = f"CUST{next_id:05d}"
+                next_id += 1
+                if candidate not in used_ids:
+                    customer_id = candidate
+                    used_ids.add(candidate)
+                    break
+        customer_id_map[key] = customer_id
 
     customer_id_idx = index_map.get("customer_id")
     for key, recs in customers.items():
@@ -619,7 +684,6 @@ def main(argv: Iterable[str]) -> None:
         )
     )
 
-    transactions_path = output_dir / "database_b_transactions.csv"
     with transactions_path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(headers)
