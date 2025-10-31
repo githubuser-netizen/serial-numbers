@@ -1,18 +1,32 @@
 customer_id,customer_key,match_type,transaction_name,transaction_phone,matched_name,matched_phone,reason
-CUST01194,phone:97348973,exact_name,Gayathiri Selvam ,,Gayathiri Selvam ,97348973,Name match; new transaction missing phone number
-CUST00944,phone:96477710,exact_name,Reza Ho,,Reza Ho,96477710,Name match; new transaction missing phone number
-CUST01146,phone:81880703,exact_name,Pauline Siang po Ling ,,Pauline Siang po Ling ,81880703,Name match; new transaction missing phone number
-CUST00338,phone:90035906,partial_name,Avi,98473257,Alexandre Gravier,90035906,Name match but phone numbers differ
-CUST01118,phone:97847336,partial_name,Michael Goh ,94894233,Michael Goh (Goh Tan Hock Goh Hwee Lan),97847336,Name match but phone numbers differ
-CUST01228,phone:96691933,partial_name,Jason Lim Jia Yinn - Lim Jia Yinn Jason,94564451,Jason Lim,96691933,Name match but phone numbers differ
-CUST00552,phone:98425255,partial_name,Richard Lee,91252307,Richard,98425255,Name match but phone numbers differ
-CUST00351,phone:90472077,partial_name,Michael,94894233,Alvin Heah / Michael Lim,90472077,Name match but phone numbers differ
-CUST01185,phone:87970699,partial_name,Kristy wong,97453573,Wong,87970699,Name match but phone numbers differ
-CUST00632,phone:75,partial_name,Victor goh Shui Hsin,84908351988,Hsin,75,Name match but phone numbers differ
-CUST00513,phone:90615530,exact_name,Matthew Low Guang Wei,,Matthew Low Guang Wei,90615530,Name match; new transaction missing phone number
-CUST01212,phone:92992454,partial_name,elenjelly,54,Roselen binte Rosenen - Elen - Elenjelly,92992454,Name match but phone numbers differ
-CUST00557,name:edmund,exact_name,Edmund,98180083,Edmund,,Name match; existing record missing phone number
-CUST01228,phone:96691933,exact_name,Jason Lim,94564351,Jason Lim,96691933,Name match but phone numbers differ
-CUST01219,phone:8860385,exact_name,Cheryl Yi Mei Ying (Medipurpose),88603850,Cheryl Yi Mei Ying (Medipurpose),8860385,Name match but phone numbers differ
-CUST00585,phone:97101290,partial_name,Peggy,98520742,Peggy Chia,97101290,Name match but phone numbers differ
-CUST01185,phone:87970699,partial_name,Serene wong,90266696,Wong,87970699,Name match but phone numbers differ
+CUST00408,phone:975946767,exact_name,Melvin Wong,97564676,Melvin Wong,975946767,Name match but phone numbers differ
+CUST00462,phone:90467759,exact_name,Moonnisa,,Moonnisa,90467759,Name match; new transaction missing phone number
+CUST00473,name:thomas tan,exact_name,Thomas Tan,87178933,Thomas Tan,,Name match; existing record missing phone number
+CUST00492,phone:90014006,partial_name,Samuel Lee,,Samuel Lee Kim Choon,90014006,Name match; new transaction missing phone number
+CUST00558,phone:98531664,exact_name,"Jason Teo, possibly Jason Teo Wee Kwok",,"Jason Teo, possibly Jason Teo Wee Kwok",98531664,Name match; new transaction missing phone number
+CUST00512,phone:85229769,exact_name,Aloysius (Elsie Tay),,Aloysius (Elsie Tay),85229769,Name match; new transaction missing phone number
+CUST01212,phone:90385277,partial_name,Julian,,Alan Julian Jiang,90385277,Name match; new transaction missing phone number
+CUST00578,phone:98115271,partial_name,Michelle,,"Jatinderpal ""Jacky"" Singh c/o Dela Cruz Michelle Armeza",98115271,Name match; new transaction missing phone number
+CUST00537,phone:97836127,exact_name,Jen / jenzoli,,Jen / jenzoli,97836127,Name match; new transaction missing phone number
+CUST00551,phone:97513313,exact_name,Allan Allanross123,13,Allan Allanross123,97513313,Name match but phone numbers differ
+CUST00879,phone:96609775,partial_name,Kelvin Woon,,Kelvin Woon Tat Yeh,96609775,Name match; new transaction missing phone number
+CUST00304,phone:96697077,exact_name,Adrian Khoo,97,Adrian Khoo,96697077,Name match but phone numbers differ
+CUST00537,phone:97836127,partial_name,tayejenbrandon Brandon Tay,,Jen,97836127,Name match; new transaction missing phone number
+CUST01206,phone:97348973,exact_name,Gayathiri Selvam,,Gayathiri Selvam,97348973,Name match; new transaction missing phone number
+CUST00956,phone:96477710,exact_name,Reza Ho,,Reza Ho,96477710,Name match; new transaction missing phone number
+CUST01158,phone:81880703,exact_name,Pauline Siang po Ling,,Pauline Siang po Ling,81880703,Name match; new transaction missing phone number
+CUST00349,phone:90035906,partial_name,Avi,98473257,Alexandre Gravier,90035906,Name match but phone numbers differ
+CUST01130,phone:97847336,partial_name,Michael Goh,94894233,Michael Goh (Goh Tan Hock Goh Hwee Lan),97847336,Name match but phone numbers differ
+CUST01240,phone:96691933,partial_name,Jason Lim Jia Yinn - Lim Jia Yinn Jason,94564451,Jason Lim,96691933,Name match but phone numbers differ
+CUST00564,phone:98425255,partial_name,Richard Lee,91252307,Richard,98425255,Name match but phone numbers differ
+CUST00362,phone:90472077,partial_name,Michael,94894233,Alvin Heah / Michael Lim,90472077,Name match but phone numbers differ
+CUST01197,phone:87970699,partial_name,Kristy wong,97453573,Wong,87970699,Name match but phone numbers differ
+CUST00645,phone:75,partial_name,Victor goh Shui Hsin,84908351988,Hsin,75,Name match but phone numbers differ
+CUST00525,phone:90615530,exact_name,Matthew Low Guang Wei,,Matthew Low Guang Wei,90615530,Name match; new transaction missing phone number
+CUST01212,phone:90385277,partial_name,Julian Colin,96197709,Julian,,Name match; existing record missing phone number
+CUST01224,phone:92992454,partial_name,elenjelly,54,Roselen binte Rosenen - Elen - Elenjelly,92992454,Name match but phone numbers differ
+CUST00569,name:edmund,exact_name,Edmund,98180083,Edmund,,Name match; existing record missing phone number
+CUST01240,phone:96691933,exact_name,Jason Lim,94564351,Jason Lim,96691933,Name match but phone numbers differ
+CUST01231,phone:8860385,exact_name,Cheryl Yi Mei Ying (Medipurpose),88603850,Cheryl Yi Mei Ying (Medipurpose),8860385,Name match but phone numbers differ
+CUST00598,phone:97101290,partial_name,Peggy,98520742,Peggy Chia,97101290,Name match but phone numbers differ
+CUST01197,phone:87970699,partial_name,Serene wong,90266696,Wong,87970699,Name match but phone numbers differ
