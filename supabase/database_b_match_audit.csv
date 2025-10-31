@@ -1,91 +1,1250 @@
 customer_id,customer_key,source,match_type,transaction_date,transaction_name,normalized_phone,normalized_serial,matched_customer_key,matched_name,matched_phone
-CUST01183,name:dick wong ming wei flyingstudent,database_a,exact_name,2025-07-04,"Dick Wong Ming Wei ""flyingstudent""",,,name:dick wong ming wei flyingstudent,"Dick Wong Ming Wei ""flyingstudent""",
-CUST01186,phone:87111864,database_a,phone,2025-07-07,Damien Sidhanand,87111864,,phone:87111864,Damien Sidhanand,87111864
-CUST00610,phone:96726711,database_a,phone,2025-07-09,Lee Weng Chee,96726711,,phone:96726711,Lee Weng Chee,96726711
-CUST01188,phone:83050077,database_a,phone,2025-07-14,Aaron Chong,83050077,,phone:83050077,Aaron Chong,83050077
-CUST01190,phone:81387981,database_a,phone,2025-07-14,Ryan Tam,81387981,,phone:81387981,Ryan Tam,81387981
-CUST01191,phone:10,database_a,phone,2025-07-17,"Teo Choon Huat tch108108
-",10,,phone:10,"Teo Choon Huat tch108108
-",10
-CUST00189,phone:93843919,database_a,phone,2025-07-18,Julian Low,93843919,,phone:93843919,Julian Low,93843919
-CUST01193,phone:97551809,database_a,phone,2025-07-20,Hoo Yoe Lan c/o Lee Tian Fu,97551809,,phone:97551809,Hoo Yoe Lan c/o Lee Tian Fu,97551809
-CUST00276,phone:96843650,database_a,phone,2025-07-21,Chua Soo yong ,96843650,,phone:96843650,Chua Soo Yong,96843650
-CUST00312,phone:91552715,database_a,phone,2025-07-22,jie hao jiehaooh,91552715,,phone:91552715,Huang Jiehao,91552715
-CUST01192,phone:81380844,database_a,phone,2025-07-22,Yap Hock Lee,81380844,,phone:81380844,Yap Hock Lee,81380844
-CUST01195,phone:83280519,database_a,phone,2025-07-23,Ho Khek Heong,83280519,,phone:83280519,Ho Khek Heong,83280519
-CUST00883,phone:91510865,database_a,phone,2025-07-24,Andrew Seah Yong Hui (Xie Yonghui),91510865,,phone:91510865,Andrew Seah Yong Hui (Xie Yonghui),91510865
-CUST01196,phone:86790788,database_a,phone,2025-07-24,"Sucila Gooal ""Sue""",86790788,,phone:86790788,"Sucila Gooal ""Sue""",86790788
-CUST01189,phone:86995610,database_a,phone,2025-07-28,Aaron lin wei hao,86995610,,phone:86995610,Aaron Lin Wei Hao,86995610
-CUST00146,phone:81818412,database_a,phone,2025-07-28,Chee Gee,81818412,,phone:81818412,Chee Gee,81818412
-CUST00513,phone:90615530,database_a,phone,2025-07-28,Matthew Low Guang Wei,90615530,,phone:90615530,Matthew Low,90615530
-CUST01020,phone:96482288,database_a,phone,2025-07-29,Andrew Ang Boon Heng,96482288,,phone:96482288,Andrew Ang Boon Heng,96482288
-CUST00276,phone:96843650,database_a,phone,2025-07-29,Chua Soo yong ,96843650,,phone:96843650,Chua Soo Yong,96843650
-CUST00747,phone:98788521,database_a,phone,2025-07-29,Ang Beng eok c/o Cathrin poh,98788521,,phone:98788521,Ang Beng eok c/o Cathrin poh,98788521
-CUST00556,phone:91443391,database_a,phone,2025-07-30,Christina Au,91443391,,phone:91443391,Christina Au,91443391
-CUST01199,phone:83973956,database_a,phone,2025-07-31,Kavan; Modi Kavan Kishore,83973956,,phone:83973956,Kavan; Modi Kavan Kishore,83973956
-CUST01198,phone:96181808,database_a,phone,2025-07-31,Damian Leong - LEONG WENG HUNG DAMIAN,96181808,,phone:96181808,Damian Leong - LEONG WENG HUNG DAMIAN,96181808
+CUST01158,phone:81880703,database_a,phone,,Pauline Siang,81880703,,phone:81880703,Pauline Siang po Ling,81880703
+CUST01279,phone:82620435,database_a,phone,,Kenneth Cordero,82620435,,phone:82620435,Kenneth Cordero,82620435
+CUST00002,phone:96515456,database_a,phone,2018-09-01,Ian (carousell username latch),96515456,,phone:96515456,Ian (carousell username latch),96515456
+CUST00006,phone:93896191,database_a,phone,2019-04-05,Steve Lee / Li Chengxun,93896191,,phone:93896191,Steve Lee / Li Chengxun,93896191
+CUST00010,phone:91681568,database_a,phone,2019-05-09,Shyam Kumar,91681568,,phone:91681568,Shyam Kumar,91681568
+CUST00011,phone:81832884,database_a,phone,2019-06-14,Raewyn Yoga Raja,81832884,,phone:81832884,Raewyn Yoga Raja,81832884
+CUST00014,phone:98348151,database_a,phone,2019-06-25,Sng Miah Thye,98348151,,phone:98348151,Sng Miah Thye,98348151
+CUST00013,phone:90995496,database_a,phone,2019-06-25,Kelvin Tay and Joanne Cheong,90995496,,phone:90995496,Kelvin Tay and Joanne Cheong,90995496
+CUST01256,phone:81123410,database_a,phone,,Alwi Abdul Jalil,81123410,,phone:81123410,Alwi Abdul Jalil,81123410
+CUST00022,phone:90764148,database_a,phone,2019-07-09,Alex Chng,90764148,,phone:90764148,Alex Chng,90764148
+CUST01268,name:jad sebaaly jad123,database_a,exact_name,,Jad sebaaly jad123,,,name:jad sebaaly jad123,Jad sebaaly jad123,
+CUST00033,phone:93298806,database_a,phone,2019-08-06,Aaron Wong,93298806,,phone:93298806,Aaron Wong,93298806
+CUST00034,phone:97761213,database_a,phone,2019-08-12,Hui Jiunn jye,97761213,,phone:97761213,Hui Jiunn jye,97761213
+CUST00038,phone:97456363,database_a,phone,2019-08-14,Ng Hui Ching,97456363,,phone:97456363,Ng Hui Ching,97456363
+CUST00042,phone:81009876,database_a,phone,2019-08-16,Muhammad Hafidz (Zohra's hubby),81009876,,phone:81009876,MUHAMMAD HAFIDZ BASRI (Zohra),81009876
+CUST00044,phone:90921102,database_a,phone,2019-08-17,Abigayle Ng,90921102,,phone:90921102,Abigayle Ng,90921102
+CUST00047,phone:97248842,database_a,phone,2019-08-20,phyu pyar soe,97248842,,phone:97248842,phyu pyar soe,97248842
+CUST00048,phone:98188552,database_a,phone,2019-08-29,Avery Loo or Kales Leow,98188552,,phone:98188552,Avery Loo or Kales Leow,98188552
+CUST00050,phone:97711353,database_a,phone,2019-08-30,Chung Wah Kit,97711353,,phone:97711353,Chung Wah Kit,97711353
+CUST00052,phone:96652729,database_a,phone,2019-08-31,Steven Quah,96652729,,phone:96652729,Steven Quah,96652729
+CUST00051,phone:97432070,database_a,phone,2019-09-02,Jenkin Joyer Dsouza,97432070,,phone:97432070,Jenkin Joyer Dsouza,97432070
+CUST00053,phone:97861590,database_a,phone,2019-09-03,Hidetoshi Kodama,97861590,,phone:97861590,Hidetoshi Kodama,97861590
+CUST00060,phone:96897675,database_a,phone,2019-09-09,Khoo Yih Ming,96897675,,phone:96897675,Khoo Yih Ming,96897675
+CUST00061,phone:94239832,database_a,phone,2019-09-11,Chia Yue Sheng,94239832,,phone:94239832,Chia Yue Sheng,94239832
+CUST00065,phone:90822207,database_a,phone,2019-09-14,Teo J V,90822207,,phone:90822207,"Teo Jia Voon ""JV"" jiavoon86",90822207
+CUST00064,phone:96205566,database_a,phone,2019-09-14,Margaret Lee,96205566,,phone:96205566,Margaret Lee,96205566
+CUST00066,phone:90280800,database_a,phone,2019-09-15,Elizabeth Pang,90280800,,phone:90280800,Elizabeth Pang,90280800
+CUST00070,phone:96892000,database_a,phone,2019-09-21,Khai Hwa Toh,96892000,,phone:96892000,Khai Hwa Toh,96892000
+CUST00072,phone:93889295,database_a,phone,2019-09-22,Rizwan Anwer,93889295,,phone:93889295,Rizwan Anwer,93889295
+CUST00071,phone:97887756,database_a,phone,2019-09-22,Clair Khoo,97887756,,phone:97887756,Clair Khoo,97887756
+CUST01253,phone:90221362,database_a,phone,,Abra Kimmie Cheung,90221362,,phone:90221362,Abra Kimmie Cheung,90221362
+CUST00076,phone:97724240,database_a,phone,2019-09-28,Jasmine Wong,97724240,,phone:97724240,Jasmine Wong,97724240
+CUST00077,phone:90078138,database_a,phone,2019-09-28,Patricia Loh,90078138,,phone:90078138,Patricia Loh,90078138
+CUST00079,phone:91019772,database_a,phone,2019-09-28,Vincent Toh,91019772,,phone:91019772,Vincent Toh,91019772
+CUST00053,phone:97861590,database_a,phone,2019-09-30,Hidetoshi Kodama,97861590,,phone:97861590,Hidetoshi Kodama,97861590
+CUST00081,name:josh added 25sgd referral fee to telegram group,database_a,new,2019-09-30,Josh added 25SGD referral fee to Telegram Group,,,,,
+CUST00084,phone:92299959,database_a,phone,2019-09-30,Terence Ng,92299959,,phone:92299959,Terence Ng,92299959
+CUST00074,phone:98287926,database_a,phone,2019-09-30,Ang Wee Sen,98287926,,phone:98287926,William Ang Wee Sen,98287926
+CUST00080,phone:97962167,database_a,phone,2019-10-01,Adam Teow,97962167,,phone:97962167,Adam Teow,97962167
+CUST00067,phone:90255352,database_a,phone,2019-10-05,justin ong,90255352,,phone:90255352,Justin Ong,90255352
+CUST00092,phone:96535689,database_a,phone,2019-10-07,KATHERINE MARTIN,96535689,,phone:96535689,KATHERINE MARTIN,96535689
+CUST00094,phone:98572568,database_a,phone,2019-10-09,Koo kin wee,98572568,,phone:98572568,Koo Kin Wee,98572568
+CUST00096,phone:94356749,database_a,phone,2019-10-10,Eva Chiu / Eric Siu,94356749,,phone:94356749,Eva Chiu / Eric Siu,94356749
+CUST00099,phone:81128435,database_a,phone,2019-10-11,Elizabeth Chua,81128435,,phone:81128435,Elizabeth Chua,81128435
+CUST00098,phone:96367369,database_a,phone,2019-10-11,Adrian Tay,96367369,,phone:96367369,Adrian Tay,96367369
+CUST00103,phone:93882480,database_a,phone,2019-10-14,Ray Tay,93882480,,phone:93882480,Ray Tay,93882480
+CUST00067,phone:90255352,database_a,phone,2019-10-14,Justin Ong,90255352,,phone:90255352,Justin Ong,90255352
+CUST00105,phone:97510751,database_a,phone,2019-10-15,Siew Yee Cheong,97510751,,phone:97510751,Siew Yee Cheong,97510751
+CUST00107,phone:92364936,database_a,phone,2019-10-17,Quek Yu-Jin,92364936,,phone:92364936,Quek Yu-Jin,92364936
+CUST00046,phone:96538978,database_a,phone,2019-10-22,Shaun Ng Hean Hann,96538978,,phone:96538978,Shaun Ng Hean Hann,96538978
+CUST00111,phone:97739803,database_a,phone,2019-10-22,Zin Maung Oo,97739803,,phone:97739803,Zin Maung Oo,97739803
+CUST00112,phone:97451174,database_a,phone,2019-10-24,Lim En Yu,97451174,,phone:97451174,Lim En Yu,97451174
+CUST00113,phone:98480809,database_a,phone,2019-10-26,Choong Wen Yao,98480809,,phone:98480809,Choong Wen Yao,98480809
+CUST00117,phone:96362301,database_a,phone,2019-10-28,Lim Chin Hu,96362301,,phone:96362301,Chin hu Lim,96362301
+CUST00118,phone:96386545,database_a,phone,2019-10-28,Low Min liang,96386545,,phone:96386545,Low Min liang,96386545
+CUST00105,phone:97510751,database_a,phone,2019-10-30,Siew Yee Cheong,97510751,,phone:97510751,Siew Yee Cheong,97510751
+CUST00120,phone:96641696,database_a,phone,2019-11-01,Teoh Jin Kok,96641696,,phone:96641696,Teoh Jin Kok,96641696
+CUST00121,phone:81005411,database_a,phone,2019-11-02,Gyl,81005411,,phone:81005411,Gyl,81005411
+CUST00083,phone:91849195,database_a,phone,2019-11-02,Mohammed Aminshah Noordin - returning customer,91849195,,phone:91849195,Mohammed Aminshah Noordin,91849195
+CUST00036,phone:93825661,database_a,phone,2019-11-02,Peter Ang Kwee Boo - returning customer,93825661,,phone:93825661,Peter Ang Kwee Boo,93825661
+CUST00031,phone:97979705,database_a,phone,2019-11-03,James mumumtumtum,97979705,,phone:97979705,James mummumtumtum,97979705
+CUST00123,phone:92705717,database_a,phone,2019-11-04,Samsidah Ibrahim and husband,92705717,,phone:92705717,Samsidah Ibrahim and husband,92705717
+CUST00124,phone:91914258,database_a,phone,2019-11-06,Thomas Tng Weilong,91914258,,phone:91914258,Thomas Tng Weilong,91914258
+CUST00125,phone:97848440,database_a,phone,2019-11-07,Charles Koh-Keasberry,97848440,,phone:97848440,Charles Koh-Keasberry,97848440
+CUST00129,phone:98353413,database_a,phone,2019-11-08,Esther Goh,98353413,,phone:98353413,Esther Goh,98353413
+CUST00119,phone:91802760,database_a,phone,2019-11-09,Stephen Yew - returning customer,91802760,,phone:91802760,Stephen Yew,91802760
+CUST00133,phone:93655355,database_a,phone,2019-11-11,Andy Chia,93655355,,phone:93655355,"Andy Chia ""innolifestyle""",93655355
+CUST00132,phone:98779669,database_a,phone,2019-11-11,Albert Zhen Pei Hong alauz (No WA),98779669,,phone:98779669,"Albert Zhen Pei Hong ""alauz""",98779669
+CUST00137,phone:97685768,database_a,phone,2019-11-11,Mok Chor Keat,97685768,,phone:97685768,Mok Chor Keat,97685768
+CUST00140,phone:96674279,database_a,phone,2019-11-11,Raymond Beh,96674279,,phone:96674279,Raymond Beh,96674279
+CUST00078,phone:87780328,database_a,phone,2019-11-11,Sean Chan - returning customer,87780328,,phone:87780328,sean chan,87780328
+CUST00045,phone:93840961,database_a,phone,2019-11-11,Gao Yinan - returning customer,93840961,,phone:93840961,Gao yinan,93840961
+CUST00134,phone:98808694,database_a,phone,2019-11-11,Gabriel Patrick - returning customer,98808694,,phone:98808694,Gabriel Patrick Gabzacpat,98808694
+CUST00134,phone:98808694,database_a,phone,2019-11-11,Gabriel Patrick - returning customer,98808694,,phone:98808694,Gabriel Patrick Gabzacpat,98808694
+CUST00134,phone:98808694,database_a,phone,2019-11-11,Gabriel Patrick - returning customer,98808694,,phone:98808694,Gabriel Patrick Gabzacpat,98808694
+CUST00139,phone:96308806,database_a,phone,2019-11-11,Oei Su Min (likely Vincent Pang) (needs more time before review),96308806,,phone:96308806,Oei Su Min for Vincent Pang,96308806
+CUST00142,phone:81252889,database_a,phone,2019-11-13,"Winnie ""ysilveer""",81252889,,phone:81252889,"Winnie ""ysilveer""",81252889
+CUST00014,phone:98348151,database_a,phone,2019-11-15,Sng Miah Thye - returning customer,98348151,,phone:98348151,Sng Miah Thye,98348151
+CUST00146,phone:87544351,database_a,phone,2019-11-18,Mas Mohd Jan,87544351,,phone:87544351,Mas Mohd Jan,87544351
+CUST00147,phone:82220112,database_a,phone,2019-11-18,Stanley Yeo,82220112,,phone:82220112,Stanley Yeo,82220112
+CUST00144,phone:81619902,database_a,phone,2019-11-19,Marcus Poon,81619902,,phone:81619902,Marcus Poon,81619902
+CUST00097,phone:96901610,database_a,phone,2019-11-20,Kenneth Chris Low,96901610,,phone:96901610,Kenneth Chris Low,96901610
+CUST00150,phone:96945999,database_a,phone,2019-11-23,Chong Kam Tuck (S005),96945999,,phone:96945999,Chong Kam Tuck,96945999
+CUST00003,phone:98219377,database_a,phone,2019-11-23,Aaron Chen (S006) - returning customer,98219377,,phone:98219377,Aaron Chen,98219377
+CUST00074,phone:98287926,database_a,phone,2019-11-23,Ang Wee Sen - returning customer,98287926,,phone:98287926,William Ang Wee Sen,98287926
+CUST00151,phone:97510376,database_a,phone,2019-11-25,Allen Lee (S007),97510376,,phone:97510376,Allen Lee,97510376
+CUST00152,phone:97510235,database_a,phone,2019-11-25,Iftekhar Haider (L0139),97510235,,phone:97510235,Iftekhar Haider (L0139),97510235
+CUST00153,phone:82225990,database_a,phone,2019-11-26,Grace / Yucong (S008),82225990,,phone:82225990,Grace / Yucong (S008),82225990
+CUST00162,phone:91799527,database_a,phone,2019-11-29,Ong Gim Shin (L0142),91799527,,phone:91799527,Ong Gim Shin,91799527
+CUST00159,phone:97264474,database_a,phone,2019-11-29,Geeta Joshi (L0144),97264474,,phone:97264474,Geeta Joshi (L0144),97264474
+CUST00154,phone:97827982,database_a,phone,2019-11-29,Guy Tan (L0145) - returning customer,97827982,,phone:97827982,Guy Tan (L0141),97827982
+CUST00163,phone:92956156,database_a,phone,2019-11-29,"PY Sim ""aaa_sg_trader"" (S009)",92956156,,phone:92956156,"PY Sim ""aaa_sg_trader""",92956156
+CUST00157,phone:81818412,database_a,phone,2019-11-29,Chee Gee (S010),81818412,,phone:81818412,Chee Gee,81818412
+CUST00158,phone:86309309,database_a,phone,2019-11-29,"Dedy Setiawan ""nesshiee"" (S012)",86309309,,phone:86309309,"Dedy Setiawan ""nesshiee""",86309309
+CUST00167,phone:98199243,database_a,phone,2019-11-30,Susanne Nam (L0146),98199243,,phone:98199243,Susanne Nam,98199243
+CUST00170,phone:96640254,database_a,phone,2019-12-01,Jeffrey Chng (L0148),96640254,,phone:96640254,Jeffrey Chng,96640254
+CUST00171,phone:98731113,database_a,phone,2019-12-01,Tan Hua Tong (L0149),98731113,,phone:98731113,Tan Hua Tong,98731113
+CUST00169,phone:93691200,database_a,phone,2019-12-01,Jayden Chew (S014),93691200,,phone:93691200,Jayden Chew (S014),93691200
+CUST00165,phone:92977472,database_a,phone,2019-12-12,Sean Chew (L0157) - returning customer,92977472,,phone:92977472,Sean Chew,92977472
+CUST00136,phone:92216816,database_a,phone,2019-12-12,Jeff Toh Jyh Yenn (L0159) - returning customer,92216816,,phone:92216816,Jeff Toh Jyh Yenn,92216816
+CUST00181,phone:97347966,database_a,phone,2019-12-12,Shirley Goh (L0160),97347966,,phone:97347966,Shirley Goh,97347966
+CUST00179,phone:97127429,database_a,phone,2019-12-12,Nikolas Wanahita (L0161),97127429,,phone:97127429,Nikolas Wanahita,97127429
+CUST00177,phone:91266124,database_a,phone,2019-12-12,Ebury Ng (L0162),91266124,,phone:91266124,"Ebury Ng ""Yuanely""",91266124
+CUST00158,phone:86309309,database_a,phone,2019-12-12,"""Nesshiee"" - Dedy Setiawan (S018)",86309309,,phone:86309309,"Dedy Setiawan ""nesshiee""",86309309
+CUST00184,phone:97971078,database_a,phone,2019-12-13,Josephine Lee (L0164),97971078,,phone:97971078,Josephine Lee (L0164),97971078
+CUST00185,phone:90020728,database_a,phone,2019-12-13,Leslie Ang (L0165),90020728,,phone:90020728,Leslie Ang,90020728
+CUST00188,phone:97889814,database_a,phone,2019-12-13,NG PO HUA (L0166),97889814,,phone:97889814,NG PO HUA,97889814
+CUST00187,phone:93865188,database_a,phone,2019-12-13,Matthew Ong (L0167),93865188,,phone:93865188,Matthew Ong,93865188
+CUST00192,phone:81013837,database_a,phone,2019-12-16,Wai Kit Cheang (L0170),81013837,,phone:81013837,Wai Kit Cheang (L0170),81013837
+CUST00063,phone:90909616,database_a,phone,2019-12-16,Celia Leong (L0171) - returning customer,90909616,,phone:90909616,Celia Leung and Francis,90909616
+CUST00191,phone:94388005,database_a,phone,2019-12-16,"Raymond Loh ""raymondloh08"" (S019)",94388005,,phone:94388005,"Raymond Loh ""raymondloh08""",94388005
+CUST00043,phone:98241870,database_a,phone,2019-12-18,"Stephen Yan ""ferngchi"" (S020) - returning customer",98241870,,phone:98241870,Stephen Yan,98241870
+CUST00194,phone:97325081,database_a,phone,2019-12-19,Leslie Ho (L0172),97325081,,phone:97325081,Leslie Ho,97325081
+CUST00193,phone:96122191,database_a,phone,2019-12-19,"Anne witjas ""tomnico"" (S021)",96122191,,phone:96122191,"Anne witjas ""tomnico"" (S021)",96122191
+CUST00197,phone:98388985,database_a,phone,2019-12-20,Roy Han (L0173),98388985,,phone:98388985,Roy Han,98388985
+CUST00196,phone:82984096,database_a,phone,2019-12-20,Daniel Soh (L0174),82984096,,phone:82984096,Daniel Soh,82984096
+CUST00198,phone:92975236,database_a,phone,2019-12-21,Kyan Yang Kuangji (L0176),92975236,,phone:92975236,Kyan Yang Kuangji,92975236
+CUST00199,phone:92977407,database_a,phone,2019-12-22,"Bala, friend of Avi",92977407,,phone:92977407,Bala Subramaniam,92977407
+CUST00296,phone:88914699,database_a,phone,,Kevin Ngo - son of Phil Ngo,88914699,,phone:88914699,Kevin Ngo - son of Phil Ngo,88914699
+CUST00202,phone:98478582,database_a,phone,2019-12-25,Mindy Ang,98478582,,phone:98478582,Mindy Ang,98478582
+CUST00204,phone:91018593,database_a,phone,2019-12-26,Ye Min Htun,91018593,,phone:91018593,Ye Min Htun,91018593
+CUST01263,phone:96387638,database_a,phone,,Donald Chia,96387638,,phone:96387638,Donald Chia,96387638
+CUST00036,phone:93825661,database_a,phone,2019-12-27,Ang Wee Sen - returning customer,93825661,,phone:93825661,Peter Ang Kwee Boo,93825661
+CUST00209,phone:96403938,database_a,phone,2019-12-29,Tan Jia Kin,96403938,,phone:96403938,Tan Jia Kin,96403938
+CUST00210,phone:94792729,database_a,phone,2019-12-30,Lionel Lew,94792729,,phone:94792729,Lionel Lew,94792729
+CUST00211,phone:81983513,database_a,phone,2020-01-01,Chong Chan Sin,81983513,,phone:81983513,Chong Chan Sin,81983513
+CUST00213,phone:96910067,database_a,phone,2020-01-01,Tang Mun Leong,96910067,,phone:96910067,Tang Mun Leong,96910067
+CUST00212,phone:96229868,database_a,phone,2020-01-01,Lam Chuan Leong,96229868,,phone:96229868,Lam Chuan Leong,96229868
+CUST00213,phone:96910067,database_a,phone,2020-01-01,Tang Mun Leong,96910067,,phone:96910067,Tang Mun Leong,96910067
+CUST01254,phone:6287836918560,database_a,phone,,Albert Kosasih real mobile number,6287836918560,,phone:6287836918560,Albert Kosasih real mobile number,6287836918560
+CUST00149,phone:98895859,database_a,phone,2020-01-03,Frances Hwang - returning customer,98895859,,phone:98895859,Frances Hwang - returning customer,98895859
+CUST00215,phone:90767016,database_a,phone,2020-01-05,Felix Kucing for Albert Kosasih,90767016,,phone:90767016,Felix Kucing for Albert Kosasih,90767016
+CUST00205,phone:98890502,database_a,phone,2020-01-05,Cheo Ming Xiang - returning customer,98890502,,phone:98890502,Cheo Ming Xiang,98890502
+CUST01288,name:ppl above this line have been waed,database_a,new,,Ppl above this line have been WAed,,,,,
+CUST00229,phone:94755991,database_a,phone,2020-01-08,Lau Boon Cheng,94755991,,phone:94755991,Lau Boon Cheng,94755991
+CUST00237,phone:85228387,database_a,phone,2020-01-09,Martin Alintuck,85228387,,phone:85228387,Martin Alintuck,85228387
+CUST00239,phone:97583829,database_a,phone,2020-01-09,Sophie Yeoh for Dennis Liu,97583829,,phone:97583829,Sophie Yeoh for Dennis Liu,97583829
+CUST00233,phone:97717857,database_a,phone,2020-01-09,Hutomo Setiawan,97717857,,phone:97717857,Hutomo Setiawan,97717857
+CUST00238,phone:90087726,database_a,phone,2020-01-09,Sam Soh,90087726,,phone:90087726,Sam Soh,90087726
+CUST00236,phone:98178361,database_a,phone,2020-01-09,Lim Renwei,98178361,,phone:98178361,Lim Renwei hapshopper86,98178361
+CUST00242,phone:96574045,database_a,phone,2020-01-12,DANIEL YEOW,96574045,,phone:96574045,Daniel Yeow,96574045
+CUST00208,phone:97374632,database_a,phone,2020-01-12,Matthew Lou,97374632,,phone:97374632,Matthew Lou,97374632
+CUST00246,phone:90301836,database_a,phone,2020-01-13,Soh Chee Onn John Jr,90301836,,phone:90301836,Soh Chee Onn John Jr,90301836
+CUST00245,phone:90402489,database_a,phone,2020-01-13,Shane Ng,90402489,,phone:90402489,Shane Ng Sheng Long,90402489
+CUST00252,phone:94751733,database_a,phone,2020-01-16,Chew Tze Kiong,94751733,,phone:94751733,Chew Tze Kiong,94751733
+CUST00253,phone:93579719,database_a,phone,2020-01-16,NG HONG UNG,93579719,,phone:93579719,NG HONG UNG,93579719
+CUST00257,phone:91113915,database_a,phone,2020-01-20,"Jackson Ho ""Arai8811""",91113915,,phone:91113915,"Jackson Ho ""Arai8811""",91113915
+CUST00261,phone:90678533,database_a,phone,2020-01-21,Gerald Ng,90678533,,phone:90678533,Gerald Ng,90678533
+CUST00252,phone:94751733,database_a,phone,2020-01-22,Chew Tze Kiong,94751733,,phone:94751733,Chew Tze Kiong,94751733
+CUST00262,phone:91819868,database_a,phone,2020-01-22,Christine Owyong,91819868,,phone:91819868,Christine Owyong,91819868
+CUST00263,phone:94770090,database_a,phone,2020-01-22,Tam Siew Kee,94770090,,phone:94770090,Tam Siew Kee / Tam SK,94770090
+CUST00264,phone:83388850,database_a,phone,2020-01-23,Victor Yuan Teng bf,83388850,,phone:83388850,Victor Tan (freelancer bought on credit model),83388850
+CUST00027,phone:90217979,database_a,phone,2020-01-25,Andrew Chua (Uncle Andrew),90217979,,phone:90217979,Andrew Chua Eng Bung,90217979
+CUST00265,phone:98172710,database_a,phone,2020-01-24,Lee Yucong,98172710,,phone:98172710,Lee Yucong,98172710
+CUST00167,phone:98199243,database_a,phone,2020-01-28,Susanne Nam (returning customer),98199243,,phone:98199243,Susanne Nam,98199243
+CUST00167,phone:98199243,database_a,phone,2020-01-28,Susanne Nam,98199243,,phone:98199243,Susanne Nam,98199243
+CUST00236,phone:98178361,database_a,phone,2020-01-28,Lim Renwei,98178361,,phone:98178361,Lim Renwei hapshopper86,98178361
+CUST00268,phone:81380094,database_a,phone,2020-01-29,Cindee Tan,81380094,,phone:81380094,Cindee Tan,81380094
+CUST00270,phone:96887837,database_a,phone,2020-01-29,Pamela Tan,96887837,,phone:96887837,Pamela Tan,96887837
+CUST00272,phone:97849481,database_a,phone,2020-01-31,Dinusha Koggalahewa,97849481,,phone:97849481,Dinusha Koggalahewa,97849481
+CUST00238,phone:90087726,database_a,phone,2020-01-31,Sam Soh,90087726,,phone:90087726,Sam Soh,90087726
+CUST00277,phone:91834594,database_a,phone,2020-01-31,Raymond Chew,91834594,,phone:91834594,Raymond Chew,91834594
+CUST00276,phone:90015225,database_a,phone,2020-01-31,NoorAzizah Aziz,90015225,,phone:90015225,NoorAzizah Aziz,90015225
+CUST00273,phone:97902359,database_a,phone,2020-01-31,Jin Ling Tan,97902359,,phone:97902359,Jin Ling Tan,97902359
+CUST00278,phone:98441230,database_a,phone,2020-02-03,"June Lim ""june06gal""",98441230,,phone:98441230,June Lim,98441230
+CUST00028,phone:97263819,database_a,phone,2020-02-06,Freddy Ng - repeat customer,97263819,,phone:97263819,Freddy Ng siang83,97263819
+CUST00285,phone:92274411,database_a,phone,2020-02-06,Sheilah Manalo,92274411,,phone:92274411,Sheilah Manalo,92274411
+CUST00288,phone:97588166,database_a,phone,2020-02-09,Dave Lee,97588166,,phone:97588166,Dave Lee,97588166
+CUST00221,phone:96354564,database_a,phone,2020-02-09,Zen Tan,96354564,,phone:96354564,Zen Tan,96354564
+CUST00289,phone:96879142,database_a,phone,2020-02-09,Lim Yuan Sing / YS Lim,96879142,,phone:96879142,Lim Yuan Sing,96879142
+CUST00286,phone:98485857,database_a,phone,2020-02-09,Chua Song Heng (colleague of Vincent Pang),98485857,,phone:98485857,Chua Song Heng,98485857
+CUST00291,phone:85224877,database_a,phone,2020-02-10,Jason Wong,85224877,,phone:85224877,Jason Wong,85224877
+CUST00287,phone:96843650,database_a,phone,2020-02-12,Chua Soo Yong (returning customer),96843650,,phone:96843650,Chua Soo Yong,96843650
+CUST00292,phone:91865491,database_a,phone,2020-02-12,Ahmad Bin Ibrahim,91865491,,phone:91865491,Ahmad Bin Ibrahim,91865491
+CUST00294,phone:87996473,database_a,phone,2020-02-13,Anant Sharma,87996473,,phone:87996473,Anant Sharma,87996473
+CUST00016,phone:98412428,database_a,phone,2020-02-13,Gerald Chee (returning customer),98412428,,phone:98412428,"Gerald Chee, sbfast",98412428
+CUST00102,phone:96575120,database_a,phone,2020-02-13,Freddy Yeo Poon Sheng (returning customer),96575120,,phone:96575120,Freddy Yeo Poon Sheng,96575120
+CUST00088,phone:97669461,database_a,phone,2020-02-13,Stanley Foo (returning customer),97669461,,phone:97669461,Stanley Foo,97669461
+CUST00119,phone:91802760,database_a,phone,2020-02-13,Stephen Yew (returning customer),91802760,,phone:91802760,Stephen Yew,91802760
+CUST00296,phone:88914699,database_a,phone,2020-02-13,Kevin Ngo Wei Hock for Phil Ngo,88914699,,phone:88914699,Kevin Ngo - son of Phil Ngo,88914699
+CUST00139,phone:96308806,database_a,phone,2020-02-13,Oei Su Min for Vincent Pang,96308806,,phone:96308806,Oei Su Min for Vincent Pang,96308806
+CUST00297,phone:81182976,database_a,phone,2020-02-13,Moses Lai Shi Kun,81182976,,phone:81182976,Moses Lai Shi Kun,81182976
+CUST00300,phone:98445871,database_a,phone,2020-02-15,Roy Ho,98445871,,phone:98445871,Roy Ho,98445871
+CUST00178,phone:83220906,database_a,phone,2020-02-15,NANDHAKUMAR NAGARAJAN (returning customer but he used Shopee instead of Lazada this time),83220906,,phone:83220906,Nandhakumar Nagarajan (L0158),83220906
+CUST00299,phone:91916385,database_a,phone,2020-02-15,Johnny Tan,91916385,,phone:91916385,Johnny Tan,91916385
+CUST00301,phone:96628483,database_a,phone,2020-02-17,"Craig Ng ""Craig84sg""",96628483,,phone:96628483,"Craig Ng ""Craig84sg""",96628483
+CUST00303,phone:91120455,database_a,phone,2020-02-17,"Wong Chu Wee ""chuweewong""",91120455,,phone:91120455,"Wong Chu Wee ""chuweewong""",91120455
+CUST00143,phone:96638043,database_a,phone,2020-02-17,Leong Yim Sing / YS Leong (returning customer),96638043,,phone:96638043,Leong Yim Sing,96638043
+CUST00306,phone:90172629,database_a,phone,2020-02-18,Rachel Chia,90172629,,phone:90172629,Rachel Chia,90172629
+CUST00304,phone:96697077,database_a,phone,2020-02-18,Adrian Khoo,96697077,,phone:96697077,Adrian Khoo,96697077
+CUST00305,phone:98268080,database_a,phone,2020-02-18,Jamie Neo,98268080,,phone:98268080,Jamie Neo,98268080
+CUST00307,phone:90292937,database_a,phone,2020-02-21,Alvin Ong,90292937,,phone:90292937,Alvin Ong,90292937
+CUST00307,phone:90292937,database_a,phone,2020-02-21,Alvin Ong,90292937,,phone:90292937,Alvin Ong,90292937
+CUST00311,phone:96312150,database_a,phone,2020-02-24,Toh Bee Kien,96312150,,phone:96312150,Toh Bee Kien,96312150
+CUST00234,phone:90406364,database_a,phone,2020-02-24,Kenneth Quek Poh Beng (returning customer),90406364,,phone:90406364,Kenneth Quek Poh Beng,90406364
+CUST00252,phone:94751733,database_a,phone,2020-02-24,Chew Tze Kiong,94751733,,phone:94751733,Chew Tze Kiong,94751733
+CUST00307,phone:90292937,database_a,phone,2020-02-24,Alvin Ong,90292937,,phone:90292937,Alvin Ong,90292937
+CUST00316,phone:93295777,database_a,phone,2020-02-26,Sui Goh,93295777,,phone:93295777,Sui Goh,93295777
+CUST00313,phone:97475058,database_a,phone,2020-02-26,Esther Lim,97475058,,phone:97475058,Esther Lim,97475058
+CUST00265,phone:98172710,database_a,phone,2020-02-26,Lee Yucong (returning customer),98172710,,phone:98172710,Lee Yucong,98172710
+CUST00323,phone:91552715,database_a,phone,2020-03-01,Huang Jiehao,91552715,,phone:91552715,Huang Jiehao,91552715
+CUST00265,phone:98172710,database_a,phone,2020-03-01,Lee Yucong (returning customer),98172710,,phone:98172710,Lee Yucong,98172710
+CUST00324,phone:86880141,database_a,phone,2020-03-01,Muhammad Ariff,86880141,,phone:86880141,Muhammad Ariff,86880141
+CUST00327,phone:97268304,database_a,phone,2020-03-03,Ho Chun Wee,97268304,,phone:97268304,Ho Chun Wee,97268304
+CUST00327,phone:97268304,database_a,phone,2020-03-03,Ho Chun Wee,97268304,,phone:97268304,Ho Chun Wee,97268304
+CUST00117,phone:96362301,database_a,phone,2020-03-04,Chin hu Lim,96362301,,phone:96362301,Chin hu Lim,96362301
+CUST00330,phone:83078441,database_a,phone,2020-03-04,Suwendi Hirawan,83078441,,phone:83078441,Suwendi Hirawan,83078441
+CUST00332,phone:97277745,database_a,phone,2020-03-06,Tay Khoon Ying,97277745,,phone:97277745,Tay Khoon Ying,97277745
+CUST00331,phone:97479272,database_a,phone,2020-03-06,Raymond Mark Tham,97479272,,phone:97479272,Raymond Mark Tham,97479272
+CUST00333,phone:81380048,database_a,phone,2020-03-09,Gilbert Pak,81380048,,phone:81380048,Gilbert Pak,81380048
+CUST00338,phone:97423047,database_a,phone,2020-03-09,Syed Faizal Bin S Alwi,97423047,,phone:97423047,Syed Faizal Bin S Alwi,97423047
+CUST00176,phone:91763176,database_a,phone,2020-03-09,Tan Hun Boon - returning customer,91763176,,phone:91763176,Tan Hun Boon,91763176
+CUST00335,phone:81882478,database_a,phone,2020-03-09,Maggie Pek,81882478,,phone:81882478,Maggie Pek,81882478
+CUST00205,phone:98890502,database_a,phone,2020-03-13,Cheo Ming Xiang,98890502,,phone:98890502,Cheo Ming Xiang,98890502
+CUST00269,phone:92209165,database_a,phone,2020-03-13,Kevin Lau,92209165,,phone:92209165,Kevin Lau,92209165
+CUST00283,phone:97964740,database_a,phone,2020-03-16,Lee Kian Tat Ken (returning customer),97964740,,phone:97964740,Lee Kian Tat Ken,97964740
+CUST00241,phone:90063530,database_a,phone,2020-03-16,Kyaw Thiha,90063530,,phone:90063530,Kyaw Thiha,90063530
+CUST00340,phone:87261690,database_a,phone,2020-03-16,Catherine Sanger,87261690,,phone:87261690,Catherine Sanger,87261690
+CUST00043,phone:98241870,database_a,phone,2020-03-16,Stephen Yan,98241870,,phone:98241870,Stephen Yan,98241870
+CUST00341,phone:96365139,database_a,phone,2020-03-17,Joanne Lam,96365139,,phone:96365139,Joanne Lam Poh Khim,96365139
+CUST00231,phone:92990200,database_a,phone,2020-03-17,Sai Mageswaran,92990200,,phone:92990200,Sai Mageswaran,92990200
+CUST00275,phone:97769729,database_a,phone,2020-03-17,Michael Caluag,97769729,,phone:97769729,Michael Caluag,97769729
+CUST00295,phone:98412968,database_a,phone,2020-03-17,Bob Goh,98412968,,phone:98412968,Bob Goh,98412968
+CUST00342,phone:97734647,database_a,phone,2020-03-18,Matthew Lou (replacement set for his non detected humidifier),97734647,,phone:97734647,Matthew Lou,97734647
+CUST00343,phone:93659428,database_a,phone,2020-03-20,Yong Siang Teo,93659428,,phone:93659428,Yong Siang Teo,93659428
+CUST00344,phone:91007262,database_a,phone,2020-03-23,Adrin Teo,91007262,,phone:91007262,Adrin Teo,91007262
+CUST00216,phone:94353068,database_a,phone,2020-03-23,Han Yew Wai,94353068,,phone:94353068,Han Yew Wai,94353068
+CUST00347,phone:91778437,database_a,phone,2020-03-25,Jon Wee Jian Le,91778437,,phone:91778437,Jon Wee Jian Le,91778437
+CUST00350,phone:90477512,database_a,phone,2020-03-27,Ang Boon Leong,90477512,,phone:90477512,Ang Boon Leong,90477512
+CUST00353,phone:96393980,database_a,phone,2020-03-27,Lee Gee Aik,96393980,,phone:96393980,Lee Gee Aik,96393980
+CUST00351,phone:97335492,database_a,phone,2020-03-27,Chan Lai Ching,97335492,,phone:97335492,Chan Lai Ching,97335492
+CUST00355,phone:97867864,database_a,phone,2020-03-27,Zener Teo,97867864,,phone:97867864,Zener Teo,97867864
+CUST00352,phone:97333893,database_a,phone,2020-03-27,"Jessica Chee ""jessijessi88""",97333893,,phone:97333893,"Jessica Chee ""jessijessi88""",97333893
+CUST00095,phone:84311536,database_a,phone,2020-03-27,Qiyu Zhang,84311536,,phone:84311536,Qiyu Zhang,84311536
+CUST00285,phone:92274411,database_a,phone,2020-03-27,Sheilah Manalo,92274411,,phone:92274411,Sheilah Manalo,92274411
+CUST00094,phone:98572568,database_a,phone,2020-03-27,Koo Kin Wee,98572568,,phone:98572568,Koo Kin Wee,98572568
+CUST00356,phone:97539388,database_a,phone,2020-03-28,Koh Swee Sguan,97539388,,phone:97539388,Koh Swee Guan,97539388
+CUST00216,phone:94353068,database_a,phone,2020-03-28,Han Yew Wai,94353068,,phone:94353068,Han Yew Wai,94353068
+CUST00361,phone:93274401,database_a,phone,2020-03-29,Tan Li Hua,93274401,,phone:93274401,Tan Li Hua,93274401
+CUST00361,phone:93274401,database_a,phone,2020-03-29,Tan Li Hua,93274401,,phone:93274401,Tan Li Hua,93274401
+CUST00359,phone:82822945,database_a,phone,2020-03-29,David Ting,82822945,,phone:82822945,David Ting,82822945
+CUST00005,phone:90121561,database_a,phone,2020-03-29,Rofilo Faelnar,90121561,,phone:90121561,Rofilo Faelnar,90121561
+CUST00360,phone:94750635,database_a,phone,2020-03-29,Ng Yen Pin,94750635,,phone:94750635,Ng Yen Pin,94750635
+CUST00363,phone:83390576,database_a,phone,2020-03-30,Bevan Chen,83390576,,phone:83390576,Bevan Chen,83390576
+CUST00367,phone:98322911,database_a,phone,2020-03-31,Tiew Chew Meng,98322911,,phone:98322911,Tiew Chew Meng,98322911
+CUST00366,name:lazada shopee and carousell locked my dreamstation listings,database_a,new,2020-03-31,"Lazada, Shopee and Carousell locked my Dreamstation Listings",,,,,
+CUST00370,phone:93667163,database_a,phone,2020-04-03,Michelle Choy,93667163,,phone:93667163,Michelle Choy Yoke Ling,93667163
+CUST00369,phone:97656474,database_a,phone,2020-04-03,Gracia Chua,97656474,,phone:97656474,Gracia Chua,97656474
+CUST00368,phone:96444668,database_a,phone,2020-04-03,George Sal / Georges Saliba,96444668,,phone:96444668,George Sal / Georges Saliba,96444668
+CUST00375,phone:86666389,database_a,phone,2020-04-06,Maria Sari,86666389,,phone:86666389,Maria Sari,86666389
+CUST00374,phone:97112750,database_a,phone,2020-04-06,Chee Yong,97112750,,phone:97112750,Chee Yong,97112750
+CUST00324,phone:86880141,database_a,phone,2020-04-06,Muhammad Ariff,86880141,,phone:86880141,Muhammad Ariff,86880141
+CUST00377,phone:81832666,database_a,phone,2020-04-08,Kenny Lim,81832666,,phone:81832666,Kenny Lim,81832666
+CUST00376,phone:90023861,database_a,phone,2020-04-08,Emily Kee,90023861,,phone:90023861,Emily Kee,90023861
+CUST00378,phone:96556297,database_a,phone,2020-04-08,"ybernice ""Nouvelle Park""",96556297,,phone:96556297,"ybernice ""Nouvelle Park""",96556297
+CUST00382,phone:91392561,database_a,phone,2020-04-14,Lisabelle Tay / Ngiam Xing Yi,91392561,,phone:91392561,Lisabelle Tay / Ngiam Xing Yi,91392561
+CUST00380,phone:98417576,database_a,phone,2020-04-14,Adrian Heng,98417576,,phone:98417576,Adrian Heng,98417576
+CUST00383,phone:91515741,database_a,phone,2020-04-14,"Tan Tze Han McQueen ""McQueen Tan""",91515741,,phone:91515741,"Tan Tze Han McQueen ""McQueen Tan""",91515741
+CUST00383,phone:91515741,database_a,phone,2020-04-16,"Tan Tze Han McQueen ""McQueen Tan""",91515741,,phone:91515741,"Tan Tze Han McQueen ""McQueen Tan""",91515741
+CUST00389,phone:97232779,database_a,phone,2020-04-21,Nurul Ain,97232779,,phone:97232779,Nurul Ain,97232779
+CUST00016,phone:98412428,database_a,phone,2020-04-21,Gerald Chee,98412428,,phone:98412428,"Gerald Chee, sbfast",98412428
+CUST00390,phone:96971945,database_a,phone,2020-04-21,Tan Shao Yen,96971945,,phone:96971945,Tan Shao Yen,96971945
+CUST00385,phone:98294620,database_a,phone,2020-04-21,Christopher Loh,98294620,,phone:98294620,Christopher Loh,98294620
+CUST00387,phone:84525379,database_a,phone,2020-04-21,Lima de Medeiros Fabricio,84525379,,phone:84525379,Lima de Medeiros Fabricio,84525379
+CUST00388,phone:96633903,database_a,phone,2020-04-21,Matthew Lu Kun Ti,96633903,,phone:96633903,Lu Kun Ti (Matthew Lu),96633903
+CUST00389,phone:97232779,database_a,phone,2020-04-21,Nurul Ain,97232779,,phone:97232779,Nurul Ain,97232779
+CUST00358,phone:90490083,database_a,phone,2020-04-25,Tan Geok Mei,90490083,,phone:90490083,Tan Geok Mei,90490083
+CUST00394,phone:90912207,database_a,phone,2020-04-29,Alan kong,90912207,,phone:90912207,Alan Kong zhi'en,90912207
+CUST00396,phone:94512817,database_a,phone,2020-05-01,Bryan Yeo Si Jie,94512817,,phone:94512817,Bryan Yeo Si Jie,94512817
+CUST00133,phone:93655355,database_a,phone,2020-05-04,Andy Chia,93655355,,phone:93655355,"Andy Chia ""innolifestyle""",93655355
+CUST00335,phone:81882478,database_a,phone,2020-05-04,Maggie Pek,81882478,,phone:81882478,Maggie Pek,81882478
+CUST00132,phone:98779669,database_a,phone,2020-05-04,"Albert Zhen Pei Hong ""Alauz""",98779669,,phone:98779669,"Albert Zhen Pei Hong ""alauz""",98779669
+CUST00292,phone:91865491,database_a,phone,2020-05-06,Ahmad Ibrahim,91865491,,phone:91865491,Ahmad Bin Ibrahim,91865491
+CUST00400,phone:96877530,database_a,phone,2020-05-06,Kelvin Seah,96877530,,phone:96877530,Kelvin Seah,96877530
+CUST00283,phone:97964740,database_a,phone,2020-05-06,Lee Kian Tat Ken,97964740,,phone:97964740,Lee Kian Tat Ken,97964740
+CUST00089,phone:97770483,database_a,phone,2020-05-12,Gilbert Chan,97770483,,phone:97770483,Gilbert Gabriel Chan,97770483
+CUST00402,phone:90294003,database_a,phone,2020-05-14,Amy Fung,90294003,,phone:90294003,Amy Fung,90294003
+CUST00403,phone:96689073,database_a,phone,2020-05-14,Jay Sng,96689073,,phone:96689073,Jay Sng yuan zhi,96689073
+CUST00404,name:grace,database_a,exact_name,2020-05-16,Grace,,,name:grace,Grace,
+CUST00405,phone:97777210,database_a,phone,2020-05-20,Tan Qiuwen,97777210,,phone:97777210,"Tan Qiuwen, clovermai85",97777210
+CUST00117,phone:96362301,database_a,phone,2020-05-21,Lim Chin Hu,96362301,,phone:96362301,Chin hu Lim,96362301
+CUST00307,phone:90292937,database_a,phone,2020-05-26,Alvin Ong,90292937,,phone:90292937,Alvin Ong,90292937
+CUST00263,phone:94770090,database_a,phone,2020-05-26,Tam SK / Tam Siew Kee,94770090,,phone:94770090,Tam Siew Kee / Tam SK,94770090
+CUST00150,phone:96945999,database_a,phone,2020-05-26,Chong Kam Tuck,96945999,,phone:96945999,Chong Kam Tuck,96945999
+CUST00408,phone:975946767,database_a,exact_name,2020-05-26,Melvin Wong,97564676,,phone:975946767,Melvin Wong,975946767
+CUST00407,phone:96880872,database_a,phone,2020-05-26,Billy Ang,96880872,,phone:96880872,Billy Ang,96880872
+CUST00411,phone:92966776,database_a,phone,2020-05-29,Danny Goh Tseng Hwee,92966776,,phone:92966776,Danny Goh Tseng Hwee,92966776
+CUST00414,phone:96369839,database_a,phone,2020-06-01,Jason Tan 2,96369839,,phone:96369839,Jason Tan 2,96369839
+CUST00206,phone:91285391,database_a,phone,2020-06-01,Chris Yuen (returning customer,91285391,,phone:91285391,Chris Yuen (returning customer,91285391
+CUST00415,phone:96435621,database_a,phone,2020-06-01,Walker Stephen,96435621,,phone:96435621,Walker Stephen,96435621
+CUST00418,phone:97553552,database_a,phone,2020-06-03,Suwandi Widjaja,97553552,,phone:97553552,Suwandi Widjaja,97553552
+CUST00260,phone:81280238,database_a,phone,2020-06-03,Elsie Tay for Aloysius,81280238,,phone:81280238,Elsie Tay,81280238
+CUST00422,phone:92957999,database_a,phone,2020-06-06,Roy Lam,92957999,,phone:92957999,Roy Lam,92957999
+CUST00421,phone:97671104,database_a,phone,2020-06-06,Low Jing Yang,97671104,,phone:97671104,Low Jing Yang,97671104
+CUST00321,phone:96405051,database_a,phone,2020-06-15,Crystal Tan,96405051,,phone:96405051,Crystal Tan,96405051
+CUST00428,phone:96168666,database_a,phone,2020-06-15,Oei Pheng Lian (possibly Indra Widjaja),96168666,,phone:96168666,Oei Pheng Lian (possibly Indra Widjaja),96168666
+CUST00427,phone:90717071,database_a,phone,2020-06-15,Herry Limanto,90717071,,phone:90717071,Herry Limanto,90717071
+CUST00430,phone:81890442,database_a,phone,2020-06-16,Hao Yu Choo,81890442,,phone:81890442,Choo Hao Yu,81890442
+CUST00438,phone:98750846,database_a,phone,2020-06-20,Yuey Tan,98750846,,phone:98750846,Yuey Tan,98750846
+CUST00438,phone:98750846,database_a,phone,2020-06-20,Yuey Tan,98750846,,phone:98750846,Yuey Tan,98750846
+CUST00425,phone:90287101,database_a,phone,2020-06-20,Keegan Tan (bro in law of Gabzacpat Gabe),90287101,,phone:90287101,Keegan Tan (bro in law of Gabzacpat Gabe),90287101
+CUST00267,phone:96602996,database_a,phone,2020-06-20,Melvin Tan (returning customer),96602996,,phone:96602996,"Melvin Tan ""Nivlem Nat""",96602996
+CUST00419,phone:92381075,database_a,phone,2020-06-20,"Gerard Don Sanjay Samaraweera Don Eranga Sanjeewa ""Don Sanjay""",92381075,,phone:92381075,Gerard Don Sanjay,92381075
+CUST00113,phone:98480809,database_a,phone,2020-06-20,Choong Wen Yao,98480809,,phone:98480809,Choong Wen Yao,98480809
+CUST00432,phone:96506209,database_a,phone,2020-06-20,Gng Yeo Meng,96506209,,phone:96506209,Gng Yeo Meng,96506209
+CUST00437,phone:97586073,database_a,phone,2020-06-20,Wei Wei,97586073,,phone:97586073,Wei Wei,97586073
+CUST00436,phone:97508608,database_a,phone,2020-06-20,Vincent Yeong Kok Leng,97508608,,phone:97508608,Vincent Yeong Kok Leng,97508608
+CUST00014,phone:98348151,database_a,phone,2020-06-24,Sng Miah Thye,98348151,,phone:98348151,Sng Miah Thye,98348151
+CUST00275,phone:97769729,database_a,phone,2020-06-24,Michael Caluag,97769729,,phone:97769729,Michael Caluag,97769729
+CUST00403,phone:96689073,database_a,phone,2020-06-24,Jay Sng / Serine Lee,96689073,,phone:96689073,Jay Sng yuan zhi,96689073
+CUST00441,phone:96465255,database_a,phone,2020-06-24,Paul Speed,96465255,,phone:96465255,Paul Speed,96465255
+CUST00442,phone:91597957,database_a,phone,2020-07-01,Eric P. Kurniawan,91597957,,phone:91597957,Eric P. Kurniawan,91597957
+CUST00167,phone:98199243,database_a,phone,2020-07-01,Susanne Nam,98199243,,phone:98199243,Susanne Nam,98199243
+CUST00445,phone:91814930,database_a,phone,2020-07-01,Tan Hui Min,91814930,,phone:91814930,Tan Hui Min,91814930
+CUST00444,phone:90288086,database_a,phone,2020-07-01,Jimmy Soh,90288086,,phone:90288086,Jimmy Soh,90288086
+CUST00446,phone:96685513,database_a,phone,2020-07-06,David Chua,96685513,,phone:96685513,David Chua,96685513
+CUST00307,phone:90292937,database_a,phone,2020-07-06,Alvin Ong,90292937,,phone:90292937,Alvin Ong,90292937
+CUST00448,phone:84274591,database_a,phone,2020-07-09,Rohan Thacker,84274591,,phone:84274591,Rohan Thacker,84274591
+CUST00447,phone:92957020,database_a,phone,2020-07-09,Ong Chin Chong / Jocelyn Ong,92957020,,phone:92957020,Ong Chin Chong / Jocelyn Ong,92957020
+CUST00082,phone:98263235,database_a,phone,2020-07-09,Mark Graham,98263235,,phone:98263235,Mark Graham,98263235
+CUST00430,phone:81890442,database_a,phone,2020-07-14,Choo Hao Yu,81890442,,phone:81890442,Choo Hao Yu,81890442
+CUST00452,phone:92388291,database_a,phone,2020-07-14,Kelvin Wong,92388291,,phone:92388291,Kelvin Wong,92388291
+CUST00451,phone:98437030,database_a,phone,2020-07-14,Harn Tan,98437030,,phone:98437030,Harn Tan,98437030
+CUST00449,phone:97242015,database_a,phone,2020-07-14,Anthony Chua / Anthony Khong,97242015,,phone:97242015,Anthony Chua / Anthony Khong,97242015
+CUST00450,phone:97907217,database_a,phone,2020-07-14,Fong En Qi / Quah Gek Har,97907217,,phone:97907217,Fong En Qi / Quah Gek Har,97907217
+CUST00453,name:the day that hsa visited me,database_a,new,2020-07-15,The day that HSA visited me,,,,,
+CUST00454,phone:97460551,database_a,phone,2020-07-16,Ivy Cheng,97460551,,phone:97460551,Ivy Cheng,97460551
+CUST01272,phone:91185235,database_a,phone,,Jeremy Pang,91185235,,phone:91185235,Jeremy Pang,91185235
+CUST00363,phone:83390576,database_a,phone,2020-07-21,Bevan Chen,83390576,,phone:83390576,Bevan Chen,83390576
+CUST00278,phone:98441230,database_a,phone,2020-07-22,June Lim,98441230,,phone:98441230,June Lim,98441230
+CUST00135,phone:81986178,database_a,phone,2020-07-22,"Isaac Lau ""isaaclau1986""",81986178,,phone:81986178,"Isaac Lau ""isaaclau1986""",81986178
+CUST00457,phone:97598117,database_a,phone,2020-07-22,Goh Chew Teng,97598117,,phone:97598117,Goh Chew Teng,97598117
+CUST00351,phone:97335492,database_a,phone,2020-07-22,Chan Lai Ching,97335492,,phone:97335492,Chan Lai Ching,97335492
+CUST00458,phone:93398099,database_a,phone,2020-07-27,Sean Ng,93398099,,phone:93398099,Sean Ng,93398099
+CUST00462,phone:90467759,database_a,phone,2020-08-06,Moonnisa,90467759,,phone:90467759,Moonnisa,90467759
+CUST00460,phone:83387519,database_a,phone,2020-08-06,"KR Ng ""krngkat""",83387519,,phone:83387519,"KR Ng ""krngkat""",83387519
+CUST00461,phone:96289798,database_a,phone,2020-08-06,Lim Ee Wey,96289798,,phone:96289798,Lim Ee Wey,96289798
+CUST00463,phone:92226000,database_a,phone,2020-08-06,Richard Teng,92226000,,phone:92226000,Richard Teng,92226000
+CUST00459,phone:93894222,database_a,phone,2020-08-06,Carole Bless,93894222,,phone:93894222,Carole Bless,93894222
+CUST00471,phone:81774621,database_a,phone,2020-08-12,Victor,81774621,,phone:81774621,Victor,81774621
+CUST00470,phone:90417798,database_a,phone,2020-08-12,Susie,90417798,,phone:90417798,Susie,90417798
+CUST00466,phone:97212640,database_a,phone,2020-08-12,Marilyn Tai,97212640,,phone:97212640,Marilyn Tai,97212640
+CUST00468,phone:92223986,database_a,phone,2020-08-12,Mok Ku Kay,92223986,,phone:92223986,Mok Ku Kay,92223986
+CUST00468,phone:92223986,database_a,phone,2020-08-12,Mok Ku Kay,92223986,,phone:92223986,Mok Ku Kay,92223986
+CUST00469,phone:96164850,database_a,phone,2020-08-12,Sim Yee Kian,96164850,,phone:96164850,Sim Yee Kian,96164850
+CUST00464,phone:87146886,database_a,phone,2020-08-12,Doris Chia,87146886,,phone:87146886,Doris Chia,87146886
+CUST00465,phone:97875977,database_a,phone,2020-08-12,Karen Wong,97875977,,phone:97875977,Karen Wong,97875977
+CUST00467,phone:97351987,database_a,phone,2020-08-12,Minh Dang,97351987,,phone:97351987,Minh Dang,97351987
+CUST00462,phone:90467759,database_a,phone,,Moonnisa,90467759,,phone:90467759,Moonnisa,90467759
+CUST00462,phone:90467759,database_a,exact_name,,Moonnisa,,,phone:90467759,Moonnisa,90467759
+CUST00474,phone:97999084,database_a,phone,2020-08-14,Venson Lim,97999084,,phone:97999084,Venson Lim,97999084
+CUST00473,name:thomas tan,database_a,exact_name,2020-08-14,Thomas Tan,87178933,,name:thomas tan,Thomas Tan,
+CUST00472,phone:96336822,database_a,phone,2020-08-14,Jessie Lee,96336822,,phone:96336822,Jessie Lee,96336822
+CUST00436,phone:97508608,database_a,phone,2020-08-19,Vincent Yeong Kok Leng,97508608,,phone:97508608,Vincent Yeong Kok Leng,97508608
+CUST00270,phone:96887837,database_a,phone,2020-08-19,Pamela Tan,96887837,,phone:96887837,Pamela Tan,96887837
+CUST00475,phone:96441417,database_a,phone,2020-08-26,Chong Phow Loong,96441417,,phone:96441417,Chong Phow Loong,96441417
+CUST00476,phone:81396570,database_a,phone,2020-08-26,Philip Steggman,81396570,,phone:81396570,Philip Steggman,81396570
+CUST00187,phone:93865188,database_a,phone,2020-08-28,Matthew Ong,93865188,,phone:93865188,Matthew Ong,93865188
+CUST00477,phone:98298732,database_a,phone,2020-08-28,Rachel Chan,98298732,,phone:98298732,Rachel Chan,98298732
+CUST00478,phone:92985949,database_a,phone,2020-09-03,Jan Verdaasdonk,92985949,,phone:92985949,Jan Verdaasdonk,92985949
+CUST00285,phone:92274411,database_a,phone,2020-09-09,Sheilah Manalo,92274411,,phone:92274411,Sheilah Manalo,92274411
+CUST00060,phone:96897675,database_a,phone,2020-09-09,Khoo Yih Ming,96897675,,phone:96897675,Khoo Yih Ming,96897675
+CUST00187,phone:93865188,database_a,phone,2020-09-11,Matthew Ong,93865188,,phone:93865188,Matthew Ong,93865188
+CUST00369,phone:97656474,database_a,phone,2020-09-21,Gracia Chua,97656474,,phone:97656474,Gracia Chua,97656474
+CUST00480,phone:88554308,database_a,phone,2020-09-21,Eyin Tan,88554308,,phone:88554308,Eyin Tan,88554308
+CUST00482,phone:97330688,database_a,phone,2020-09-25,Sabrina,97330688,,phone:97330688,Sabrina,97330688
+CUST00481,phone:91266743,database_a,phone,2020-09-25,Jeffrey Tang Li Loon sliderx69,91266743,,phone:91266743,Jeffrey Tang Li Loon sliderx69,91266743
+CUST00164,phone:97977913,database_a,phone,2020-10-06,Seah Waih Khuen,97977913,,phone:97977913,Seah Waih Khuen,97977913
+CUST00483,phone:97970504,database_a,phone,2020-10-06,KOH BOON YONG,97970504,,phone:97970504,KOH BOON YONG,97970504
+CUST00484,phone:97704048,database_a,phone,2020-10-14,Wong Seow Ping,97704048,,phone:97704048,Wong Seow Ping,97704048
+CUST00488,phone:98296976,database_a,phone,2020-10-20,Rhys Goh,98296976,,phone:98296976,Rhys Goh,98296976
+CUST00485,phone:98320005,database_a,phone,2020-10-20,Jason Ong Rong Hua,98320005,,phone:98320005,Jason Ong Rong Hua,98320005
+CUST00486,phone:91183074,database_a,phone,2020-10-20,Lim Chee Kiang,91183074,,phone:91183074,Lim Chee Kiang,91183074
+CUST00370,phone:93667163,database_a,phone,2020-10-20,Michelle Choy,93667163,,phone:93667163,Michelle Choy Yoke Ling,93667163
+CUST00487,phone:82631578,database_a,phone,2020-10-20,Masuda Hiroyuki H,82631578,,phone:82631578,Masuda Hiroyuki H,82631578
+CUST00489,phone:91255537,database_a,phone,2020-10-28,Debbie,91255537,,phone:91255537,Debbie,91255537
+CUST00490,phone:98363354,database_a,phone,2020-11-11,Selvi Nair,98363354,,phone:98363354,Selvi Nair,98363354
+CUST00493,phone:72,database_a,phone,2020-11-17,Sean chew,72,,phone:72,Sean chew,72
+CUST00492,phone:90014006,database_a,phone,2020-11-17,Samuel Lee Kim Choong,90014006,,phone:90014006,Samuel Lee Kim Choon,90014006
+CUST00405,phone:97777210,database_a,phone,2020-11-17,Tan Qiuwen,97777210,,phone:97777210,"Tan Qiuwen, clovermai85",97777210
+CUST00187,phone:93865188,database_a,phone,2020-11-17,Matthew Ong,93865188,,phone:93865188,Matthew Ong,93865188
+CUST00494,phone:94896582,database_a,phone,2020-11-17,Zheng Zhibin,94896582,,phone:94896582,Zheng Zhibin,94896582
+CUST00491,phone:90675956,database_a,phone,2020-11-17,Alan Lau Hui Huat,90675956,,phone:90675956,Alan Lau Hui Huat,90675956
+CUST00495,phone:81114023,database_a,phone,2020-11-26,Charmaine Ong,81114023,,phone:81114023,Charmaine Ong,81114023
+CUST00496,phone:58,database_a,phone,2020-12-01,Yasmin Khan,58,,phone:58,Yasmin Khan,58
+CUST00392,phone:83991845,database_a,phone,2020-12-14,Jeffrey Tin Tun,83991845,,phone:83991845,Jeffrey Tin Tun,83991845
+CUST00262,phone:91819868,database_a,phone,2020-12-14,Christine Owyong,91819868,,phone:91819868,Christine Owyong,91819868
+CUST00170,phone:96640254,database_a,phone,2020-12-14,Jeffrey Chng,96640254,,phone:96640254,Jeffrey Chng,96640254
+CUST00394,phone:90912207,database_a,phone,2020-12-25,Alan Kong,90912207,,phone:90912207,Alan Kong zhi'en,90912207
+CUST00132,phone:98779669,database_a,phone,2020-12-28,Albert Zhen,98779669,,phone:98779669,"Albert Zhen Pei Hong ""alauz""",98779669
+CUST00500,phone:97519659,database_a,phone,2021-01-03,Valerine Koh,97519659,,phone:97519659,"Dylis Heng (Received by ""Valerine"")",97519659
+CUST00501,phone:94462907,database_a,phone,2021-01-03,Jonathan Ras,94462907,,phone:94462907,Jonathan Ras,94462907
+CUST00483,phone:97970504,database_a,phone,2021-01-03,Koh Boon Yong,97970504,,phone:97970504,KOH BOON YONG,97970504
+CUST00499,phone:53,database_a,phone,2021-01-03,Mary Tan,53,,phone:53,Christel He / chrlstel,53
+CUST00502,phone:87687324,database_a,phone,2021-01-06,Mario Arias,87687324,,phone:87687324,Mario Arias,87687324
+CUST01270,phone:91696669,database_a,phone,,Jenabelle (Ahgirl8888) Jing Yi Tai,91696669,,phone:91696669,Jenabelle (Ahgirl8888) Jing Yi Tai,91696669
+CUST00503,phone:92332085,database_a,phone,2021-01-12,Sim Aishah Mohammed / Mohd Jufri Salieh,92332085,,phone:92332085,Sim Aishah Mohammed / Mohd Jufri Salieh,92332085
+CUST00505,phone:97766826,database_a,phone,2021-01-20,Kee Yet Tang,97766826,,phone:97766826,Kee Yet Tang,97766826
+CUST00504,phone:86921234,database_a,phone,2021-01-20,Junhao,86921234,,phone:86921234,Junhao,86921234
+CUST00236,phone:98178361,database_a,phone,2021-01-20,Lim Renwei,98178361,,phone:98178361,Lim Renwei hapshopper86,98178361
+CUST00506,phone:92330524,database_a,phone,2021-01-20,Ramanan Kumarasamy,92330524,,phone:92330524,Ramanan Kumarasamy,92330524
+CUST01262,phone:97502543,database_a,phone,,Daniel Yeo,97502543,,phone:97502543,Daniel Yeo,97502543
+CUST00735,phone:97336563,database_a,phone,,Stewart Yong,97336563,,phone:97336563,Stewart Yong,97336563
+CUST00238,phone:90087726,database_a,phone,,Sam Soh,90087726,,phone:90087726,Sam Soh,90087726
+CUST00507,phone:96507573,database_a,phone,2021-02-09,Andrew Paton,96507573,,phone:96507573,Andrew Paton,96507573
+CUST00508,phone:98384015,database_a,phone,2021-02-17,Eugene Tham,98384015,,phone:98384015,Eugene Tham,98384015
+CUST00509,phone:97254560,database_a,phone,2021-02-21,David Seow,97254560,,phone:97254560,David Seow,97254560
+CUST00510,phone:94764374,database_a,phone,2021-02-21,Yohan Yap / Yap Yong Han,94764374,,phone:94764374,Yohan Yap / Yap Yong Han,94764374
+CUST00511,phone:88747358,database_a,phone,2021-02-24,Eugene Seah (Cousin),88747358,,phone:88747358,Eugene Seah (Cousin),88747358
+CUST00512,phone:85229769,database_a,phone,2021-02-26,Aloysius Tan (Elsie Tay) / Tan Choon Yong / Chen Junrong,85229769,,phone:85229769,Aloysius Tan (Elsie Tay) / Tan Choon Yong / Chen Junrong,85229769
+CUST00513,phone:98961982,database_a,phone,2021-02-26,"Sharon Thng ""jackson306""",98961982,,phone:98961982,"Sharon Thng ""jackson306""",98961982
+CUST00514,phone:91188261,database_a,phone,2021-03-06,Louis Tan,91188261,,phone:91188261,Louis Tan,91188261
+CUST00388,phone:96633903,database_a,phone,2021-03-06,Lu Kun Ti (Matthew Lu),96633903,,phone:96633903,Lu Kun Ti (Matthew Lu),96633903
+CUST00082,phone:98263235,database_a,phone,2021-03-06,Mark Graham,98263235,,phone:98263235,Mark Graham,98263235
+CUST00515,phone:94504130,database_a,phone,2021-03-07,Umar Bin Tahir (Ermac Ramzie),94504130,,phone:94504130,Umar Bin Tahir (Ermac Ramzie),94504130
+CUST00514,phone:91188261,database_a,phone,2021-03-08,Louis Tan,91188261,,phone:91188261,Louis Tan,91188261
+CUST00517,phone:93390992,database_a,phone,2021-03-28,David Ciam,93390992,,phone:93390992,David Ciam,93390992
+CUST00516,phone:92382404,database_a,phone,2021-03-28,Aaron Gomez,92382404,,phone:92382404,Aaron Gomez,92382404
+CUST00518,phone:91888211,database_a,phone,2021-03-28,Ricky Tan EK,91888211,,phone:91888211,Ricky Tan EK,91888211
+CUST00500,phone:97519659,database_a,phone,2021-03-28,"Dylis Heng (Received by ""Valerine"")",97519659,,phone:97519659,"Dylis Heng (Received by ""Valerine"")",97519659
+CUST00512,phone:85229769,database_a,phone,2021-04-16,Aloysius (Elsie Tay),85229769,,phone:85229769,Aloysius Tan (Elsie Tay) / Tan Choon Yong / Chen Junrong,85229769
+CUST00520,phone:90075553,database_a,phone,2021-04-24,Ivan Tan,90075553,,phone:90075553,Ivan Tan,90075553
+CUST00258,phone:93696512,database_a,phone,2021-04-26,Mus / Muhammad Mursyidi Bin Mohamed Raimi,93696512,,phone:93696512,"Muhammad Mursyidi Bin Mohamed Raimi ""Mus""",93696512
+CUST00521,name:vinod,database_a,exact_name,2021-04-29,Vinod,,,name:vinod,Vinod,
+CUST00150,phone:96945999,database_a,phone,,Chong Kam Tuck,96945999,,phone:96945999,Chong Kam Tuck,96945999
+CUST01261,phone:96893885,database_a,phone,,Chua KM,96893885,,phone:96893885,Chua KM,96893885
+CUST00522,phone:80,database_a,phone,2021-05-04,"M Goh ""Joesand97""",80,,phone:80,"M Goh ""Joesand97""",80
+CUST00390,phone:96971945,database_a,phone,2021-05-04,Tan Shao Yen,96971945,,phone:96971945,Tan Shao Yen,96971945
+CUST00524,phone:98728981,database_a,phone,2021-05-08,Samuel Tay Kai Yen,98728981,,phone:98728981,Samuel Tay Kai Yen,98728981
+CUST00523,phone:90622940,database_a,phone,2021-05-08,M Fazmie aziz,90622940,,phone:90622940,Fazmie Aziz,90622940
+CUST00042,phone:81009876,database_a,phone,2021-05-23,Hafidz,81009876,,phone:81009876,MUHAMMAD HAFIDZ BASRI (Zohra),81009876
+CUST00317,phone:96178675,database_a,phone,2021-05-28,Timothy Tan Ping Sin,96178675,,phone:96178675,Timothy Tan Ping Sin,96178675
+CUST00528,phone:90037168,database_a,phone,2021-05-28,Yeoh Pit Wee,90037168,,phone:90037168,Yeoh Pit Wee,90037168
+CUST00527,phone:84240866,database_a,phone,2021-05-28,Jessie Boo Hwee Peng,84240866,,phone:84240866,Jessie Boo Hwee Peng,84240866
+CUST00526,phone:94881119,database_a,phone,2021-05-28,Chong Hoi Ping,94881119,,phone:94881119,Chong Hoi Ping,94881119
+CUST00449,phone:97242015,database_a,phone,,Anthony Khong,97242015,,phone:97242015,Anthony Chua / Anthony Khong,97242015
+CUST01264,name:eric toh from edmund ng,database_a,exact_name,,Eric Toh (From Edmund Ng),,,name:eric toh from edmund ng,Eric Toh (From Edmund Ng),
+CUST00200,phone:93843919,database_a,phone,,Julian Low,93843919,,phone:93843919,Julian Low,93843919
+CUST00132,phone:98779669,database_a,phone,2021-06-08,"Albert Zhen ""alauz""",98779669,,phone:98779669,"Albert Zhen Pei Hong ""alauz""",98779669
+CUST00450,phone:97907217,database_a,phone,2021-06-08,"Rachel Quah Gek Har ""rachel_quah""",97907217,,phone:97907217,Fong En Qi / Quah Gek Har,97907217
+CUST00529,name:jason thong,database_a,exact_name,2021-06-10,Jason Thong,,,name:jason thong,Jason Thong,
+CUST00242,phone:96574045,database_a,phone,2021-06-10,Daniel Yeow,96574045,,phone:96574045,Daniel Yeow,96574045
+CUST00530,phone:93387812,database_a,phone,2021-06-14,Ezekiel Tan,93387812,,phone:93387812,Ezekiel Tan,93387812
+CUST00231,phone:92990200,database_a,phone,2021-06-18,Sai mageswaran,92990200,,phone:92990200,Sai Mageswaran,92990200
+CUST00525,phone:90615530,database_a,phone,2021-06-19,Matthew Low,90615530,,phone:90615530,Matthew Low,90615530
+CUST00312,phone:81984809,database_a,phone,2021-06-21,Vanessa Wee - hubby is the patient,81984809,,phone:81984809,Vanessa Wee Yu Piao,81984809
+CUST00492,phone:90014006,database_a,partial_name,2021-06-23,Samuel Lee,,,phone:90014006,Samuel Lee Kim Choon,90014006
+CUST00156,phone:96238558,database_a,phone,,Tang Wee Loke,96238558,,phone:96238558,Tang Wee Loke,96238558
+CUST00533,phone:96426773,database_a,phone,2021-07-07,"Elena omaoengl ""omaoengelenamatbagan""",96426773,,phone:96426773,"Elena omaoengl ""omaoengelenamatbagan""",96426773
+CUST00535,phone:96644994,database_a,phone,2021-07-07,Melissa / Valerine,96644994,,phone:96644994,Melissa / Valerine,96644994
+CUST00500,phone:97519659,database_a,phone,2021-07-07,"Valerine Koh (likely same as above Valerine) ""dylis85""",97519659,,phone:97519659,"Dylis Heng (Received by ""Valerine"")",97519659
+CUST00534,phone:82823390,database_a,phone,2021-07-07,Lam Keng Fei (Ninjavan likely lost this order),82823390,,phone:82823390,Keng Fei Lam,82823390
+CUST00536,phone:96483008,database_a,phone,2021-07-20,Amy (Dunearn Rd),96483008,,phone:96483008,Amy (Dunearn Rd),96483008
+CUST00505,phone:97766826,database_a,phone,2021-08-08,Kee Yet Tang,97766826,,phone:97766826,Kee Yet Tang,97766826
+CUST00270,phone:96887837,database_a,phone,2021-08-10,Pamela Tan,96887837,,phone:96887837,Pamela Tan,96887837
+CUST00482,phone:97330688,database_a,phone,2021-08-16,Sabrina,97330688,,phone:97330688,Sabrina,97330688
+CUST00537,phone:97836127,database_a,phone,2021-08-19,Jen,97836127,,phone:97836127,Jen / jenzoli,97836127
+CUST00538,phone:96553127,database_a,phone,2021-08-24,Justin Foo Shixiang,96553127,,phone:96553127,Justin Foo Shixiang,96553127
+CUST00539,phone:96355855,database_a,phone,2021-08-30,Andrew Tang Khai Wah,96355855,,phone:96355855,Andrew Tang Khai Wah,96355855
+CUST00540,phone:97868487,database_a,phone,2021-08-31,Chew Lee Huang,97868487,,phone:97868487,Chew Lee Huang,97868487
+CUST00541,phone:90228133,database_a,phone,2021-09-02,Janice Tay and Bernard Yeo,90228133,,phone:90228133,Janice Tay and Bernard Yeo,90228133
+CUST00542,phone:88780322,database_a,phone,2021-09-07,Thomas Tan,88780322,,phone:88780322,Thomas Tan,88780322
+CUST00543,phone:81574112,database_a,phone,2021-09-10,Goh Kim Chuan,81574112,,phone:81574112,Goh Kim Chuan,81574112
+CUST00534,phone:82823390,database_a,phone,2021-09-10,Keng Fei Lam,82823390,,phone:82823390,Keng Fei Lam,82823390
+CUST00544,phone:81571542,database_a,phone,2021-09-10,Joseph Tan,81571542,,phone:81571542,Joseph Tan dreamer021102,81571542
+CUST00545,phone:90180505,database_a,phone,2021-09-10,Teo Beng Hock,90180505,,phone:90180505,Teo Beng Hock,90180505
+CUST00547,phone:91193580,database_a,phone,2021-09-13,Faisal Arshad,91193580,,phone:91193580,Faisal Arshad,91193580
+CUST00546,phone:96257778,database_a,phone,2021-09-13,Christopher Hoe,96257778,,phone:96257778,Christopher Hoe,96257778
+CUST00341,phone:96365139,database_a,phone,2021-09-22,Joanne Lam,96365139,,phone:96365139,Joanne Lam Poh Khim,96365139
+CUST00167,phone:98199243,database_a,phone,2021-09-23,Susanne Nam / Susanne Ng,98199243,,phone:98199243,Susanne Nam,98199243
+CUST00549,phone:91148727,database_a,phone,2021-09-25,Jeremy Wee Hong Boon,91148727,,phone:91148727,Jeremy Wee Hong Boon,91148727
+CUST00550,phone:97363388,database_a,phone,2021-10-07,Shivananth Durai,97363388,,phone:97363388,Shivananth Durai,97363388
+CUST00552,phone:98774259,database_a,phone,2021-10-11,Amy Lim amylim66,98774259,,phone:98774259,Amy Lim,98774259
+CUST00551,phone:97513313,database_a,phone,2021-10-11,Allan Allanross123,97513313,,phone:97513313,Allan Allanross123,97513313
+CUST00553,phone:90624646,database_a,phone,2021-10-12,SC Sng,90624646,,phone:90624646,SC Sng,90624646
+CUST00132,phone:98779669,database_a,phone,2021-10-17,Albert Zhen,98779669,,phone:98779669,"Albert Zhen Pei Hong ""alauz""",98779669
+CUST00557,phone:96305724,database_a,phone,2021-10-28,Mathis Lai,96305724,,phone:96305724,Mathis Lai,96305724
+CUST00556,phone:91811621,database_a,phone,2021-10-28,Benjamin Wong,91811621,,phone:91811621,Benjamin Wong,91811621
+CUST00195,phone:91068875,database_a,phone,2021-11-02,"Chuah Chong Kien ""chongkiehchuah""",91068875,,phone:91068875,"Chuah Chong Kien ""chongkiehchuah""",91068875
+CUST00513,phone:98961982,database_a,phone,2021-11-02,"Sharon Thng ""jackson306""",98961982,,phone:98961982,"Sharon Thng ""jackson306""",98961982
+CUST00558,phone:98531664,database_a,exact_name,2021-11-08,"Jason Teo, possibly Jason Teo Wee Kwok",,,phone:98531664,"Jason Teo, possibly Jason Teo Wee Kwok",98531664
+CUST00559,phone:90187270,database_a,phone,2021-11-09,Bryan Lee,90187270,,phone:90187270,Bryan Lee,90187270
+CUST00164,phone:97977913,database_a,phone,2021-11-12,Seah Waih Khuen,97977913,,phone:97977913,Seah Waih Khuen,97977913
+CUST00560,phone:94873127,database_a,phone,2021-11-16,Px Miloxmilo,94873127,,phone:94873127,Px milomilo,94873127
+CUST00561,phone:91891084,database_a,phone,2021-11-17,Sam Ho,91891084,,phone:91891084,Sam Ho,91891084
+CUST00562,phone:97699840,database_a,phone,2021-11-30,"Vincent Lum ""voldemorture""",97699840,,phone:97699840,"Vincent Lum ""voldemorture""",97699840
+CUST00563,phone:81316735,database_a,phone,2021-12-10,kelvin kho,81316735,,phone:81316735,kelvin kho,81316735
+CUST00564,phone:98425255,database_a,phone,2021-12-28,Richard,98425255,,phone:98425255,Richard,98425255
+CUST00565,phone:96339641,database_a,phone,2022-01-04,HK Lee,96339641,,phone:96339641,HK Lee,96339641
+CUST00328,phone:96663113,database_a,phone,2022-01-04,Alex Haw,96663113,,phone:96663113,Alex Haw,96663113
+CUST00401,phone:91726995,database_a,phone,2022-01-05,Shuan Peh,91726995,,phone:91726995,Peh Shuan Shuan / Shuan Georgeous_peh,91726995
+CUST00328,phone:96663113,database_a,phone,2022-01-06,Alex Haw,96663113,,phone:96663113,Alex Haw,96663113
+CUST00199,phone:92977407,database_a,phone,2022-01-09,Bala subramaniam,92977407,,phone:92977407,Bala Subramaniam,92977407
+CUST00567,phone:98452338,database_a,phone,2022-01-24,Wee Chong Lin,98452338,,phone:98452338,Wee Chong Lin,98452338
+CUST00132,phone:98779669,database_a,phone,2022-02-01,Albert Zhen,98779669,,phone:98779669,"Albert Zhen Pei Hong ""alauz""",98779669
+CUST00167,phone:98199243,database_a,phone,2022-02-01,Susanne Nam,98199243,,phone:98199243,Susanne Nam,98199243
+CUST00512,phone:85229769,database_a,exact_name,2022-02-01,Aloysius (Elsie Tay),,,phone:85229769,Aloysius (Elsie Tay),85229769
+CUST00295,phone:98412968,database_a,phone,2022-02-01,Bob Goh,98412968,,phone:98412968,Bob Goh,98412968
+CUST00363,phone:83390576,database_a,phone,2022-02-01,Bevan Chen,83390576,,phone:83390576,Bevan Chen,83390576
+CUST00568,phone:91443391,database_a,phone,2022-02-12,Christina Au,91443391,,phone:91443391,Christina Au,91443391
+CUST00569,name:edmund,database_a,exact_name,2022-02-12,Edmund,,,name:edmund,Edmund,
+CUST00236,phone:98178361,database_a,phone,2022-02-20,Lim Renwei hapshopper86,98178361,,phone:98178361,Lim Renwei hapshopper86,98178361
+CUST00570,phone:81533337,database_a,phone,2022-03-06,Morgan cao,81533337,,phone:81533337,Morgan cao,81533337
+CUST00464,phone:87146886,database_a,phone,2022-03-17,Doris Chia dc233,87146886,,phone:87146886,Doris Chia,87146886
+CUST00571,phone:81863071,database_a,phone,2022-03-22,Junyou Boo royboo,81863071,,phone:81863071,Junyou Boo royboo,81863071
+CUST00519,phone:90618029,database_a,phone,2022-04-10,Rex Xu,90618029,,phone:90618029,Rex Xu,90618029
+CUST00134,phone:98808694,database_a,phone,2022-04-18,Gabriel Patrick Gabzacpat,98808694,,phone:98808694,Gabriel Patrick Gabzacpat,98808694
+CUST00403,phone:96689073,database_a,phone,2022-05-04,Jay Sng,96689073,,phone:96689073,Jay Sng yuan zhi,96689073
+CUST00572,phone:98360302,database_a,phone,2022-04-29,Linn Tang Lai Lai,98360302,,phone:98360302,Linn Tang Lai Lai,98360302
+CUST00200,phone:93843919,database_a,phone,2022-05-10,Julian Low,93843919,,phone:93843919,Julian Low,93843919
+CUST00573,phone:97754423,database_a,phone,2022-05-10,Linda Chen,97754423,,phone:97754423,Linda Chen,97754423
+CUST00567,phone:98452338,database_a,phone,,Wee Chong Lin,98452338,,phone:98452338,Wee Chong Lin,98452338
+CUST01212,phone:90385277,database_a,partial_name,,Julian,,,phone:90385277,Alan Julian Jiang,90385277
+CUST00058,phone:86986979,database_a,phone,,Izhar,86986979,,phone:86986979,Izhar Rahman,86986979
+CUST00525,phone:90615530,database_a,phone,2022-06-19,Matthew Low,90615530,,phone:90615530,Matthew Low,90615530
+CUST00545,phone:90180505,database_a,phone,2022-06-20,Teo Beng Hock,90180505,,phone:90180505,Teo Beng Hock,90180505
+CUST00200,phone:93843919,database_a,phone,2022-06-23,Julian Low,93843919,,phone:93843919,Julian Low,93843919
+CUST00512,phone:85229769,database_a,phone,2022-07-04,Aloysius (Elsie Tay),85229769,,phone:85229769,Aloysius Tan (Elsie Tay) / Tan Choon Yong / Chen Junrong,85229769
+CUST00156,phone:96238558,database_a,phone,2022-07-17,Tang Wee Loke,96238558,,phone:96238558,Tang Wee Loke,96238558
+CUST00108,phone:81803302,database_a,phone,2022-07-08,Isa bin Abdul Rahman,81803302,,phone:81803302,Isa bin Abdul Rahman,81803302
+CUST00548,phone:96877061,database_a,phone,2022-07-16,Chua Chiew Ling,96877061,,phone:96877061,Chua Chiew Ling,96877061
+CUST00135,phone:81986178,database_a,phone,2022-07-17,Isaac Lau,81986178,,phone:81986178,"Isaac Lau ""isaaclau1986""",81986178
+CUST00134,phone:98808694,database_a,phone,2022-08-02,Gabriel Patrick Gabzacpat,98808694,,phone:98808694,Gabriel Patrick Gabzacpat,98808694
+CUST00019,phone:98151968,database_a,phone,2022-08-02,Vanessa Vanie Teo,98151968,,phone:98151968,"Vanessa ""Vanie"" Teo",98151968
+CUST00031,phone:97979705,database_a,phone,2022-08-02,James Mummumtumtum,97979705,,phone:97979705,James mummumtumtum,97979705
+CUST00576,phone:99,database_a,phone,2022-08-04,Sean Ng,99,,phone:99,"Sally Yong, mayken9199",99
+CUST00027,phone:90217979,database_a,phone,2022-08-09,Andrew Chua (Uncle Andrew),90217979,,phone:90217979,Andrew Chua Eng Bung,90217979
+CUST00017,phone:88689798,database_a,phone,2022-08-30,Mankit (Edmund's friend); Paynow name is Alden,88689798,,phone:88689798,Mankit,88689798
+CUST01258,phone:98473257,database_a,phone,,Avi TBC Dreamwisp,98473257,,phone:98473257,Avi TBC Dreamwisp,98473257
+CUST00578,phone:98115271,database_a,partial_name,2022-09-17,Michelle,,,phone:98115271,"Jatinderpal ""Jacky"" Singh c/o Dela Cruz Michelle Armeza",98115271
+CUST00579,phone:80113812,database_a,phone,2022-09-29,Rosie koh (Gideon Chew),80113812,,phone:80113812,Rosie koh,80113812
+CUST00580,phone:03,database_a,phone,2022-10-14,"Brenda Nicole Tan, brendalogy",03,,phone:03,"Brenda Nicole Tan, brendalogy",03
+CUST01290,name:started offering customers instant 2sgd cashback if they whatsapp me,database_a,new,,Started offering customers instant 2SGD cashback if they whatsapp me,,,,,
+CUST00581,phone:46,database_a,phone,2022-10-18,Matthew Koh,46,,phone:46,Matthew Koh,46
+CUST00167,phone:98199243,database_a,phone,2022-10-19,Susanne Nam,98199243,,phone:98199243,Susanne Nam,98199243
+CUST00217,phone:92225596,database_a,phone,2022-10-27,Isaiah Peh,92225596,,phone:92225596,Isaiah Peh,92225596
+CUST00582,phone:51,database_a,phone,2022-10-31,"""Farmer104"" LH Yap",51,,phone:51,"""Farmer104"" LH Yap",51
+CUST00584,phone:93,database_a,phone,2022-11-09,"alice_lau.981, M******u",93,,phone:93,"alice_lau.981, M******u",93
+CUST00416,phone:91442965,database_a,phone,2022-11-13,Tristan Quek,91442965,,phone:91442965,Tristan Quek,91442965
+CUST00279,phone:97506483,database_a,phone,2022-11-22,Leonard Leow,97506483,,phone:97506483,"Leonard Leow ""ed0812"" ""bluecondor""",97506483
+CUST00198,phone:92975236,database_a,phone,2022-11-29,Kyan Yang,92975236,,phone:92975236,Kyan Yang Kuangji,92975236
+CUST00587,phone:81125687,database_a,phone,2022-12-06,"Darren Lee, son of Johnny Lee",81125687,,phone:81125687,Darren Christopher Lee,81125687
+CUST00588,phone:82280122,database_a,phone,2022-12-08,"Chong ching ching, for brother, Peter Chong",82280122,,phone:82280122,"Chong ching ching, for brother, Peter Chong",82280122
+CUST00165,phone:92977472,database_a,phone,2022-12-08,Sean Chew,92977472,,phone:92977472,Sean Chew,92977472
+CUST00531,phone:90258842,database_a,phone,2022-12-12,Low Kok Guan,90258842,,phone:90258842,Low Kok Guan,90258842
+CUST00589,name:qianying,database_a,exact_name,2022-12-20,Qianying,,,name:qianying,Qianying,
+CUST00519,phone:90618029,database_a,phone,2022-12-26,Rex Xu,90618029,,phone:90618029,Rex Xu,90618029
+CUST00203,phone:94562578,database_a,phone,2022-12-26,Mitch Ong,94562578,,phone:94562578,Mitch Ong,94562578
+CUST00205,phone:98890502,database_a,phone,2022-12-28,Cheo Ming Xiang,98890502,,phone:98890502,Cheo Ming Xiang,98890502
+CUST00433,phone:96891296,database_a,phone,2022-12-28,Jerry Tay,96891296,,phone:96891296,Jerry Tay CHWOON YANG (ZHENG JUNYANG),96891296
+CUST00591,phone:92394047,database_a,phone,2023-01-02,Zohra Sulaiman for husband Hafidz and brother unnamed,92394047,,phone:92394047,Zohra Sulaiman for husband Hafidz and brother unnamed,92394047
+CUST00396,phone:94512817,database_a,phone,2023-01-02,Bryan Yeo,94512817,,phone:94512817,Bryan Yeo Si Jie,94512817
+CUST00592,phone:98999908,database_a,phone,2023-01-03,Mohamed Zakaria,98999908,,phone:98999908,Mohamed Zakaria,98999908
+CUST00593,phone:98333667,database_a,phone,2023-01-04,"""KR"" Leong Keng Ng",98333667,,phone:98333667,"""KR"" Leong Keng Ng",98333667
+CUST00530,phone:93387812,database_a,phone,2023-01-05,Ezekiel Tan,93387812,,phone:93387812,Ezekiel Tan,93387812
+CUST00594,phone:91913636,database_a,phone,2023-01-08,Jaclyn Cheng Ruizhen for husband,91913636,,phone:91913636,Jaclyn Cheng Ruizhen for husband,91913636
+CUST00007,phone:96180941,database_a,phone,2023-01-10,Louis Poh,96180941,,phone:96180941,Louis Poh,96180941
+CUST00522,phone:80,database_a,phone,2023-01-12,"Mr Ong, username 7t48ezm9y7",80,,phone:80,"M Goh ""Joesand97""",80
+CUST00595,phone:90660560,database_a,phone,2023-01-12,Md Fadli,90660560,,phone:90660560,Md Fadli,90660560
+CUST00597,phone:90383276,database_a,phone,2023-01-15,Syanti Dewi for Jonas Dewi through Elisabeth Listiyani,90383276,,phone:90383276,"Elisabeth Listiyani, contact of Syanti Dewi and Jonas Dewi",90383276
+CUST01291,phone:6281808888778,database_a,phone,,Syanti D Mulia,6281808888778,,phone:6281808888778,Syanti Dewi Mulia,6281808888778
+CUST00512,phone:85229769,database_a,phone,2023-01-15,Aloysius (Elsie Tay),85229769,,phone:85229769,Aloysius Tan (Elsie Tay) / Tan Choon Yong / Chen Junrong,85229769
+CUST00373,phone:98468450,database_a,phone,2023-01-16,Lee Hwee Ching,98468450,,phone:98468450,Lee Hwee Ching,98468450
+CUST00598,phone:97101290,database_a,phone,2023-01-17,Peggy Chia Peck Kit (Friend of Samuel Lee Kim Choong),97101290,,phone:97101290,Peggy Chia,97101290
+CUST00550,phone:97363388,database_a,phone,2023-01-24,Shivananth Durai,97363388,,phone:97363388,Shivananth Durai,97363388
+CUST00341,phone:96365139,database_a,phone,2023-01-27,Joanne Lam,96365139,,phone:96365139,Joanne Lam Poh Khim,96365139
+CUST00601,phone:97850339,database_a,phone,2023-01-30,Codey Tan,97850339,,phone:97850339,Codey Tan,97850339
+CUST00603,name:emily yeo,database_a,exact_name,2023-02-02,Emily Yeo,,,name:emily yeo,Emily Yeo,
+CUST00604,phone:90112184,database_a,phone,2023-02-02,Gim Hwa Ong,90112184,,phone:90112184,Gim Hwa Ong,90112184
+CUST00605,phone:96932424,database_a,phone,2023-02-03,Cindy chow / Cindy Lim Eng See,96932424,,phone:96932424,Cindy chow / Cindy Lim Eng See,96932424
+CUST00606,phone:91994916,database_a,phone,2023-02-04,Chua Heng Soon,91994916,,phone:91994916,Chua Heng Soon,91994916
+CUST00607,phone:98394814,database_a,phone,2023-02-08,Worldvmc Singapore / Vishnu Bhalotia,98394814,,phone:98394814,Worldvmc Singapore / Vishnu Bhalotia,98394814
+CUST00061,phone:94239832,database_a,phone,2023-02-09,Chia Yue Sheng,94239832,,phone:94239832,Chia Yue Sheng,94239832
+CUST00609,phone:98311331,database_a,phone,2023-02-11,William Tan / Jessica Chua,98311331,,phone:98311331,"William Tan ""onggseng""",98311331
+CUST00608,phone:50,database_a,phone,2023-02-11,"Kelly Gelvezon, Happyangster",50,,phone:50,"Kelly Gelvezon, Happyangster",50
+CUST00610,phone:93715356,database_a,phone,2023-02-13,Jerome Lachica,93715356,,phone:93715356,Jerome Lachica,93715356
+CUST00600,phone:91065173,database_a,phone,2023-02-13,Kenneth Liew,91065173,,phone:91065173,Kenneth Liew,91065173
+CUST00611,phone:90,database_a,phone,2023-02-14,"Indawan Hatta, wayno999",90,,phone:90,Colin Teo colinteopc,90
+CUST00061,phone:94239832,database_a,phone,2023-02-15,Chia Yue Sheng,94239832,,phone:94239832,Chia Yue Sheng,94239832
+CUST00323,phone:91552715,database_a,phone,2023-02-15,Jiehao Huang,91552715,,phone:91552715,Huang Jiehao,91552715
+CUST00614,phone:91448417,database_a,phone,2023-02-16,Leslie Joseph William,91448417,,phone:91448417,Leslie Joseph William,91448417
+CUST00613,phone:96632583,database_a,phone,2023-02-16,Alexander Goh,96632583,,phone:96632583,Alexander Goh,96632583
+CUST00558,phone:98531664,database_a,phone,2023-02-18,Jason Teo Wee Kwok,98531664,,phone:98531664,Jason Teo Wee Kwok,98531664
+CUST00615,phone:91193590,database_a,phone,2023-02-18,"Celina Tan, YPlus Sanctuary Pte Ltd",91193590,,phone:91193590,"Celina Tan, YPlus Sanctuary Pte Ltd",91193590
+CUST00616,phone:86848771,database_a,phone,2023-02-18,Patrick Pow,86848771,,phone:86848771,Patrick Pow,86848771
+CUST00617,phone:97965319,database_a,phone,2023-02-23,Thomas Goh,97965319,,phone:97965319,Thomas Goh,97965319
+CUST00618,phone:97696979,database_a,phone,2023-02-24,"Lim Tuck Fang, bloque1",97696979,,phone:97696979,"Lim Tuck Fang, bloque1",97696979
+CUST00619,phone:97549973,database_a,phone,2023-03-03,Chia Ee Ann,97549973,,phone:97549973,Chia Ee Ann,97549973
+CUST00010,phone:91681568,database_a,phone,2023-03-03,Shyam Kumar,91681568,,phone:91681568,Shyam Kumar,91681568
+CUST00405,phone:97777210,database_a,phone,2023-03-06,"Tan Qiuwen, clovermai85",97777210,,phone:97777210,"Tan Qiuwen, clovermai85",97777210
+CUST00620,phone:94506738,database_a,phone,2023-03-06,"Quek Chik Nan, CN Quek",94506738,,phone:94506738,"Quek Chik Nan, CN Quek",94506738
+CUST00599,phone:96972278,database_a,phone,2023-03-06,Jazz Li,96972278,,phone:96972278,Jazz Li,96972278
+CUST00594,phone:91913636,database_a,phone,,Jaclyn Cheng Ruizhen Julesthespitz for husband,91913636,,phone:91913636,Jaclyn Cheng Ruizhen for husband,91913636
+CUST00525,phone:90615530,database_a,phone,2023-03-08,Matthew Low,90615530,,phone:90615530,Matthew Low,90615530
+CUST00545,phone:90180505,database_a,phone,2023-03-10,Teo Beng Hock,90180505,,phone:90180505,Teo Beng Hock,90180505
+CUST01218,phone:96893528,database_a,phone,,Steven Lee,96893528,,phone:96893528,Steven lee chai hee,96893528
+CUST00456,phone:81814222,database_a,phone,2023-03-11,Hafiz (Ummi husband),81814222,,phone:81814222,Hafiz (Ummi husband),81814222
+CUST00624,phone:82880102,database_a,phone,2023-03-13,Wong Woon Liong,82880102,,phone:82880102,Wong Woon Liong,82880102
+CUST00004,phone:34605288915,database_a,phone,2023-03-20,Lionel Zupancich C/O Alex,34605288915,,phone:34605288915,Lionel Zupancich,34605288915
+CUST00205,phone:98890502,database_a,phone,2023-03-20,Cheo Ming Xiang,98890502,,phone:98890502,Cheo Ming Xiang,98890502
+CUST00598,phone:97101290,database_a,phone,2023-03-20,Peggy Chia Peck Kit (Friend of Samuel Lee Kim Choong),97101290,,phone:97101290,Peggy Chia,97101290
+CUST00629,phone:19,database_a,phone,2023-03-26,Stevecc / S***e,19,,phone:19,Stevecc / S***e,19
+CUST00621,phone:85778156,database_a,phone,,Chee Wei Jie,85778156,,phone:85778156,Chee Wei Jie,85778156
+CUST00630,phone:98183088,database_a,phone,2023-03-27,Agnes Lee,98183088,,phone:98183088,Agnes Lee,98183088
+CUST00606,phone:91994916,database_a,phone,2023-03-27,Chua Heng soon,91994916,,phone:91994916,Chua Heng Soon,91994916
+CUST00631,phone:93655755,database_a,phone,2023-03-28,Edwin Lim (Bro Nick's friend),93655755,,phone:93655755,Edwin Lim,93655755
+CUST00632,phone:92339252,database_a,phone,2023-04-01,Albert Alam,92339252,,phone:92339252,Albert Alam,92339252
+CUST00633,phone:32,database_a,phone,2023-04-02,Michael Chang / michael57chang,32,,phone:32,Michael Chang / michael57chang,32
+CUST00635,phone:98797789,database_a,phone,2023-04-04,Kelvin Boey / Boeysmk,98797789,,phone:98797789,Kelvin Boey / Boeysmk,98797789
+CUST00170,phone:96640254,database_a,phone,2023-04-04,Jeffrey Chng,96640254,,phone:96640254,Jeffrey Chng,96640254
+CUST00634,phone:92379089,database_a,phone,2023-04-04,Jann Aung,92379089,,phone:92379089,Jann Aung,92379089
+CUST00636,phone:98153012,database_a,phone,2023-04-05,Tan Kheam Hock,98153012,,phone:98153012,Derek Tan,98153012
+CUST00499,phone:53,database_a,phone,2023-04-11,Christel He / chrlstel,53,,phone:53,Christel He / chrlstel,53
+CUST00639,phone:87962897,database_a,phone,2023-04-11,Dedy Setiawan,87962897,,phone:87962897,"Dedy Setiawan ""nesshiee""",87962897
+CUST00640,phone:91760226,database_a,phone,2023-04-11,Sidarth Goenka,91760226,,phone:91760226,Sidarth Goenka,91760226
+CUST00642,phone:98199033,database_a,phone,2023-04-13,Luke Tan Soo Lid,98199033,,phone:98199033,Luke Tan Soo Lid,98199033
+CUST00287,phone:96843650,database_a,phone,2023-04-13,Chua Soo Yong,96843650,,phone:96843650,Chua Soo Yong,96843650
+CUST00537,phone:97836127,database_a,exact_name,2023-04-14,Jen / jenzoli,,,phone:97836127,Jen / jenzoli,97836127
+CUST00645,phone:75,database_a,phone,2023-04-17,Hsin,75,,phone:75,Hsin,75
+CUST00644,phone:97622203,database_a,phone,2023-04-17,Alvin Lee,97622203,,phone:97622203,Alvin Lee,97622203
+CUST00623,phone:96726711,database_a,phone,2023-04-18,Lee weng chee,96726711,,phone:96726711,Lee Weng Chee,96726711
+CUST00648,phone:81804882,database_a,phone,2023-04-22,Davuth for Ms Sophie / Billing Address is Chloe / reverse name lookup surfaces Winnie Sim,81804882,,phone:81804882,Davuth for Ms Sophie / Billing Address is Chloe / reverse name lookup surfaces Winnie Sim,81804882
+CUST01259,phone:97234397,database_a,phone,,Chloe,97234397,,phone:97234397,Chloe,97234397
+CUST00650,phone:97478241,database_a,phone,2023-04-24,Patsy Sng Seok Har,97478241,,phone:97478241,Patsy Sng Seok Har,97478241
+CUST00267,phone:96602996,database_a,phone,2023-04-24,"Melvin Tan ""Nivlem Nat""",96602996,,phone:96602996,"Melvin Tan ""Nivlem Nat""",96602996
+CUST00649,phone:90086484,database_a,phone,2023-04-24,Bernard Low,90086484,,phone:90086484,Bernard Low,90086484
+CUST00515,phone:94504130,database_a,phone,2023-04-25,Umar / Ermac Ramzie,94504130,,phone:94504130,Umar Bin Tahir (Ermac Ramzie),94504130
+CUST00652,phone:82688380,database_a,phone,2023-04-25,Timothy Lam Tsz Ki,82688380,,phone:82688380,Timothy Lam Tsz,82688380
+CUST00651,phone:81258464,database_a,phone,2023-04-25,Loi Kwok Liang Steven / Kwok Liang Loi,81258464,,phone:81258464,Loi Kwok Liang Steven / Kwok Liang Loi,81258464
+CUST00612,phone:89000089,database_a,phone,2023-04-27,Jack Tan Heng Jek,89000089,,phone:89000089,Jack Tan Heng Jek,89000089
+CUST00654,phone:92783070,database_a,phone,2023-04-29,Terence Kuan,92783070,,phone:92783070,Terence Kuan,92783070
+CUST00653,phone:96390280,database_a,phone,2023-04-29,Benedict Loh,96390280,,phone:96390280,Benedict Loh,96390280
+CUST00370,phone:93667163,database_a,phone,2023-05-02,Michelle Choy Yoke Ling,93667163,,phone:93667163,Michelle Choy Yoke Ling,93667163
+CUST00655,name:jayanth narasimha,database_a,exact_name,2023-05-02,Jayanth Narasimha,,,name:jayanth narasimha,Jayanth Narasimha,
+CUST00656,phone:91508734,database_a,phone,2023-05-02,Ong Wei Jian,91508734,,phone:91508734,Ong Wei Jian,91508734
+CUST00657,phone:96771650,database_a,phone,2023-05-03,Simon Pang,96771650,,phone:96771650,Simon Pang,96771650
+CUST00312,phone:81984809,database_a,phone,2023-05-04,Vanessa Wee Yu Piao - hubby is the patient,81984809,,phone:81984809,Vanessa Wee Yu Piao,81984809
+CUST00419,phone:92381075,database_a,phone,2023-05-05,Gerard Don Sanjay,92381075,,phone:92381075,Gerard Don Sanjay,92381075
+CUST00659,phone:98169660,database_a,phone,2023-05-05,"Kong Sai Hong, saihong78",98169660,,phone:98169660,"Kong Sai Hong, saihong78",98169660
+CUST00015,phone:93876532,database_a,phone,2023-05-05,Edmund Ng,93876532,,phone:93876532,Edmund Ng,93876532
+CUST00660,phone:93468672,database_a,phone,2023-05-08,Chia Nan chern,93468672,,phone:93468672,Chia Nan chern,93468672
+CUST00262,phone:91819868,database_a,phone,2023-05-09,"Christine Owyong, owywl",91819868,,phone:91819868,Christine Owyong,91819868
+CUST00266,phone:90099068,database_a,phone,2023-05-09,Boo Jing You,90099068,,phone:90099068,Boo Jing You,90099068
+CUST00664,phone:83225001,database_a,phone,2023-05-12,Nadesha Prabhu Krishnamurthy,83225001,,phone:83225001,Nadesha Prabhu Krishnamurthy,83225001
+CUST00064,phone:96205566,database_a,phone,2023-05-15,Margaret Lee,96205566,,phone:96205566,Margaret Lee,96205566
+CUST00665,phone:91783855,database_a,phone,2023-05-15,Vincent R Salvador c/o Alice Chu,91783855,,phone:91783855,Vincent R Salvador c/o Alice Chu,91783855
+CUST00492,phone:90014006,database_a,phone,2023-05-15,Samuel Lee Kim Choong,90014006,,phone:90014006,Samuel Lee Kim Choon,90014006
+CUST00667,phone:98387918,database_a,phone,2023-05-16,Jessica Ong Siew Chin,98387918,,phone:98387918,Jessica Ong Siew Chin,98387918
+CUST00670,phone:69,database_a,phone,2023-05-19,Katherine Khoo / khookath,69,,phone:69,Katherine Khoo / khookath,69
+CUST00672,phone:86885175,database_a,phone,2023-05-19,Memena Lee,86885175,,phone:86885175,"Memena ""May"" Lee",86885175
+CUST00669,phone:81888919,database_a,phone,2023-05-19,Engkeat Tan,81888919,,phone:81888919,Engkeat Tan,81888919
+CUST00671,phone:97365455,database_a,phone,2023-05-19,Lee Keng Eng,97365455,,phone:97365455,Lee Keng Eng,97365455
+CUST00675,phone:55,database_a,phone,2023-05-21,Wylie Chan / wyliechan,55,,phone:55,Wylie Chan / wyliechan,55
+CUST00674,phone:84998398,database_a,phone,2023-05-21,Lim Shi Yun,84998398,,phone:84998398,Lim Shi Yun,84998398
+CUST00676,phone:92229948,database_a,phone,2023-05-22,Daniel low thiam siang,92229948,,phone:92229948,Daniel Low Thiam Siang,92229948
+CUST00515,phone:94504130,database_a,phone,2023-05-22,Umar / Ermac Ramzie,94504130,,phone:94504130,Umar Bin Tahir (Ermac Ramzie),94504130
+CUST00677,name:evelyn tey etey9667,database_a,exact_name,2023-05-22,Evelyn Tey / etey9667,,,name:evelyn tey etey9667,Evelyn Tey / etey9667,
+CUST00678,phone:93886667,database_a,phone,2023-05-23,Goh Hock Ban,93886667,,phone:93886667,Goh Hock Ban,93886667
+CUST00679,phone:91071433,database_a,phone,2023-05-26,Chan Sing Yee,91071433,,phone:91071433,Chan Sing Yee,91071433
+CUST00681,phone:91115382,database_a,phone,2023-05-28,Hu Jiesheng,91115382,,phone:91115382,Hu Jiesheng,91115382
+CUST00166,phone:96543127,database_a,phone,2023-05-28,Zheng Qingfeng,96543127,,phone:96543127,Zheng Qingfeng,96543127
+CUST00398,phone:97594676,database_a,phone,2023-05-28,Melvin Wong,97594676,,phone:97594676,Melvin Wong,97594676
+CUST00683,phone:98587860,database_a,phone,2023-05-30,Zhuo Guowei,98587860,,phone:98587860,Zhuo Guowei,98587860
+CUST00682,phone:93699126,database_a,phone,2023-05-30,Chen Ryung Leo,93699126,,phone:93699126,Chen Ryung Leo,93699126
+CUST01286,phone:96309856,database_a,phone,,Blank,96309856,,phone:96309856,Nurliana,96309856
+CUST00287,phone:96843650,database_a,phone,2023-06-04,Chua Soo Yong,96843650,,phone:96843650,Chua Soo Yong,96843650
+CUST00686,phone:91888535,database_a,phone,2023-06-04,Emma Mulholland,91888535,,phone:91888535,Emma Mulholland,91888535
+CUST00687,phone:98526095,database_a,phone,2023-06-05,Fabian Tay / jude4321,98526095,,phone:98526095,Fabian Tay / jude4321,98526095
+CUST00680,phone:87257404,database_a,phone,2023-06-05,Daryl Duane Van Hale,87257404,,phone:87257404,Daryl Duane Van Hale,87257404
+CUST00003,phone:98219377,database_a,phone,2023-06-05,"Aaron Chen, free gift",98219377,,phone:98219377,Aaron Chen,98219377
+CUST00689,phone:90685915,database_a,phone,2023-06-06,Poon Sheng Hui,90685915,,phone:90685915,Poon Sheng Hui,90685915
+CUST01279,phone:82620435,database_a,phone,,Kenneth Cordero,82620435,,phone:82620435,Kenneth Cordero,82620435
+CUST00619,phone:97549973,database_a,phone,2023-06-06,Chia Ee Ann,97549973,,phone:97549973,Chia Ee Ann,97549973
+CUST00551,phone:97513313,database_a,exact_name,2023-06-08,Allan Allanross123,13,,phone:97513313,Allan Allanross123,97513313
+CUST00691,phone:90046307,database_a,phone,2023-06-09,Elijah Goh,90046307,,phone:90046307,Elijah Goh,90046307
+CUST00015,phone:93876532,database_a,phone,2023-06-12,Edmund Ng,93876532,,phone:93876532,Edmund Ng,93876532
+CUST00512,phone:85229769,database_a,phone,2023-06-12,Aloysius (Elsie Tay),85229769,,phone:85229769,Aloysius Tan (Elsie Tay) / Tan Choon Yong / Chen Junrong,85229769
+CUST00692,phone:90470866,database_a,phone,2023-06-15,Sam HUM Yap Tin,90470866,,phone:90470866,Sam HUM Yap Tin,90470866
+CUST00693,phone:91858489,database_a,phone,2023-06-17,Venkatasubramanian Ramakrishnan,91858489,,phone:91858489,Venkatasubramanian Ramakrishnan,91858489
+CUST00199,phone:92977407,database_a,phone,2023-06-18,Bala Subramani,92977407,,phone:92977407,Bala Subramaniam,92977407
+CUST00694,phone:81981853,database_a,phone,2023-06-18,Caleb Seow (son of David Seow),81981853,,phone:81981853,Caleb Seow (son of David Seow),81981853
+CUST00696,phone:07,database_a,phone,2023-06-19,"Nashon Loo ""Ghuiman""",07,,phone:07,"Nashon Loo ""Ghuiman""",07
+CUST00695,phone:96704978,database_a,phone,2023-06-19,Danny Oh,96704978,,phone:96704978,Danny Oh Beng Teck,96704978
+CUST00698,phone:96325864,database_a,phone,2023-06-23,Chong Ngee Chong,96325864,,phone:96325864,Chong Ngee Chong,96325864
+CUST00699,phone:94364233,database_a,phone,2023-06-24,Dexter Loo,94364233,,phone:94364233,Dexter Loo,94364233
+CUST00287,phone:96843650,database_a,phone,2023-06-26,Chua Soo Yong,96843650,,phone:96843650,Chua Soo Yong,96843650
+CUST00695,phone:96704978,database_a,phone,2023-06-27,Danny Oh,96704978,,phone:96704978,Danny Oh Beng Teck,96704978
+CUST00700,phone:92246274,database_a,phone,2023-06-27,Tan Kian Hin (paid on 28 July 2023),92246274,,phone:92246274,Tan Kian Hin,92246274
+CUST00701,phone:83760445,database_a,phone,2023-06-28,Gitansh Malik,83760445,,phone:83760445,Gitansh Malik,83760445
+CUST00074,phone:98287926,database_a,phone,2023-06-30,William Ang Wee Sen,98287926,,phone:98287926,William Ang Wee Sen,98287926
+CUST00703,phone:93699365,database_a,phone,2023-06-30,Leow Teck Wee,93699365,,phone:93699365,Leow Teck Wee,93699365
+CUST00705,name:chen moi lan mother of viking tan and joanne tan,database_a,exact_name,2023-07-01,"Chen Moi Lan, mother of Viking Tan and Joanne Tan",,,name:chen moi lan mother of viking tan and joanne tan,"Chen Moi Lan, mother of Viking Tan and Joanne Tan",
+CUST01294,phone:92391137,database_a,phone,,Viking,92391137,,phone:92391137,Viking,92391137
+CUST01276,phone:91167011,database_a,phone,,Joanne,91167011,,phone:91167011,Joanne for Chen Moi Lan,91167011
+CUST00542,phone:88780322,database_a,phone,2023-07-02,Thomas Tan,88780322,,phone:88780322,Thomas Tan,88780322
+CUST00475,phone:96441417,database_a,phone,2023-07-04,Chong Phow Loong,96441417,,phone:96441417,Chong Phow Loong,96441417
+CUST00706,phone:90620451,database_a,phone,2023-07-06,Gue Kit Wan,90620451,,phone:90620451,Gue Kit Wan,90620451
+CUST00707,phone:83877361,database_a,phone,,James tan 2nd payment,83877361,,phone:83877361,James tan 2nd payment,83877361
+CUST00707,phone:83877361,database_a,phone,,James tan 3rd payment,83877361,,phone:83877361,James tan 2nd payment,83877361
+CUST00709,name:rony tsoi,database_a,exact_name,2023-07-10,Rony Tsoi,,,name:rony tsoi,Rony Tsoi,
+CUST00708,phone:92982485,database_a,phone,2023-07-10,Edmund Khoo,92982485,,phone:92982485,Edmund Khoo Kim Hock,92982485
+CUST00710,phone:96670709,database_a,phone,2023-07-11,Vincent lam fei liong,96670709,,phone:96670709,Vincent lam fei liong,96670709
+CUST00711,phone:81008371,database_a,phone,2023-07-13,Dawnn,81008371,,phone:81008371,Dawnn,81008371
+CUST00713,phone:93859022,database_a,phone,2023-07-13,Nigel Koh,93859022,,phone:93859022,Nigel Koh / Picasso,93859022
+CUST00715,phone:97919395,database_a,phone,2023-07-14,Shirley Chan Wai Fun,97919395,,phone:97919395,Shirley Chan Wai Fun,97919395
+CUST00523,phone:90622940,database_a,phone,2023-07-15,Fazmie Aziz,90622940,,phone:90622940,Fazmie Aziz,90622940
+CUST00717,phone:90214021,database_a,phone,2023-07-17,Abdus Salam,90214021,,phone:90214021,Abdus Salam,90214021
+CUST00718,name:chong jaan hwan,database_a,exact_name,2023-07-18,Chong Jaan Hwan,,,name:chong jaan hwan,Chong Jaan Hwan,
+CUST00719,phone:93667355,database_a,phone,2023-07-18,Eric Koo / Erickoo,93667355,,phone:93667355,Eric Koo / Erickoo,93667355
+CUST00720,phone:90048154,database_a,phone,2023-07-18,Norhuda Md Sadekan (wife of Fazmie Aziz),90048154,,phone:90048154,Norhuda Md Sadekan (wife of Fazmie Aziz),90048154
+CUST00070,phone:96892000,database_a,phone,2023-07-21,Toh Khai Hwa,96892000,,phone:96892000,Khai Hwa Toh,96892000
+CUST00721,phone:96804632,database_a,phone,2023-07-22,JX Kang Jiunn Hian - Junxian,96804632,,phone:96804632,JX Kang Jiunn Hian,96804632
+CUST00723,phone:90098422,database_a,phone,2023-07-23,Ong Zhen Yuan,90098422,,phone:90098422,Ong Zhen Yuan,90098422
+CUST00722,phone:81381672,database_a,phone,2023-07-23,Aung Myo Htut,81381672,,phone:81381672,Myo Htut Aung,81381672
+CUST00724,phone:94503411,database_a,phone,2023-07-24,Akira Nakashima,94503411,,phone:94503411,Akira Nakashima,94503411
+CUST00157,phone:81818412,database_a,phone,2023-07-25,Chee Gee,81818412,,phone:81818412,Chee Gee,81818412
+CUST00728,name:mohd syukri shooked ri,database_a,exact_name,2023-07-28,Mohd Syukri shooked_ri,,,name:mohd syukri shooked ri,Mohd Syukri shooked_ri,
+CUST00730,phone:98416561,database_a,phone,2023-07-31,Ang Wee Cheng,98416561,,phone:98416561,Ang Wee Cheng,98416561
+CUST00732,phone:91386111,database_a,phone,2023-07-31,Melvin Neo,91386111,,phone:91386111,Melvin Neo,91386111
+CUST00363,phone:83390576,database_a,phone,2023-07-31,Bevan Chen,83390576,,phone:83390576,Bevan Chen,83390576
+CUST01294,phone:92391137,database_a,phone,,Viking for Chen Moi Lan,92391137,,phone:92391137,Viking,92391137
+CUST01276,phone:91167011,database_a,phone,,Joanne for Chen Moi Lan,91167011,,phone:91167011,Joanne for Chen Moi Lan,91167011
+CUST00734,phone:96820360,database_a,phone,2023-08-01,Cynthia Fong Choy Yeok (recommended by Susanne Nam),96820360,,phone:96820360,Cynthia Fong Choy Yeok (recommended by Susanne Nam),96820360
+CUST00735,phone:97336563,database_a,phone,2023-08-02,Stewart Yong,97336563,,phone:97336563,Stewart Yong,97336563
+CUST00598,phone:97101290,database_a,phone,2023-08-04,Peggy Chia Peck Kit (Friend of Samuel Lee Kim Choong),97101290,,phone:97101290,Peggy Chia,97101290
+CUST00200,phone:93843919,database_a,phone,2023-08-05,Julian Low,93843919,,phone:93843919,Julian Low,93843919
+CUST00736,phone:98006947,database_a,phone,2023-08-09,Samuel Koh,98006947,,phone:98006947,"Samuel Koh ""skwh80""",98006947
+CUST00737,phone:91911269,database_a,phone,2023-08-09,Tan Wei Heong,91911269,,phone:91911269,Tan Wei Heong,91911269
+CUST00323,phone:91552715,database_a,phone,2023-08-13,Jiehao Huang,91552715,,phone:91552715,Huang Jiehao,91552715
+CUST00738,phone:96305019,database_a,phone,2023-08-13,Xie Weixiang,96305019,,phone:96305019,Xie Weixiang,96305019
+CUST00738,phone:96305019,database_a,phone,2023-08-13,Xie Weixiang,96305019,,phone:96305019,Xie Weixiang,96305019
+CUST00739,phone:97314340,database_a,phone,2023-08-14,Alexander Pang (cancelled - forgot to fulfill),97314340,,phone:97314340,Alexander Pang - PANG CHONG REN ALEXA,97314340
+CUST00660,phone:93468672,database_a,phone,2023-08-15,Chia Nan Chern (repaired iBreeze),93468672,,phone:93468672,Chia Nan chern,93468672
+CUST00741,phone:91058628,database_a,phone,2023-08-14,Lawrence Soh Chin Ter,91058628,,phone:91058628,Lawrence Soh Chin Ter,91058628
+CUST00735,phone:97336563,database_a,phone,2023-08-17,Daniel Tham (recommended by charis Tan),97336563,,phone:97336563,Stewart Yong,97336563
+CUST00743,name:karen chan,database_a,exact_name,2023-08-18,Karen Chan,,,name:karen chan,Karen Chan,
+CUST00739,phone:97314340,database_a,phone,2023-08-18,Alexander Pang (re order),97314340,,phone:97314340,Alexander Pang - PANG CHONG REN ALEXA,97314340
+CUST00744,phone:93856009,database_a,phone,2023-08-18,Richard Sim / Isabelle Ng Noi Hoe,93856009,,phone:93856009,Richard Sim / Isabelle Ng Noi Hoe,93856009
+CUST00167,phone:98199243,database_a,phone,2023-08-18,Susanne Nam,98199243,,phone:98199243,Susanne Nam,98199243
+CUST00745,phone:97116131,database_a,phone,2023-08-18,Wong Li (recommended by Cynthia Oh),97116131,,phone:97116131,Wong Li,97116131
+CUST00746,name:robert nam susanne nam s dad,database_a,exact_name,2023-08-19,Robert Nam (Susanne Nam's dad),,,name:robert nam susanne nam s dad,Robert Nam (Susanne Nam's dad),
+CUST01278,phone:96277878,database_a,phone,,"KC, Robert Nam's son in law, c/o susanne nam",96277878,,phone:96277878,"KC, Robert Nam's son in law, c/o susanne nam",96277878
+CUST00317,phone:96178675,database_a,phone,2023-08-20,Timothy Tan Ping Sin,96178675,,phone:96178675,Timothy Tan Ping Sin,96178675
+CUST00748,phone:87278293,database_a,phone,2023-08-24,Lee Taylor,87278293,,phone:87278293,Lee Taylor,87278293
+CUST00749,phone:87982988,database_a,phone,2023-08-26,Gideon Chew,87982988,,phone:87982988,Gideon Chew,87982988
+CUST00750,phone:81149211,database_a,phone,2023-08-28,Nancy / Lean See (Matthew Koo's mum),81149211,,phone:81149211,Nancy / Lean See (Matthew Koo's mum),81149211
+CUST00659,phone:98169660,database_a,phone,2023-08-28,"Kong Sai Hong, saihong78",98169660,,phone:98169660,"Kong Sai Hong, saihong78",98169660
+CUST00753,phone:90888228,database_a,phone,2023-09-02,Adrian Sim Yew Meng,90888228,,phone:90888228,Adrian Sim Yew Meng,90888228
+CUST00754,phone:92781645,database_a,phone,2023-09-05,Angelina Chee,92781645,,phone:92781645,Angelina Chee,92781645
+CUST00755,phone:81881899,database_a,phone,2023-09-07,Edwin Tan / Melissa,81881899,,phone:81881899,Edwin Tan / Melissa,81881899
+CUST00756,phone:98421231,database_a,phone,2023-09-07,Simeon Govindarajoo,98421231,,phone:98421231,Simeon Govindarajoo,98421231
+CUST00757,phone:96579108,database_a,phone,2023-09-09,Ho Yew Chin,96579108,,phone:96579108,Ho Yew Chin,96579108
+CUST00238,phone:90087726,database_a,phone,2023-09-09,Sam Soh,90087726,,phone:90087726,Sam Soh,90087726
+CUST00098,phone:96367369,database_a,phone,2023-09-10,Adrian Tay,96367369,,phone:96367369,Adrian Tay,96367369
+CUST00761,phone:87231912,database_a,phone,2023-09-12,Ruby Heng,87231912,,phone:87231912,Ruby Heng,87231912
+CUST00576,phone:99,database_a,phone,2023-09-14,"Sally Yong, mayken9199",99,,phone:99,"Sally Yong, mayken9199",99
+CUST00731,phone:96670566,database_a,phone,2023-09-15,Gian Boo Hoon,96670566,,phone:96670566,Gian Boo Hoon,96670566
+CUST00762,phone:98198193,database_a,phone,2023-09-17,"Alice Ng Suat Paik alice_lau.981, M******u",98198193,,phone:98198193,"Alice Ng Suat Paik alice_lau.981, M******u",98198193
+CUST00763,phone:18,database_a,phone,2023-09-17,"Elton Tan, eitontan",18,,phone:18,"Elton Tan, eitontan",18
+CUST00765,phone:74,database_a,phone,2023-09-17,"Simon Ng, petra 74",74,,phone:74,"Simon Ng, petra 74",74
+CUST00764,phone:93389860,database_a,phone,2023-09-17,Jessey Chuah,93389860,,phone:93389860,Jessey Chuah,93389860
+CUST00766,phone:96913836,database_a,phone,2023-09-19,Colin Koh,96913836,,phone:96913836,Colin Koh,96913836
+CUST00572,phone:98360302,database_a,phone,2023-09-20,Linn Tang Lai Lai,98360302,,phone:98360302,Linn Tang Lai Lai,98360302
+CUST00240,phone:87228448,database_a,phone,2023-09-20,Leow Koon Yew,87228448,,phone:87228448,Koon Yew,87228448
+CUST00768,phone:97115592,database_a,phone,2023-09-20,Kenny Choo,97115592,,phone:97115592,Kenny Choo,97115592
+CUST00640,phone:91760226,database_a,phone,2023-09-21,Sidharth goenka,91760226,,phone:91760226,Sidarth Goenka,91760226
+CUST00027,phone:90217979,database_a,phone,2023-09-24,Andrew Chua,90217979,,phone:90217979,Andrew Chua Eng Bung,90217979
+CUST00770,phone:71,database_a,phone,2023-09-25,John Kong kongjfmi,71,,phone:71,John Kong kongjfmi,71
+CUST00771,name:sharmini,database_a,exact_name,2023-09-25,Sharmini,,,name:sharmini,Sharmini,
+CUST00611,phone:90,database_a,phone,2023-09-28,Indawan Hatta wayno999,90,,phone:90,Colin Teo colinteopc,90
+CUST00777,phone:90673918,database_a,phone,2023-09-29,Ramanathan Durai,90673918,,phone:90673918,Ramanathan Durai,90673918
+CUST00776,phone:94398102,database_a,phone,2023-09-29,Keenon Lee Pei Hong,94398102,,phone:94398102,Keenon Lee Pei Hong,94398102
+CUST00197,phone:98388985,database_a,phone,2023-09-29,Roy Han,98388985,,phone:98388985,Roy Han,98388985
+CUST00779,name:esheng chew eshengchew,database_a,exact_name,2023-10-02,"Esheng Chew, eshengchew",,,name:esheng chew eshengchew,"Esheng Chew, eshengchew",
+CUST00778,name:albert khong kkp008,database_a,exact_name,2023-10-02,"Albert Khong, kkp008",,,name:albert khong kkp008,"Albert Khong, kkp008",
+CUST00780,name:jeffrey sliderx69,database_a,exact_name,2023-10-04,"Jeffrey, Sliderx69",,,name:jeffrey sliderx69,"Jeffrey, Sliderx69",
+CUST00781,phone:05,database_a,phone,2023-10-05,Melinda Cahyadi,05,,phone:05,Melinda Cahyadi,05
+CUST00782,phone:91814488,database_a,phone,2023-10-06,Amy Soh,91814488,,phone:91814488,Amy Soh,91814488
+CUST00539,phone:96355855,database_a,phone,2023-10-08,Andrew Tang Khai Wah,96355855,,phone:96355855,Andrew Tang Khai Wah,96355855
+CUST00785,phone:90998233,database_a,phone,2023-10-08,Ricky Ang,90998233,,phone:90998233,Ricky Ang,90998233
+CUST00742,phone:82487737,database_a,phone,2023-10-08,Johanna Lim Hui En,82487737,,phone:82487737,Johanna Lim Gui En,82487737
+CUST00784,name:rebecca woon,database_a,exact_name,2023-10-08,Rebecca Woon,,,name:rebecca woon,Rebecca Woon,
+CUST00553,phone:90624646,database_a,phone,2023-10-09,SC Sng,90624646,,phone:90624646,SC Sng,90624646
+CUST00788,phone:96858279,database_a,phone,2023-10-10,Gabriel Ong,96858279,,phone:96858279,Gabriel Ong,96858279
+CUST00789,phone:91503039,database_a,phone,2023-10-10,Rakesh S P,91503039,,phone:91503039,Rakesh S P,91503039
+CUST00015,phone:93876532,database_a,phone,2023-10-10,Edmund Ng,93876532,,phone:93876532,Edmund Ng,93876532
+CUST00790,phone:96786640,database_a,phone,2023-10-10,Tay Chaw Loong,96786640,,phone:96786640,Tay Chaw Loong,96786640
+CUST00787,phone:96557076,database_a,phone,2023-10-10,AZMAN KHAMIS,96557076,,phone:96557076,Azman Khamis,96557076
+CUST00787,phone:96557076,database_a,phone,2023-10-10,AZMAN KHAMIS,96557076,,phone:96557076,Azman Khamis,96557076
+CUST00791,phone:17,database_a,phone,2023-10-11,"NEO LEONG SIN, leongsin73",17,,phone:17,"NEO LEONG SIN, leongsin73",17
+CUST00793,phone:97383898,database_a,phone,2023-10-13,Desmond Ong,97383898,,phone:97383898,Desmond Ong,97383898
+CUST00792,phone:85715875,database_a,phone,2023-10-13,Alan Chow,85715875,,phone:85715875,Alan Chow,85715875
+CUST00794,phone:98242916,database_a,phone,2023-10-13,Teo Hui Min,98242916,,phone:98242916,Teo Hui Min,98242916
+CUST00796,phone:81254888,database_a,phone,2023-10-17,"MOHAMAD RIZUAN PATHIE, Rizpat82",81254888,,phone:81254888,Dominic Cheng,81254888
+CUST00799,phone:96224530,database_a,phone,2023-10-17,Rama Pillai,96224530,,phone:96224530,Rama Pillai,96224530
+CUST00798,phone:89330235,database_a,phone,2023-10-17,Audrey Teo,89330235,,phone:89330235,Audrey Teo,89330235
+CUST00800,phone:81617150,database_a,phone,2023-10-20,Melanie Mitchell,81617150,,phone:81617150,Melanie Mitchell,81617150
+CUST00347,phone:91778437,database_a,phone,2023-10-22,Jon Wee Jian Le,91778437,,phone:91778437,Jon Wee Jian Le,91778437
+CUST00801,phone:96852402,database_a,phone,2023-10-22,Andre Tanoto,96852402,,phone:96852402,Andre Tanoto,96852402
+CUST00802,phone:85366833157,database_a,phone,2023-10-23,Chong Kirl Cheah (KC),85366833157,,phone:85366833157,Chong Kirl Cheah (KC),85366833157
+CUST00713,phone:93859022,database_a,phone,2023-10-23,Nigel Koh / Picasso,93859022,,phone:93859022,Nigel Koh / Picasso,93859022
+CUST00803,phone:96182517,database_a,phone,2023-10-25,Uncle Joseph Yong,96182517,,phone:96182517,Joseph Yong,96182517
+CUST00805,phone:97713829,database_a,phone,2023-10-27,Nicholas Rao,97713829,,phone:97713829,Nicholas Rao,97713829
+CUST00806,name:eng joo gay,database_a,exact_name,2023-10-31,Eng Joo Gay,,,name:eng joo gay,Eng Joo Gay,
+CUST00630,phone:98183088,database_a,phone,2023-10-31,Agnes Lee,98183088,,phone:98183088,Agnes Lee,98183088
+CUST00167,phone:98199243,database_a,phone,2023-10-31,Susanne Nam,98199243,,phone:98199243,Susanne Nam,98199243
+CUST01289,phone:83895336,database_a,phone,,Saw mi mi,83895336,,phone:83895336,Saw mi mi,83895336
+CUST00808,phone:81819208,database_a,phone,2023-11-04,Wiradharma Pranadi,81819208,,phone:81819208,Wiradharma Pranadi,81819208
+CUST00810,name:addy qiu,database_a,exact_name,2023-11-07,Addy Qiu,,,name:addy qiu,Addy Qiu,
+CUST00811,phone:97320605,database_a,phone,2023-11-07,Liao Se Wei,97320605,,phone:97320605,Liao Se Wei,97320605
+CUST00817,phone:90081906,database_a,phone,2023-11-10,"Tricia Kee Su-Lin, Trish, happytrish123 for her son",90081906,,phone:90081906,"Tricia Kee Su-Lin, Trish, happytrish123 for her son",90081906
+CUST00814,phone:98573124,database_a,phone,2023-11-10,Joe Neitham,98573124,,phone:98573124,Joe Neitham,98573124
+CUST00813,name:cai yaoqing john,database_a,exact_name,2023-11-10,Cai Yaoqing John,,,name:cai yaoqing john,Cai Yaoqing John,
+CUST00819,name:tay kong beng,database_a,exact_name,2023-11-13,Tay Kong Beng,,,name:tay kong beng,Tay Kong Beng,
+CUST00821,phone:93866883,database_a,phone,2023-11-13,Yapp Yun Fah,93866883,,phone:93866883,Yapp Yun Fah,93866883
+CUST00238,phone:90087726,database_a,phone,2023-11-13,Sam Soh,90087726,,phone:90087726,Sam Soh,90087726
+CUST00820,phone:90289274,database_a,phone,2023-11-13,William Sim,90289274,,phone:90289274,William Sim,90289274
+CUST00822,phone:98194248,database_a,phone,2023-11-14,Andrew Tong,98194248,,phone:98194248,Andrew Tong,98194248
+CUST00823,phone:98303652,database_a,phone,2023-11-14,Peter Ng,98303652,,phone:98303652,Peter Ng Tso Wong,98303652
+CUST00824,phone:98185452,database_a,phone,2023-11-15,Peter Loh,98185452,,phone:98185452,Peter Loh,98185452
+CUST00612,phone:89000089,database_a,phone,2023-11-15,Jack Tan Heng Jek,89000089,,phone:89000089,Jack Tan Heng Jek,89000089
+CUST00826,phone:96719589,database_a,phone,2023-11-16,Ki Hyon KIM,96719589,,phone:96719589,Ki Hyon KIM,96719589
+CUST00825,phone:97330628,database_a,phone,2023-11-16,Cheryl Lim,97330628,,phone:97330628,Cheryl Lim,97330628
+CUST00827,phone:91852053,database_a,phone,2023-11-16,Lim Teck Siang,91852053,,phone:91852053,Lim Teck Siang,91852053
+CUST00828,name:liya kamil unfilfulled,database_a,exact_name,2023-11-17,Liya Kamil (unfilfulled),,,name:liya kamil unfilfulled,Liya Kamil (unfilfulled),
+CUST00374,phone:97112750,database_a,phone,2023-11-17,Chee Yong,97112750,,phone:97112750,Chee Yong,97112750
+CUST00830,phone:91446396,database_a,phone,2023-11-22,Joey Sim / ICE - Joey-6396 Winston n,91446396,,phone:91446396,Joey Sim / ICE - Joey-6396 Winston n,91446396
+CUST00829,name:fakhrur razy bin idris,database_a,exact_name,2023-11-22,Fakhrur Razy bin Idris,,,name:fakhrur razy bin idris,Fakhrur Razy bin Idris,
+CUST00831,phone:96223414,database_a,phone,2023-11-24,Li Xiaowen,96223414,,phone:96223414,Li Xiaowen,96223414
+CUST00832,phone:97518229,database_a,phone,2023-11-24,WK Lee,97518229,,phone:97518229,WK Lee,97518229
+CUST00682,phone:93699126,database_a,phone,2023-11-24,Leo Chen Ryung / Aloysius Tan,93699126,,phone:93699126,Chen Ryung Leo,93699126
+CUST00561,phone:91891084,database_a,phone,2023-11-27,Sam Ho,91891084,,phone:91891084,Sam Ho,91891084
+CUST00836,phone:93281735,database_a,phone,2023-11-27,Jeric Poh,93281735,,phone:93281735,Jeric Poh,93281735
+CUST00834,phone:90111662,database_a,phone,2023-11-27,Hazmi Hassan,90111662,,phone:90111662,Hazmi Hassan,90111662
+CUST00837,name:dionne ennoidbblack,database_a,exact_name,2023-11-28,Dionne / ennoidbblack,,,name:dionne ennoidbblack,Dionne / ennoidbblack,
+CUST00840,phone:96279224,database_a,phone,2023-11-28,Valerie Chin,96279224,,phone:96279224,Valerie Chin,96279224
+CUST00838,phone:91720888,database_a,phone,2023-11-28,Jeremy Tan,91720888,,phone:91720888,Jeremy Tan,91720888
+CUST01103,phone:97775861,database_a,phone,,Jolly Ng,97775861,,phone:97775861,Jolly Ng c/o MC,97775861
+CUST00621,phone:85778156,database_a,phone,2023-11-28,Chee Wei Jie,85778156,,phone:85778156,Chee Wei Jie,85778156
+CUST00756,phone:98421231,database_a,phone,2023-12-01,Simeon Govindarajoo,98421231,,phone:98421231,Simeon Govindarajoo,98421231
+CUST00843,name:mohammad fadli,database_a,exact_name,2023-12-01,Mohammad FADLI,,,name:mohammad fadli,Mohammad FADLI,
+CUST00842,phone:98394925,database_a,phone,2023-12-01,Jason Tan,98394925,,phone:98394925,Jason Tan,98394925
+CUST00587,phone:81125687,database_a,phone,2023-12-02,Darren Lee,81125687,,phone:81125687,Darren Christopher Lee,81125687
+CUST00181,phone:97347966,database_a,phone,2023-12-04,Shirley Goh,97347966,,phone:97347966,Shirley Goh,97347966
+CUST00846,name:lau cheng xun,database_a,exact_name,2023-12-05,Lau Cheng-Xun,,,name:lau cheng xun,Lau Cheng-Xun,
+CUST00816,phone:96583882,database_a,phone,2023-12-05,Nancy tan SOEK KHEEM,96583882,,phone:96583882,Nancy Tan,96583882
+CUST00528,phone:90037168,database_a,phone,2023-12-11,Yeoh Pit Wee,90037168,,phone:90037168,Yeoh Pit Wee,90037168
+CUST00849,phone:96997439,database_a,phone,2023-12-13,Min Lin Htut Oo (J cancelled the order),96997439,,phone:96997439,Min Lin Htut Oo,96997439
+CUST00848,phone:90117192,database_a,phone,2023-12-13,Dexter / azh,90117192,,phone:90117192,Dexter / azh,90117192
+CUST00851,phone:93631467,database_a,phone,2023-12-13,Wang Fang Kit,93631467,,phone:93631467,Wang Fang Kit,93631467
+CUST00844,phone:81332021,database_a,phone,2023-12-16,Jennifer Lee Sye Mooi c/o jimmy LEE KAM SENG,81332021,,phone:81332021,Jennifer Lee Sye Mooi c/o jimmy Lee Kam Seng,81332021
+CUST00852,phone:96496339,database_a,phone,2023-12-18,SM Foo,96496339,,phone:96496339,SM Foo,96496339
+CUST00089,phone:97770483,database_a,phone,2023-12-18,Gilbert Gabriel Chan,97770483,,phone:97770483,Gilbert Gabriel Chan,97770483
+CUST00162,phone:91799527,database_a,phone,2023-12-18,Ong Gim Shin,91799527,,phone:91799527,Ong Gim Shin,91799527
+CUST00854,phone:86,database_a,phone,2023-12-22,Victor Tan SK victor_tansk,86,,phone:86,Victor Tan SK victor_tansk,86
+CUST00857,phone:91766549,database_a,phone,2023-12-30,Jasman Mohamad Nor,91766549,,phone:91766549,Jasman Mohamad Nor,91766549
+CUST01274,phone:96258762,database_a,phone,,Jimmy Lee,96258762,,phone:96258762,Jimmy Lee,96258762
+CUST00859,name:saiful bahri saiful bahri osman,database_a,exact_name,2024-01-01,Saiful Bahri saiful_bahri_osman,,,name:saiful bahri saiful bahri osman,Saiful Bahri saiful_bahri_osman,
+CUST00858,phone:84981680,database_a,phone,2024-01-01,Daisy Tan,84981680,,phone:84981680,Daisy Tan,84981680
+CUST00845,phone:91070006,database_a,phone,,Serene yew - returned bipap,91070006,,phone:91070006,Serene Yew,91070006
+CUST00861,phone:96443452,database_a,phone,2024-01-02,Sidney Neo,96443452,,phone:96443452,Sidney Neo,96443452
+CUST00863,phone:96660062,database_a,phone,2024-01-04,Agnes Wong Ming Kuan (Dentist),96660062,,phone:96660062,Agnes Wong Ming Kuan (Dentist),96660062
+CUST00865,phone:96194188,database_a,phone,2024-01-05,Mano Chatulani,96194188,,phone:96194188,Mano Chatulani,96194188
+CUST00494,phone:94896582,database_a,phone,2024-01-06,Zheng zhibin,94896582,,phone:94896582,Zheng Zhibin,94896582
+CUST00682,phone:93699126,database_a,phone,2024-01-07,Leo Chen Ryung,93699126,,phone:93699126,Chen Ryung Leo,93699126
+CUST00626,phone:84030977,database_a,phone,2024-01-07,Muhammad Hairy,84030977,,phone:84030977,Hairi (friend of Fadli),84030977
+CUST00868,phone:94553028,database_a,phone,2024-01-10,Melvyn Lee,94553028,,phone:94553028,Melvyn Lee,94553028
+CUST00869,name:wen hao aw,database_a,exact_name,2024-01-10,Wen Hao Aw,,,name:wen hao aw,Wen Hao Aw,
+CUST00492,phone:90014006,database_a,phone,2024-01-11,Samuel Lee Kim Choon,90014006,,phone:90014006,Samuel Lee Kim Choon,90014006
+CUST00872,phone:92222123,database_a,phone,2024-01-12,Muthukumaran,92222123,,phone:92222123,Muthukumaran,92222123
+CUST00870,name:alison symons,database_a,exact_name,2024-01-12,Alison Symons,,,name:alison symons,Alison Symons,
+CUST00871,name:elisa tan,database_a,exact_name,2024-01-12,Elisa Tan,,,name:elisa tan,Elisa Tan,
+CUST00873,name:shaffinaz khan,database_a,exact_name,2024-01-12,Shaffinaz Khan,,,name:shaffinaz khan,Shaffinaz Khan,
+CUST00875,name:karen kdubs33,database_a,exact_name,2024-01-16,Karen kdubs33,,,name:karen kdubs33,Karen kdubs33,
+CUST00876,phone:98421234,database_a,phone,2024-01-16,Leslie Tay,98421234,,phone:98421234,Leslie Tay,98421234
+CUST00880,phone:97983799,database_a,phone,2024-01-17,Matthias Lim,97983799,,phone:97983799,Matthias Lim,97983799
+CUST00878,phone:83218738,database_a,phone,2024-01-17,Desiree Ho,83218738,,phone:83218738,Desiree Ho,83218738
+CUST00879,phone:96609775,database_a,partial_name,2024-01-17,Kelvin Woon,,,phone:96609775,Kelvin Woon Tat Yeh,96609775
+CUST00742,phone:82487737,database_a,phone,,Johanna Lim Hui En,82487737,,phone:82487737,Johanna Lim Gui En,82487737
+CUST01283,phone:92377745,database_a,phone,,Marine Chioh,92377745,,phone:92377745,Marine Chioh,92377745
+CUST00883,phone:81592586,database_a,phone,2024-01-23,Shota Takanashi,81592586,,phone:81592586,Shota Takanashi,81592586
+CUST00882,phone:94235771,database_a,phone,2024-01-23,Eling lin,94235771,,phone:94235771,Eling lin,94235771
+CUST00884,phone:98255483,database_a,phone,2024-01-23,Wei Yiming,98255483,,phone:98255483,Wei Yiming,98255483
+CUST00886,phone:97231627,database_a,phone,2024-01-25,Atiqah - NUR ATIQAH BTE MD SH.,97231627,,phone:97231627,Atiqah - NUR ATIQAH BTE MD SH.,97231627
+CUST00888,phone:96258112,database_a,phone,2024-01-30,Kevin Seah Beng Heng Kevinseah315,96258112,,phone:96258112,Kevin Seah Beng Heng Kevinseah315,96258112
+CUST00890,name:seung,database_a,exact_name,2024-02-01,"""seung""",,,name:seung,"""seung""",
+CUST00889,phone:81818804,database_a,phone,2024-02-01,Ong KT,81818804,,phone:81818804,Ong KT,81818804
+CUST00759,phone:98788521,database_a,phone,2024-02-02,Cathrin Poh,98788521,,phone:98788521,Ang Beng eok c/o Cathrin poh,98788521
+CUST00892,phone:96729301,database_a,phone,2024-02-03,Low Teik Yong,96729301,,phone:96729301,Low Teik Yong,96729301
+CUST00894,phone:86126226,database_a,phone,2024-02-06,Mindy Felinton C/O Miao,86126226,,phone:86126226,Mindy Felinton C/O Miao,86126226
+CUST00895,phone:91510865,database_a,phone,2024-02-07,Andrew Seah Yong Hui (Xie),91510865,,phone:91510865,Andrew Seah Yong Hui (Xie Yonghui),91510865
+CUST00577,phone:81131238,database_a,phone,2024-02-08,Johnny Lee,81131238,,phone:81131238,Johnny Lee Moh Hiong,81131238
+CUST00061,phone:94239832,database_a,phone,2024-02-08,Chia Yue Sheng,94239832,,phone:94239832,Chia Yue Sheng,94239832
+CUST01273,phone:91194520,database_a,phone,,Jess Tan (info just for reference),91194520,,phone:91194520,Jess Tan (info just for reference),91194520
+CUST00896,phone:96269151,database_a,phone,2024-02-08,Hasyna Neo,96269151,,phone:96269151,Hasyna Neo,96269151
+CUST00900,phone:81445959,database_a,phone,2024-02-11,Tobie Goh,81445959,,phone:81445959,Tobie Goh,81445959
+CUST00903,phone:96916205,database_a,phone,2024-02-17,Bryan Kang Ching Choon,96916205,,phone:96916205,Bryan Kang Ching Choon,96916205
+CUST00907,phone:81397005,database_a,phone,2024-02-18,Thomas Chiam,81397005,,phone:81397005,Thomas Chiam,81397005
+CUST00905,phone:91193255,database_a,phone,2024-02-18,Paul Ng Chian Howe,91193255,,phone:91193255,Paul Ng Chian Howe,91193255
+CUST00906,name:ronny sidharta,database_a,exact_name,2024-02-18,Ronny Sidharta,,,name:ronny sidharta,Ronny Sidharta,
+CUST00904,phone:86135044,database_a,phone,2024-02-18,Lourdes Veronica,86135044,,phone:86135044,Lourdes Veronica,86135044
+CUST00614,phone:91448417,database_a,phone,2024-02-18,Leslie Joseph,91448417,,phone:91448417,Leslie Joseph William,91448417
+CUST00908,phone:96584114,database_a,phone,2024-02-19,Nicky G c/o Fang,96584114,,phone:96584114,Nicky G c/o Fang,96584114
+CUST01265,phone:96452175,database_a,phone,,Fang,96452175,,phone:96452175,Fang,96452175
+CUST00911,phone:83494663,database_a,phone,2024-02-22,Nicole Chng Xinci,83494663,,phone:83494663,Nicole Chng Xinci,83494663
+CUST01267,phone:96786423,database_a,phone,,Hoong Maeng Chan,96786423,,phone:96786423,Hoong Maeng Chan,96786423
+CUST00623,phone:96726711,database_a,phone,2024-02-26,Lee Weng Chee,96726711,,phone:96726711,Lee Weng Chee,96726711
+CUST00915,phone:84681586,database_a,phone,2024-02-27,John Kuan redragon118,84681586,,phone:84681586,John Kuan redragon118,84681586
+CUST00304,phone:96697077,database_a,exact_name,2024-02-28,Adrian Khoo,97,,phone:96697077,Adrian Khoo,96697077
+CUST00916,phone:94,database_a,phone,2024-03-01,Jeremy Luo,94,,phone:94,Chandan Kumar,94
+CUST00916,phone:94,database_a,phone,2024-03-01,Chandan Kumar,94,,phone:94,Chandan Kumar,94
+CUST00920,phone:95,database_a,phone,2024-03-11,Lim Keng Yuen,95,,phone:95,Lim Keng Yuen,95
+CUST00584,phone:93,database_a,phone,2024-03-11,Yueh Yuen Long Victor,93,,phone:93,"alice_lau.981, M******u",93
+CUST00528,phone:90037168,database_a,phone,2024-03-12,Yeoh Pit Wee - currently on Airsense 10 and Airmini + Resmed travel masks,90037168,,phone:90037168,Yeoh Pit Wee,90037168
+CUST00584,phone:93,database_a,phone,2024-03-13,Lim Wei An,93,,phone:93,"alice_lau.981, M******u",93
+CUST00602,phone:96806961,database_a,phone,2024-03-13,Art Lim,96806961,,phone:96806961,Art Lim,96806961
+CUST00323,phone:91552715,database_a,phone,2024-03-18,Huang Jiehao,91552715,,phone:91552715,Huang Jiehao,91552715
+CUST00610,phone:93715356,database_a,phone,2024-03-21,Jerome Lachica,93715356,,phone:93715356,Jerome Lachica,93715356
+CUST00388,phone:96633903,database_a,phone,2024-03-22,Lu Kun Ti (likely Matthew),96633903,,phone:96633903,Lu Kun Ti (Matthew Lu),96633903
+CUST00208,phone:97374632,database_a,phone,2024-03-24,Matthew Lou,97374632,,phone:97374632,Matthew Lou,97374632
+CUST00919,phone:90049652,database_a,phone,2024-03-25,Edwin Seng xiang yi,90049652,,phone:90049652,Edwin Seng c/o Ling,90049652
+CUST00929,phone:82,database_a,phone,2024-03-28,Jay Shah,82,,phone:82,Jay Shah,82
+CUST00931,name:vincent cheang you kong cheangvincent59,database_a,exact_name,2024-03-31,Vincent Cheang You Kong cheangvincent59,,,name:vincent cheang you kong cheangvincent59,Vincent Cheang You Kong cheangvincent59,
+CUST00611,phone:90,database_a,phone,2024-04-03,Kevin (last name TBC),90,,phone:90,Colin Teo colinteopc,90
+CUST00681,phone:91115382,database_a,phone,2024-04-04,Hu Jiesheng,91115382,,phone:91115382,Hu Jiesheng,91115382
+CUST01155,name:ng yew seng,database_a,exact_name,2025-04-04,Ng yew seng,,,name:ng yew seng,Ng yew seng,
+CUST00200,phone:93843919,database_a,phone,2024-04-07,Julian Low,93843919,,phone:93843919,Julian Low,93843919
+CUST00837,name:dionne ennoidbblack,database_a,exact_name,2024-04-10,Dionne / ennoidbblack,,,name:dionne ennoidbblack,Dionne / ennoidbblack,
+CUST00208,phone:97374632,database_a,phone,2024-04-10,Matthew Lou,97374632,,phone:97374632,Matthew Lou,97374632
+CUST00703,phone:93699365,database_a,phone,2024-04-19,Leow Teck Wee,93699365,,phone:93699365,Leow Teck Wee,93699365
+CUST00938,name:haikel lim,database_a,exact_name,2024-04-22,Haikel Lim,,,name:haikel lim,Haikel Lim,
+CUST00942,phone:96507246,database_a,phone,2024-05-01,Dawn Lou,96507246,,phone:96507246,Dawn Lou,96507246
+CUST00943,phone:97507681,database_a,phone,2024-05-01,Joshua Ang,97507681,,phone:97507681,Joshua Ang,97507681
+CUST00944,phone:98331839,database_a,phone,2024-05-05,Prakash Nair,98331839,,phone:98331839,Prakash Nair,98331839
+CUST00945,name:muska 80,database_a,exact_name,2024-05-06,muska_80,,,name:muska 80,muska_80,
+CUST00947,name:mark shaw,database_a,exact_name,2024-05-08,Mark Shaw,,,name:mark shaw,Mark Shaw,
+CUST00636,phone:98153012,database_a,phone,2024-05-13,Derek Tan,98153012,,phone:98153012,Derek Tan,98153012
+CUST00950,phone:81263197,database_a,phone,2024-05-13,Thai Lian Tan,81263197,,phone:81263197,Thai Lian Tan,81263197
+CUST00948,phone:87468875,database_a,phone,2024-05-13,Madam Tee,87468875,,phone:87468875,Madam Tee,87468875
+CUST00949,phone:90694630,database_a,phone,2024-05-13,Susan Heng,90694630,,phone:90694630,Susan Heng,90694630
+CUST00952,phone:90669900,database_a,phone,2024-05-22,Hian Goh,90669900,,phone:90669900,Hian Goh,90669900
+CUST00015,phone:93876532,database_a,phone,2024-05-31,Edmund Ng,93876532,,phone:93876532,Edmund Ng,93876532
+CUST00525,phone:90615530,database_a,phone,2024-06-03,Matthew Low,90615530,,phone:90615530,Matthew Low,90615530
+CUST00955,phone:87877926,database_a,phone,2024-06-03,Ryan takashi.ryan,87877926,,phone:87877926,Ryan takashi.ryan,87877926
+CUST00560,phone:94873127,database_a,phone,2024-06-05,Px milomilo,94873127,,phone:94873127,Px milomilo,94873127
+CUST00960,phone:96564762,database_a,phone,2024-06-07,Shelly Bhagat,96564762,,phone:96564762,Shelly Bhagat,96564762
+CUST00604,phone:90112184,database_a,phone,2024-06-07,Ong Gim Hwa,90112184,,phone:90112184,Gim Hwa Ong,90112184
+CUST00959,phone:96326856,database_a,phone,2024-06-07,Kelvin Ng,96326856,,phone:96326856,Kelvin Ng,96326856
+CUST00957,phone:90238285,database_a,phone,2024-06-07,Arivalagan,90238285,,phone:90238285,Arivalagan,90238285
+CUST00958,phone:86918059,database_a,phone,2024-06-07,Ewen Lim,86918059,,phone:86918059,Ewen Lim,86918059
+CUST00912,phone:91005539,database_a,phone,2024-06-07,Alex Chong Hock Kee c/o Jobplus Pte Ltd,91005539,,phone:91005539,Alex Chong Hock Kee c/o Jobplus Pte Ltd,91005539
+CUST00961,phone:81821895,database_a,phone,2024-06-12,Victor Wong Qi Zhi,81821895,,phone:81821895,Victor Wong Qi Zhi,81821895
+CUST00962,phone:97766433,database_a,phone,2024-06-17,Tim Leo Yuin Thim,97766433,,phone:97766433,Tim Leo Yuin Thim,97766433
+CUST01240,phone:96691933,database_a,phone,,Jason Lim,96691933,,phone:96691933,Jason Lim,96691933
+CUST00723,phone:90098422,database_a,phone,2024-06-24,Ong Zhen Yuan,90098422,,phone:90098422,Ong Zhen Yuan,90098422
+CUST00968,phone:96611834,database_a,phone,2024-06-25,Zackaria meesterzack,96611834,,phone:96611834,Zackaria meesterzack,96611834
+CUST00967,phone:96171203,database_a,phone,2024-06-25,Franky,96171203,,phone:96171203,Franky,96171203
+CUST00596,phone:97771637,database_a,phone,2024-06-26,Shazali Saudagarkopi78,97771637,,phone:97771637,Shazali Saudagarkopi78,97771637
+CUST00545,phone:90180505,database_a,phone,2024-06-29,Teo Beng Hock,90180505,,phone:90180505,Teo Beng Hock,90180505
+CUST00971,phone:91785175,database_a,phone,2024-07-05,Glenn Tan Kuan Yi,91785175,,phone:91785175,Glenn Tan Kuan Yi,91785175
+CUST00973,phone:88743113,database_a,phone,2024-07-11,Norman Leong,88743113,,phone:88743113,Norman Leong,88743113
+CUST00974,name:yap kheng yeow k yeow yap,database_a,exact_name,2024-07-12,Yap Kheng Yeow k.yeow_yap,,,name:yap kheng yeow k yeow yap,Yap Kheng Yeow k.yeow_yap,
+CUST00720,phone:90048154,database_a,phone,2024-07-12,Norhuda Sadekan,90048154,,phone:90048154,Norhuda Md Sadekan (wife of Fazmie Aziz),90048154
+CUST00975,phone:94240190,database_a,phone,2024-07-15,Leong Kok Chuen,94240190,,phone:94240190,Leong Kok Chuen,94240190
+CUST00977,name:lim chee siong,database_a,exact_name,2024-07-23,Lim Chee Siong,,,name:lim chee siong,Lim Chee Siong,
+CUST00978,name:moses m paul,database_a,exact_name,2024-07-23,Moses M Paul,,,name:moses m paul,Moses M Paul,
+CUST00231,phone:92990200,database_a,phone,2024-07-24,Sai Mageswaran,92990200,,phone:92990200,Sai Mageswaran,92990200
+CUST00010,phone:91681568,database_a,phone,2024-07-24,Shyam Kumar,91681568,,phone:91681568,Shyam Kumar,91681568
+CUST00594,phone:91913636,database_a,phone,2024-07-26,Jaclyn Cheng Ruizhen Julesthespitz for husband,91913636,,phone:91913636,Jaclyn Cheng Ruizhen for husband,91913636
+CUST00981,phone:88306678,database_a,phone,2024-07-26,Jace Wong,88306678,,phone:88306678,Jace Wong,88306678
+CUST00982,phone:92337112,database_a,phone,2024-07-26,Terry wong,92337112,,phone:92337112,Terry wong,92337112
+CUST00983,phone:94888725,database_a,phone,2024-07-31,Alan tan Jellydot,94888725,,phone:94888725,Alan tan Jellydot,94888725
+CUST00984,phone:81269086,database_a,phone,2024-07-31,Annula Perera,81269086,,phone:81269086,Annula Perera,81269086
+CUST00783,phone:91444015,database_a,phone,2024-07-31,"Hafiz ""Lil"" MOHAMED HAFIZ BIN MOHAMEDJALIL",91444015,,phone:91444015,"Hafiz C/O Rafeeqah ""Fyz Lil"" - MOHAMED HAFIZ BIN MOHAMEDJALIL",91444015
+CUST00787,phone:96557076,database_a,phone,2024-08-01,Azman Khamis,96557076,,phone:96557076,Azman Khamis,96557076
+CUST00630,phone:98183088,database_a,phone,2024-08-05,Agnes Lee,98183088,,phone:98183088,Agnes Lee,98183088
+CUST00988,phone:96121721,database_a,phone,2024-08-05,Morgan Thomas - Hite Morgan Thomas,96121721,,phone:96121721,Morgan Thomas - Hite Morgan Thomas,96121721
+CUST00988,phone:96121721,database_a,phone,2024-08-06,Morgan Thomas - Hite Morgan Thomas,96121721,,phone:96121721,Morgan Thomas - Hite Morgan Thomas,96121721
+CUST00396,phone:94512817,database_a,phone,2024-08-06,Bryan Yeo,94512817,,phone:94512817,Bryan Yeo Si Jie,94512817
+CUST00989,phone:96309601,database_a,phone,2024-08-08,Jonathan Ng,96309601,,phone:96309601,Jonathan Ng,96309601
+CUST00990,phone:97259624,database_a,phone,2024-08-08,Reynaldo Daisog _ci4b_t16z,97259624,,phone:97259624,Reynaldo Daisog _ci4b_t16z,97259624
+CUST00787,phone:96557076,database_a,phone,2024-08-12,Azman Khamis,96557076,,phone:96557076,Azman Khamis,96557076
+CUST00787,phone:96557076,database_a,phone,2024-08-12,Azman Khamis,96557076,,phone:96557076,Azman Khamis,96557076
+CUST00370,phone:93667163,database_a,phone,2024-08-13,Michelle Choy Yoke Ling,93667163,,phone:93667163,Michelle Choy Yoke Ling,93667163
+CUST00992,phone:88528282,database_a,phone,2024-08-15,Peter Chong c/o Chong Ching Ching,88528282,,phone:88528282,Peter Chong c/o Chong Ching Ching,88528282
+CUST00870,name:alison symons,database_a,exact_name,2024-08-15,Alison Symons,,,name:alison symons,Alison Symons,
+CUST00991,name:june wong,database_a,exact_name,2024-08-15,June Wong,,,name:june wong,June Wong,
+CUST00960,phone:96564762,database_a,phone,2024-08-16,Shelly Bhagat,96564762,,phone:96564762,Shelly Bhagat,96564762
+CUST00993,name:kenny tham guo feng,database_a,exact_name,2024-08-17,Kenny Tham Guo Feng,,,name:kenny tham guo feng,Kenny Tham Guo Feng,
+CUST00839,phone:82235761,database_a,phone,2024-08-18,MC Ming Cheng Tan / Jolly Ng,82235761,,phone:82235761,MC Ming Cheng Tan / Jolly Ng,82235761
+CUST00685,phone:96465935,database_a,phone,2024-08-20,Mohamed Noor / Nurliana (Liana),96465935,,phone:96465935,Mohamed Noor / Nurliana (Liana),96465935
+CUST01286,phone:96309856,database_a,phone,,Liana,96309856,,phone:96309856,Nurliana,96309856
+CUST00998,phone:96337488,database_a,phone,2024-08-23,Phua Ah Leok c/o Phua Li Guen,96337488,,phone:96337488,Phua Ah Leok c/o Phua Li Guen,96337488
+CUST01287,phone:91703176,database_a,phone,,Phua Li Guen,91703176,,phone:91703176,Phua Li Guen,91703176
+CUST00999,phone:82687272,database_a,phone,2024-08-23,Salwin,82687272,,phone:82687272,Salwinderjit Kaur,82687272
+CUST00997,name:n maran,database_a,exact_name,2024-08-23,N Maran,,,name:n maran,N Maran,
+CUST01002,phone:87492806,database_a,phone,2024-08-24,Zaini,87492806,,phone:87492806,Zaini,87492806
+CUST01001,name:saiful saifulbahri379,database_a,exact_name,2024-08-24,Saiful saifulbahri379,,,name:saiful saifulbahri379,Saiful saifulbahri379,
+CUST01000,phone:96648268,database_a,phone,2024-08-24,Alvin Ong Chee Keong Auyeong,96648268,,phone:96648268,Alvin Ong Chee Keong Auyeong,96648268
+CUST01003,name:tay lay may,database_a,exact_name,2024-08-25,Tay Lay May,,,name:tay lay may,Tay Lay May,
+CUST00879,phone:96609775,database_a,phone,2024-08-26,Kelvin Woon Tat Yeh,96609775,,phone:96609775,Kelvin Woon Tat Yeh,96609775
+CUST01004,name:muhammad yusof hamzah,database_a,exact_name,2024-08-26,Muhammad Yusof Hamzah,,,name:muhammad yusof hamzah,Muhammad Yusof Hamzah,
+CUST01005,phone:88151159,database_a,phone,2024-08-26,"Peh Jia Hao ""Dualdias""",88151159,,phone:88151159,"Peh Jia Hao ""Dualdias""",88151159
+CUST00722,phone:81381672,database_a,phone,2024-08-26,Myo Htut Aung,81381672,,phone:81381672,Myo Htut Aung,81381672
+CUST00341,phone:96365139,database_a,phone,2024-08-31,Joanne Lam,96365139,,phone:96365139,Joanne Lam Poh Khim,96365139
+CUST01009,phone:90492118,database_a,phone,2024-09-02,Olivia,90492118,,phone:90492118,Olivia,90492118
+CUST00914,phone:67806422,database_a,phone,2024-09-03,Chan Kah Meang,67806422,,phone:67806422,Chai Nyok Kiong c/o chan Kah Meang and Chan Hoong Maeng,67806422
+CUST00449,phone:97242015,database_a,phone,2024-09-05,Anthony Khong @ anthony chua,97242015,,phone:97242015,Anthony Chua / Anthony Khong,97242015
+CUST00621,phone:85778156,database_a,phone,2024-09-05,Chee wei Jie,85778156,,phone:85778156,Chee Wei Jie,85778156
+CUST01010,phone:91116558,database_a,phone,2024-09-08,Ishfaque,91116558,,phone:91116558,Ishfaque,91116558
+CUST01011,phone:97329606,database_a,phone,2024-09-08,Lawrence Poh,97329606,,phone:97329606,Lawrence Poh,97329606
+CUST01012,name:melton aung,database_a,exact_name,2024-09-10,Melton Aung,,,name:melton aung,Melton Aung,
+CUST00305,phone:98268080,database_a,phone,2024-09-10,Jamie Neo,98268080,,phone:98268080,Jamie Neo,98268080
+CUST01013,phone:94569741,database_a,phone,2024-09-12,Surendranath Duvvuru,94569741,,phone:94569741,Surendranath Duvvuru,94569741
+CUST00609,phone:98311331,database_a,phone,2024-09-14,"William Tan ""onggseng""",98311331,,phone:98311331,"William Tan ""onggseng""",98311331
+CUST01255,name:allan john pang,database_a,exact_name,,Allan John pang,,,name:allan john pang,Allan John pang,
+CUST01018,phone:88083928,database_a,phone,2024-09-21,Dr Aloysius Tan,88083928,,phone:88083928,Dr Aloysius Tan,88083928
+CUST00707,phone:83877361,database_a,phone,2024-09-22,James Tan Wee Liang,83877361,,phone:83877361,James tan 2nd payment,83877361
+CUST01260,phone:96248933,database_a,phone,,Christine Chiang,96248933,,phone:96248933,Christine Chiang,96248933
+CUST00729,phone:91725141,database_a,phone,2024-09-29,Daniel Tham,91725141,,phone:91725141,Daniel Tham,91725141
+CUST00587,phone:81125687,database_a,phone,2024-09-29,Darren Lee; Darren Christopher Lee,81125687,,phone:81125687,Darren Christopher Lee,81125687
+CUST01022,phone:87872096,database_a,phone,2024-10-02,Soeren Vinther Poulsen,87872096,,phone:87872096,Soeren Vinther Poulsen,87872096
+CUST01023,name:choo yit lai,database_a,exact_name,2024-10-03,Choo Yit Lai,,,name:choo yit lai,Choo Yit Lai,
+CUST00879,phone:96609775,database_a,phone,2024-10-06,Kelvin Woon Tat Yeh CPAP,96609775,,phone:96609775,Kelvin Woon Tat Yeh,96609775
+CUST00307,phone:90292937,database_a,phone,2024-10-07,Alvin Ong Chee Keong Auyeong,90292937,,phone:90292937,Alvin Ong,90292937
+CUST00523,phone:90622940,database_a,phone,2024-10-07,Fazmie Aziz,90622940,,phone:90622940,Fazmie Aziz,90622940
+CUST01014,phone:96389842,database_a,phone,2024-10-08,Lee Chin Choo; bought for hubby Anthony Tan,96389842,,phone:96389842,Alan Chua,96389842
+CUST00583,phone:81388778,database_a,phone,2024-10-10,Ahmad Danial,81388778,,phone:81388778,"Ahmad Danial Bin Kinam for his dad, Kinam bin Tukijo.",81388778
+CUST01019,phone:96795165,database_a,phone,2024-10-14,Clayton Chong,96795165,,phone:96795165,Clayton Chong,96795165
+CUST00377,phone:81832666,database_a,phone,2024-10-17,Kenny Lim,81832666,,phone:81832666,Kenny Lim,81832666
+CUST01032,phone:96482288,database_a,phone,2024-10-19,Andrew ang boon heng,96482288,,phone:96482288,Andrew Ang Boon Heng,96482288
+CUST01033,phone:93219351,database_a,phone,2024-10-21,Yap Leong Hock,93219351,,phone:93219351,Yap Leong Hock,93219351
+CUST00679,phone:91071433,database_a,phone,2024-10-21,Chan Sing Yee,91071433,,phone:91071433,Chan Sing Yee,91071433
+CUST01035,phone:80143092,database_a,phone,2024-10-22,Nicolas Huang,80143092,,phone:80143092,Nicolas Huang,80143092
+CUST01036,phone:82880621,database_a,phone,2024-10-23,"Mary Tan Geok Suan, for Andrew Chua",82880621,,phone:82880621,"Mary Tan Geok Suan, for Andrew Chua",82880621
+CUST01039,phone:91378166,database_a,phone,2024-10-28,Kelvin Neo,91378166,,phone:91378166,Kelvin Neo,91378166
+CUST01041,phone:92978218,database_a,phone,2024-10-28,Ronald Choo,92978218,,phone:92978218,Ronald Choo,92978218
+CUST00525,phone:90615530,database_a,phone,2024-10-28,"Matt1506, Matthew low Guang wei",90615530,,phone:90615530,Matthew Low,90615530
+CUST01043,phone:96995473,database_a,phone,2024-10-30,Valerie Ban Hui Min,96995473,,phone:96995473,Valerie Ban Hui Min,96995473
+CUST00903,phone:96916205,database_a,phone,2024-10-31,Bryan Kang ching Choon,96916205,,phone:96916205,Bryan Kang Ching Choon,96916205
+CUST01044,phone:83989898,database_a,phone,2024-10-31,Jeremy wong jun jie,83989898,,phone:83989898,Jeremy wong jun jie,83989898
+CUST01046,name:sridhar krishnan,database_a,exact_name,2024-11-02,Sridhar Krishnan,,,name:sridhar krishnan,Sridhar Krishnan,
+CUST01009,phone:90492118,database_a,phone,2024-11-04,Olivia,90492118,,phone:90492118,Olivia,90492118
+CUST00552,phone:98774259,database_a,phone,2024-11-04,Amy Lim,98774259,,phone:98774259,Amy Lim,98774259
+CUST00811,phone:97320605,database_a,phone,2024-11-08,Raymond Lim Chee Soon,97320605,,phone:97320605,Liao Se Wei,97320605
+CUST00676,phone:92229948,database_a,phone,2024-11-11,Daniel Low Thiam Siang,92229948,,phone:92229948,Daniel Low Thiam Siang,92229948
+CUST01271,phone:9688745196887452,database_a,phone,,Jerald Chan; Jay / Mita,9688745196887452,,phone:9688745196887452,Jerald Chan; Jay / Mita,9688745196887452
+CUST01053,name:andrew tan,database_a,exact_name,2024-11-11,Andrew Tan,,,name:andrew tan,Andrew Tan,
+CUST00742,phone:82487737,database_a,phone,2024-11-13,Johanna Lim Gui En,82487737,,phone:82487737,Johanna Lim Gui En,82487737
+CUST01055,phone:84284657,database_a,phone,2024-11-13,Char C 657,84284657,,phone:84284657,Char C 657,84284657
+CUST01060,phone:97201917,database_a,phone,2024-11-19,Marcello Bilbeisi,97201917,,phone:97201917,Marcello Bilbeisi,97201917
+CUST00492,phone:90014006,database_a,phone,2024-11-19,Samuel Lee Kim Choong,90014006,,phone:90014006,Samuel Lee Kim Choon,90014006
+CUST00870,name:alison symons,database_a,exact_name,2024-11-25,Alison Symons,,,name:alison symons,Alison Symons,
+CUST01064,phone:96999963,database_a,phone,2024-11-25,Jesslyn Li shoperaholic,96999963,,phone:96999963,Jesslyn Li shoperaholic,96999963
+CUST01068,phone:82067526,database_a,phone,2024-11-27,Ng Siew Kueen,82067526,,phone:82067526,Ng Siew Kueen,82067526
+CUST01067,phone:81423259,database_a,phone,2024-11-27,Daniel Gan,81423259,,phone:81423259,Daniel Gan,81423259
+CUST00611,phone:90,database_a,phone,2024-11-30,Colin Teo colinteopc,90,,phone:90,Colin Teo colinteopc,90
+CUST01070,phone:42,database_a,phone,2024-11-30,Joseph Tan dreamer021102,42,,phone:42,Joseph Tan dreamer021102,42
+CUST00238,phone:90087726,database_a,phone,2024-11-30,Sam Soh,90087726,,phone:90087726,Sam Soh,90087726
+CUST00999,phone:82687272,database_a,phone,2024-12-03,Salwinderjit Kaur,82687272,,phone:82687272,Salwinderjit Kaur,82687272
+CUST01073,phone:97500210,database_a,phone,2024-12-07,Raj Lalwani,97500210,,phone:97500210,Raj Lalwani,97500210
+CUST01074,phone:85116509,database_a,phone,2024-12-07,Richa chaddha,85116509,,phone:85116509,Richa chaddha,85116509
+CUST01075,name:ng jiang hao,database_a,exact_name,2024-12-08,Ng Jiang Hao,,,name:ng jiang hao,Ng Jiang Hao,
+CUST01056,phone:80287623,database_a,phone,2024-12-10,Alexander pei,80287623,,phone:80287623,Alexander pei,80287623
+CUST00341,phone:96365139,database_a,phone,2024-12-10,Joanne Lam Poh Khim,96365139,,phone:96365139,Joanne Lam Poh Khim,96365139
+CUST01038,phone:96822563,database_a,phone,2024-12-10,Clyde Seah Tiong Peng,96822563,,phone:96822563,Clyde Seah,96822563
+CUST01077,name:waileong907,database_a,exact_name,2024-12-13,Waileong907,,,name:waileong907,Waileong907,
+CUST01066,phone:96156640,database_a,phone,2024-12-16,Benjamin Ben Judah c/o Claire Wazah,96156640,,phone:96156640,Benjamin Ben Judah c/o Claire Wazah,96156640
+CUST01079,phone:93877385,database_a,phone,2024-12-16,Eric Seah,93877385,,phone:93877385,Eric Seah,93877385
+CUST01078,phone:82397170,database_a,phone,2024-12-16,Donald Wee,82397170,,phone:82397170,Donald Wee,82397170
+CUST00598,phone:97101290,database_a,phone,2024-12-16,Peggy Chia,97101290,,phone:97101290,Peggy Chia,97101290
+CUST00769,phone:90887218,database_a,phone,2024-12-18,Ho Chung Shih,90887218,,phone:90887218,Hoh Chung Shih,90887218
+CUST00769,phone:90887218,database_a,phone,2024-12-18,M&M Dream myakk123,90887218,,phone:90887218,Hoh Chung Shih,90887218
+CUST00287,phone:96843650,database_a,phone,2024-12-24,"Chua Soo yong for his dad Mr chua c/o mdm chia, payment made",96843650,,phone:96843650,Chua Soo Yong,96843650
+CUST01178,phone:94496371,database_a,phone,,Mdm Chia (Soo Yong's mum),94496371,,phone:94496371,Mdm Chia (Soo Yong's mum),94496371
+CUST01083,name:teo jv jiavoon86,database_a,new,2024-12-25,Teo JV jiavoon86,,,,,
+CUST01081,name:novi bellapalace,database_a,exact_name,2024-12-25,"Novi ""bellapalace""",,,name:novi bellapalace,"Novi ""bellapalace""",
+CUST00537,phone:97836127,database_a,partial_name,2024-12-27,tayejenbrandon Brandon Tay,,,phone:97836127,Jen,97836127
+CUST01086,name:kimthye lim kim thye,database_a,exact_name,2024-12-30,"""kimthye"" Lim Kim Thye",,,name:kimthye lim kim thye,"""kimthye"" Lim Kim Thye",
+CUST00286,phone:98485857,database_a,phone,2024-12-30,Chua Song Heng,98485857,,phone:98485857,Chua Song Heng,98485857
+CUST00587,phone:81125687,database_a,phone,2024-12-31,Darren Lee,81125687,,phone:81125687,Darren Christopher Lee,81125687
+CUST01089,name:samuel realsamtaro,database_a,exact_name,2025-01-02,"Samuel ""realsamtaro""",,,name:samuel realsamtaro,"Samuel ""realsamtaro""",
+CUST01087,phone:98773465,database_a,phone,2025-01-02,Kelvin Lim Meng Hoe,98773465,,phone:98773465,Kelvin Lim Meng Hoe,98773465
+CUST01088,phone:91919994,database_a,phone,2025-01-02,Ron Nevis,91919994,,phone:91919994,Ron Nevis,91919994
+CUST00736,phone:98006947,database_a,phone,2025-01-03,"Samuel Koh ""skwh80""",98006947,,phone:98006947,"Samuel Koh ""skwh80""",98006947
+CUST01093,phone:97972636,database_a,phone,2025-01-04,Dinoalfian Rashid,97972636,,phone:97972636,Dinoalfian Rashid,97972636
+CUST00769,phone:90887218,database_a,phone,2025-01-04,Hoh Chung Shih,90887218,,phone:90887218,Hoh Chung Shih,90887218
+CUST00001,phone:96956201,database_a,phone,2025-01-04,Ivan Low,96956201,,phone:96956201,Ivan Low,96956201
+CUST00426,phone:91893073,database_a,phone,2025-01-06,Md Fadhil,91893073,,phone:91893073,Md Fadhil,91893073
+CUST00773,phone:97665489,database_a,phone,2025-01-10,Foo Yong Qing,97665489,,phone:97665489,Foo Yong Qing,97665489
+CUST00652,phone:82688380,database_a,phone,2025-01-14,Timothy Lam Tsz,82688380,,phone:82688380,Timothy Lam Tsz,82688380
+CUST01099,phone:98160110,database_a,phone,2025-01-19,Elnie Linardi,98160110,,phone:98160110,Elnie Linardi,98160110
+CUST01098,phone:98562644,database_a,phone,2025-01-19,Adrian Tan Yee Loon,98562644,,phone:98562644,Adrian Tan Yee Loon,98562644
+CUST01092,phone:93868019,database_a,phone,2025-01-19,Chris Chau Chee Chiang,93868019,,phone:93868019,Chris Chau Chee Chiang,93868019
+CUST01277,phone:83625075,database_a,phone,,"Jovita, Wife of Savio",83625075,,phone:83625075,"Jovita, Wife of Savio",83625075
+CUST00769,phone:90887218,database_a,phone,2025-01-24,Ho Chung Shih,90887218,,phone:90887218,Hoh Chung Shih,90887218
+CUST00016,phone:98412428,database_a,phone,2025-01-25,Gerald chee,98412428,,phone:98412428,"Gerald Chee, sbfast",98412428
+CUST00706,phone:90620451,database_a,phone,2025-01-25,Gue Kit Wan,90620451,,phone:90620451,Gue Kit Wan,90620451
+CUST01103,phone:97775861,database_a,phone,2025-01-26,Jolly Ng c/o MC,97775861,,phone:97775861,Jolly Ng c/o MC,97775861
+CUST01257,phone:98362979,database_a,phone,,Anna Xu,98362979,,phone:98362979,Anna Xu,98362979
+CUST00885,phone:96747005,database_a,phone,2025-02-04,Joey chua,96747005,,phone:96747005,Joey chua,96747005
+CUST01105,phone:4010,database_a,phone,2025-02-05,Lakshmi S nc0fe8w98x,4010,,phone:4010,Lakshmi S nc0fe8w98x,4010
+CUST01107,phone:882,database_a,phone,2025-02-07,Evelyn Tey,882,,phone:882,Evelyn Tey,882
+CUST00370,phone:93667163,database_a,phone,2025-02-07,Michelle Choy,93667163,,phone:93667163,Michelle Choy Yoke Ling,93667163
+CUST01108,phone:6281223531156,database_a,phone,2025-02-08,Andy Chandra Tan,6281223531156,,phone:6281223531156,Andy Chandra Tan,6281223531156
+CUST01266,phone:628122002556,database_a,phone,,Fily Mariana Gondo Cpap (dr Ronnie) Patient Is Andy Chandra Tan,628122002556,,phone:628122002556,Fily Mariana Gondo Cpap (dr Ronnie) Patient Is Andy Chandra Tan,628122002556
+CUST00577,phone:81131238,database_a,phone,2025-02-10,Johnny Lee Moh Hiong,81131238,,phone:81131238,Johnny Lee Moh Hiong,81131238
+CUST00200,phone:93843919,database_a,phone,2025-02-12,Julian Low,93843919,,phone:93843919,Julian Low,93843919
+CUST01112,phone:91287376,database_a,phone,2025-02-13,Shirleen Tan,91287376,,phone:91287376,Shirleen Tan,91287376
+CUST01113,phone:84,database_a,phone,2025-02-14,"Kai SOPE ""pandazoo""",84,,phone:84,"Kai SOPE ""pandazoo""",84
+CUST00074,phone:98287926,database_a,phone,2025-02-17,William Ang Wee Sen,98287926,,phone:98287926,William Ang Wee Sen,98287926
+CUST01114,phone:81006040,database_a,phone,2025-02-19,Desmond Wu,81006040,,phone:81006040,Desmond Wu,81006040
+CUST00891,phone:92210608,database_a,phone,2025-02-19,Chris Lu,92210608,,phone:92210608,Chris Lu,92210608
+CUST01115,phone:97457906,database_a,phone,2025-02-19,Lawrence Lee Hoong Yew,97457906,,phone:97457906,Lawrence Lee Hoong Yew,97457906
+CUST00874,phone:97279651,database_a,phone,2025-02-19,Richard Ong,97279651,,phone:97279651,Richard Ong Yong Hwee,97279651
+CUST01285,phone:87884047,database_a,phone,,Nikole Neo,87884047,,phone:87884047,Nikole Neo,87884047
+CUST01296,phone:88110135,database_a,phone,,Zhi Hong,88110135,,phone:88110135,Zhi Hong,88110135
+CUST01119,phone:98389755,database_a,phone,2025-02-22,Steven Marc Shaw,98389755,,phone:98389755,Steven Marc Shaw,98389755
+CUST01118,phone:86912131,database_a,phone,2025-02-22,"Elizaah, Seraphina, Terry",86912131,,phone:86912131,Elizaah - Yah Ting Zhi,86912131
+CUST01110,phone:97666666,database_a,phone,2025-02-24,Lee Yuen Yong,97666666,,phone:97666666,Lee Yuen Yong,97666666
+CUST01135,phone:97540061,database_a,phone,,Gary,97540061,,phone:97540061,Gary Nye,97540061
+CUST01120,phone:93678064,database_a,phone,,Xindy,93678064,,phone:93678064,Xindy,93678064
+CUST01122,phone:97480741,database_a,phone,2025-02-26,Grace goh for dad,97480741,,phone:97480741,Grace goh for dad,97480741
+CUST00167,phone:98199243,database_a,phone,2025-02-28,Susanne Nam,98199243,,phone:98199243,Susanne Nam,98199243
+CUST01130,phone:97847336,database_a,phone,2025-03-04,Michael Goh (Goh Tan Hock Goh Hwee Lan),97847336,,phone:97847336,Michael Goh (Goh Tan Hock Goh Hwee Lan),97847336
+CUST01133,phone:96302671,database_a,phone,2025-03-10,Lau Poh Huat,96302671,,phone:96302671,Lau Poh Huat,96302671
+CUST00042,phone:81009876,database_a,phone,2025-03-13,Hafidz (Zohra) MUHAMMAD HAFIDZ BASRI,81009876,,phone:81009876,MUHAMMAD HAFIDZ BASRI (Zohra),81009876
+CUST01139,phone:93365077,database_a,phone,2025-03-13,Moe Anderson,93365077,,phone:93365077,Moe Anderson,93365077
+CUST01140,phone:98419658,database_a,phone,2025-03-17,Don Mtmdon - MOHD TAHIR BIN MAHMOOD,98419658,,phone:98419658,Don Mtmdon - MOHD TAHIR BIN MAHMOOD,98419658
+CUST00492,phone:90014006,database_a,phone,2025-03-22,Samuel Lee Kim Choong,90014006,,phone:90014006,Samuel Lee Kim Choon,90014006
+CUST01131,phone:91599786,database_a,phone,2025-03-23,Tan Teck Kuan,91599786,,phone:91599786,Tan Teck Kuan,91599786
+CUST01145,name:gabriel soh,database_a,exact_name,2025-03-24,Gabriel Soh,,,name:gabriel soh,Gabriel Soh,
+CUST01146,phone:91286011,database_a,phone,2025-03-24,John Pang,91286011,,phone:91286011,John Pang,91286011
+CUST01147,phone:96552732,database_a,phone,2025-03-26,Phua Lee Lian lovelypll_888,96552732,,phone:96552732,Phua Lee Lian lovelypll_888,96552732
+CUST00579,phone:80113812,database_a,phone,2025-03-31,Rosie koh,80113812,,phone:80113812,Rosie koh,80113812
+CUST01152,phone:88238929,database_a,phone,2025-04-01,Tey Kwee Lian,88238929,,phone:88238929,Tey Kwee Lian,88238929
+CUST01151,phone:91132774,database_a,phone,2025-04-01,"Hafiz ""Fyz Lil"" (Rafeeqah) Nuh - MOHAMED HAFIZ BIN MOHAMED JALIL",91132774,,phone:91132774,"Hafiz C/O Rafeeqah ""Fyz Lil"" - MOHAMED HAFIZ BIN MOHAMEDJALIL",91132774
+CUST01153,phone:86112028,database_a,phone,2025-04-02,Cheok Boon Keng,86112028,,phone:86112028,Cheok Boon Keng,86112028
+CUST01154,name:chua whye woon,database_a,exact_name,2025-04-03,Chua Whye Woon,,,name:chua whye woon,Chua Whye Woon,
+CUST00452,phone:92388291,database_a,phone,2025-04-03,Kelvin Woon,92388291,,phone:92388291,Kelvin Wong,92388291
+CUST01143,phone:92230017,database_a,phone,2025-04-04,Collin Wong Yun Xing,92230017,,phone:92230017,Collin Wong Yun Xing c/o kally,92230017
+CUST01142,phone:94556701,database_a,phone,2025-04-04,Neo zhi wei,94556701,,phone:94556701,Neo zhi wei,94556701
+CUST00787,phone:96557076,database_a,phone,2025-04-07,Azman Khamis,96557076,,phone:96557076,Azman Khamis,96557076
+CUST01148,phone:93833678,database_a,phone,2025-04-07,Steven tan Thiam Joo,93833678,,phone:93833678,Steven Tan Thiam Joo,93833678
+CUST00295,phone:98412968,database_a,phone,2025-04-10,Bob Goh,98412968,,phone:98412968,Bob Goh,98412968
+CUST00852,phone:96496339,database_a,phone,2025-04-10,SM Foo,96496339,,phone:96496339,SM Foo,96496339
+CUST01157,phone:91265085,database_a,phone,2025-04-13,Paul Ang Hung Liat,91265085,,phone:91265085,Paul Ang Hung Liat,91265085
+CUST01160,phone:96975345,database_a,phone,2025-04-17,ML Tan,96975345,,phone:96975345,ML Tan,96975345
+CUST00895,phone:91510865,database_a,phone,2025-04-28,Andrew Seah Yong Hui (Xie Yonghui),91510865,,phone:91510865,Andrew Seah Yong Hui (Xie Yonghui),91510865
+CUST01292,phone:98372297,database_a,phone,,Terence Tang,98372297,,phone:98372297,Terence Tang,98372297
+CUST00680,phone:87257404,database_a,phone,2025-04-30,Daryl Duane Van Hale,87257404,,phone:87257404,Daryl Duane Van Hale,87257404
+CUST01167,phone:83388538,database_a,phone,2025-05-02,Mike Xu mingkai,83388538,,phone:83388538,Mike Xu mingkai,83388538
+CUST01090,phone:89498400,database_a,phone,2025-05-07,“Ano” Halaiano Suluka,89498400,,phone:89498400,“Ano” Halaiano Suluka,89498400
+CUST01164,phone:91001176,database_a,phone,2025-05-07,Jay Shen Junjie,91001176,,phone:91001176,Jay Shen Junjie,91001176
+CUST01169,phone:81215800,database_a,phone,2025-05-07,"""Dino"" TRAKAKIS KOSTANTINOS",81215800,,phone:81215800,"""Dino"" TRAKAKIS KOSTANTINOS",81215800
+CUST01170,phone:89727286,database_a,phone,2025-05-09,Joey teh,89727286,,phone:89727286,Joey teh,89727286
+CUST00494,phone:94896582,database_a,phone,2025-05-18,Zheng Zhibin,94896582,,phone:94896582,Zheng Zhibin,94896582
+CUST00723,phone:90098422,database_a,phone,2024-06-16,Ong Zhen Yuan,90098422,,phone:90098422,Ong Zhen Yuan,90098422
+CUST01191,phone:96792802,database_a,phone,2025-06-24,Hansel Cheong,96792802,,phone:96792802,Hansel Cheong,96792802
+CUST01190,phone:98245527,database_a,phone,2025-06-24,Chua Kian Heng,98245527,,phone:98245527,Chua Kian Heng,98245527
+CUST00703,phone:93699365,database_a,phone,2025-06-27,Leow Teck Wee,93699365,,phone:93699365,Leow Teck Wee,93699365
+CUST01195,name:dick wong ming wei flyingstudent,database_a,exact_name,2025-07-04,"Dick Wong Ming Wei ""flyingstudent""",,,name:dick wong ming wei flyingstudent,"Dick Wong Ming Wei ""flyingstudent""",
+CUST01198,phone:87111864,database_a,phone,2025-07-07,Damien Sidhanand,87111864,,phone:87111864,Damien Sidhanand,87111864
+CUST00623,phone:96726711,database_a,phone,2025-07-09,Lee Weng Chee,96726711,,phone:96726711,Lee Weng Chee,96726711
+CUST01200,phone:83050077,database_a,phone,2025-07-14,Aaron Chong,83050077,,phone:83050077,Aaron Chong,83050077
+CUST01202,phone:81387981,database_a,phone,2025-07-14,Ryan Tam,81387981,,phone:81387981,Ryan Tam,81387981
+CUST01203,phone:10,database_a,phone,2025-07-17,Teo Choon Huat tch108108,10,,phone:10,Teo Choon Huat tch108108,10
+CUST00200,phone:93843919,database_a,phone,2025-07-18,Julian Low,93843919,,phone:93843919,Julian Low,93843919
+CUST01205,phone:97551809,database_a,phone,2025-07-20,Hoo Yoe Lan c/o Lee Tian Fu,97551809,,phone:97551809,Hoo Yoe Lan c/o Lee Tian Fu,97551809
+CUST00287,phone:96843650,database_a,phone,2025-07-21,Chua Soo yong,96843650,,phone:96843650,Chua Soo Yong,96843650
+CUST00323,phone:91552715,database_a,phone,2025-07-22,jie hao jiehaooh,91552715,,phone:91552715,Huang Jiehao,91552715
+CUST01204,phone:81380844,database_a,phone,2025-07-22,Yap Hock Lee,81380844,,phone:81380844,Yap Hock Lee,81380844
+CUST01207,phone:83280519,database_a,phone,2025-07-23,Ho Khek Heong,83280519,,phone:83280519,Ho Khek Heong,83280519
+CUST00895,phone:91510865,database_a,phone,2025-07-24,Andrew Seah Yong Hui (Xie Yonghui),91510865,,phone:91510865,Andrew Seah Yong Hui (Xie Yonghui),91510865
+CUST01208,phone:86790788,database_a,phone,2025-07-24,"Sucila Gooal ""Sue""",86790788,,phone:86790788,"Sucila Gooal ""Sue""",86790788
+CUST01201,phone:86995610,database_a,phone,2025-07-28,Aaron lin wei hao,86995610,,phone:86995610,Aaron Lin Wei Hao,86995610
+CUST00157,phone:81818412,database_a,phone,2025-07-28,Chee Gee,81818412,,phone:81818412,Chee Gee,81818412
+CUST00525,phone:90615530,database_a,phone,2025-07-28,Matthew Low Guang Wei,90615530,,phone:90615530,Matthew Low,90615530
+CUST01032,phone:96482288,database_a,phone,2025-07-29,Andrew Ang Boon Heng,96482288,,phone:96482288,Andrew Ang Boon Heng,96482288
+CUST00287,phone:96843650,database_a,phone,2025-07-29,Chua Soo yong,96843650,,phone:96843650,Chua Soo Yong,96843650
+CUST00759,phone:98788521,database_a,phone,2025-07-29,Ang Beng eok c/o Cathrin poh,98788521,,phone:98788521,Ang Beng eok c/o Cathrin poh,98788521
+CUST00568,phone:91443391,database_a,phone,2025-07-30,Christina Au,91443391,,phone:91443391,Christina Au,91443391
+CUST01211,phone:83973956,database_a,phone,2025-07-31,Kavan; Modi Kavan Kishore,83973956,,phone:83973956,Kavan; Modi Kavan Kishore,83973956
+CUST01210,phone:96181808,database_a,phone,2025-07-31,Damian Leong - LEONG WENG HUNG DAMIAN,96181808,,phone:96181808,Damian Leong - LEONG WENG HUNG DAMIAN,96181808
 CUST00061,phone:94239832,database_a,phone,2025-08-01,Chia Yue Sheng,94239832,,phone:94239832,Chia Yue Sheng,94239832
-CUST01194,phone:97348973,database_a,exact_name,2025-08-04,Gayathiri Selvam ,,,phone:97348973,Gayathiri Selvam ,97348973
-CUST00608,phone:85778156,database_a,phone,2025-08-04,Chee Wei Jie ,85778156,,phone:85778156,Chee Wei Jie,85778156
-CUST01201,phone:97930575,database_a,phone,2025-08-06,Kim / Hsin,97930575,,phone:97930575,Kim / Hsin,97930575
-CUST00944,phone:96477710,database_a,exact_name,2025-08-08,Reza Ho,,,phone:96477710,Reza Ho,96477710
-CUST01206,phone:96893528,database_a,phone,2025-08-19,Steven lee chai hee,96893528,,phone:96893528,Steven lee chai hee,96893528
-CUST01210,phone:85435311,database_a,phone,2025-08-25,Mr poh c/o Candy Siaw - Siaw Wan Ping,85435311,,phone:85435311,Mr poh c/o Candy Siaw - Siaw Wan Ping,85435311
-CUST01173,phone:96167518,database_a,phone,2025-08-25,Jong - ONG JOO ANN JONATHAN GERARD,96167518,,phone:96167518,Jong - ONG JOO ANN JONATHAN GERARD,96167518
-CUST01211,name:dino trakakis kostantinos,database_a,exact_name,2025-08-26,"""Dino"" TRAKAKIS KOSTANTINOS",,,name:dino trakakis kostantinos,"""Dino"" TRAKAKIS KOSTANTINOS",
-CUST01213,phone:81136969,database_a,new,2025-08-30,Dzul - DZULKIFLI BIN JA'AFAR,81136969,GB2B630543,,,
-CUST00964,phone:97399362,database_a,exact_name,2025-08-31,Wisman siew,97399362,GBH2010249,phone:97399362,Wisman Siew,97399362
-CUST01214,phone:81666690,database_a,new,2025-09-01,Chan Chong You c/o Ong Su May,81666690,GB2B630538,,,
-CUST01215,phone:97990038,database_a,new,2025-09-02,Kenneth Lek,97990038,,,,
-CUST01216,phone:82980585,database_a,new,2025-09-02,Yin Peishi Jessica,82980585,,,,
-CUST01146,phone:81880703,database_a,exact_name,2025-09-04,Pauline Siang po Ling ,,,phone:81880703,Pauline Siang po Ling ,81880703
-CUST00338,phone:90035906,database_a,partial_name,2025-09-04,Avi,98473257,,phone:90035906,Alexandre Gravier,90035906
-CUST01218,phone:98713921,database_a,new,2025-09-05,Joel Wee,98713921,GB2B560858,,,
-CUST01220,phone:94794245,database_a,new,2025-09-09,Idran Junadi,94794245,,,,
-CUST01221,phone:92477723,database_a,new,2025-09-09,Mohammed Nestaz,92477723,J378249248693,,,
-CUST01222,phone:8726418,database_a,new,2025-09-09,Nicholas Lim Kai Hung,8726418,GB2B630535,,,
-CUST01219,phone:8860385,database_a,new,2025-09-09,Cheryl Yi Mei Ying (Medipurpose),8860385,GB2B630529,,,
-CUST00754,phone:96913836,database_a,exact_name,2025-09-10,Colin Koh,96913836,,phone:96913836,Colin Koh,96913836
-CUST01223,phone:97585304,database_a,new,2025-09-13,Then Aik Bei (Deng yubei),97585304,GB2B630532,,,
-CUST01224,phone:98256567,database_a,new,2025-09-14,Jansen Sng Kai Rong - Jansen KR,98256567,GB2B560860,,,
-CUST01118,phone:97847336,database_a,partial_name,2025-09-14,Michael Goh ,94894233,GB2B630545,phone:97847336,Michael Goh (Goh Tan Hock Goh Hwee Lan),97847336
-CUST00042,phone:81009876,database_a,new,2025-09-14,Hafidz (Zohra) MUHAMMAD HAFIDZ BASRI,81009876,GB2B630527,,,
-CUST00974,phone:88683999,database_a,phone,2025-09-15,Timothy Ngui,88683999,,phone:88683999,Timothy Ngui Choon Ming / Wei Junming,88683999
-CUST01212,phone:92992454,database_a,phone,2025-09-15,Roselen binte Rosenen - Elen - Elenjelly,92992454,,phone:92992454,Roselen binte Rosenen,92992454
-CUST01225,phone:98421887,database_a,new,2025-09-16,Yap Soon Mong c/o Suvene lim ,98421887,GB2B630540,,,
-CUST01226,phone:90666595,database_a,new,2025-09-19,Mansha w/o Ashok,90666595,,,,
-CUST01227,phone:97491519,database_a,new,2025-09-21,Lawrence Wee - WEE ENG SIANG (WANG YINGXIANG),97491519,GB2B630541,,,
-CUST01228,phone:96691933,database_a,partial_name,2025-09-22,Jason Lim Jia Yinn - Lim Jia Yinn Jason,94564451,GB2B630525,phone:96691933,Jason Lim,96691933
-CUST00552,phone:98425255,database_a,partial_name,2025-09-23,Richard Lee,91252307,J378251276E71,phone:98425255,Richard,98425255
-CUST01229,phone:9617602,database_a,new,2025-09-26,Tan Soo Khoon,9617602,GB2B560863,,,
-CUST00872,phone:98255483,database_a,partial_name,2025-09-27,Quah Siew Hock c/o Wei Yiming,98255483,,phone:98255483,Wei Yiming,98255483
-CUST01082,phone:61406157533,database_a,phone,2025-09-28,Christopher Lee,61406157533,GBH2015345,phone:61406157533,Christopher Lee - paid cash 21 jan 2024,61406157533
-CUST00351,phone:90472077,database_a,partial_name,2025-09-28,Michael,94894233,P20252503,phone:90472077,Alvin Heah / Michael Lim,90472077
-CUST01185,phone:87970699,database_a,partial_name,2025-09-28,Kristy wong,97453573,GB28630526,phone:87970699,Wong,87970699
-CUST00632,phone:75,database_a,partial_name,2025-09-29,Victor goh Shui Hsin,84908351988,,phone:75,Hsin,75
-CUST01230,phone:93365236,database_a,new,2025-09-29,Amos Yeo aysh - Yeo Sung Hur Amos,93365236,GB2B630534,,,
-CUST00513,phone:90615530,database_a,exact_name,2025-09-30,Matthew Low Guang Wei,,,phone:90615530,Matthew Low Guang Wei,90615530
-CUST00781,phone:97383898,database_a,partial_name,2025-09-30,Desmond Ong Kian san,97383898,GBH2008811,phone:97383898,Desmond Ong,97383898
-CUST01231,phone:96197709,database_a,new,2025-09-30,Julian Colin,96197709,GB2B564133,,,
-CUST00217,phone:86869168,database_a,partial_name,2025-10-02,Dylan Hou - Hou junwei,86869168,GBH2015347,phone:86869168,Dylan Hou,86869168
-CUST01232,phone:40,database_a,new,2025-10-03,liyakamil,40,,,,
-CUST01212,phone:92992454,database_a,partial_name,2025-10-03,elenjelly,54,,phone:92992454,Roselen binte Rosenen - Elen - Elenjelly,92992454
-CUST00557,name:edmund,database_a,exact_name,2025-10-04,Edmund,98180083,GB2B630533,name:edmund,Edmund,
-CUST01233,phone:98345015,database_a,new,2025-10-06,Gan Choon Wah “Aerrick”,98345015,,,,
-CUST01128,phone:98419658,database_a,exact_name,2025-10-06,Don Mtmdon - MOHD TAHIR BIN MAHMOOD,98419658,GBH2015346,phone:98419658,Don Mtmdon - MOHD TAHIR BIN MAHMOOD,98419658
-CUST01228,phone:96691933,database_a,exact_name,2025-10-07,Jason Lim,94564351,SN23233471620,phone:96691933,Jason Lim,96691933
-CUST01219,phone:8860385,database_a,exact_name,2025-10-08,Cheryl Yi Mei Ying (Medipurpose),88603850,,phone:8860385,Cheryl Yi Mei Ying (Medipurpose),8860385
-CUST01234,phone:81255771,database_a,new,2025-10-09,Cheah Fatt,81255771,GB2B630548,,,
-CUST01235,phone:85182062,database_a,new,2025-10-10,Denise Ong Mei Yan,85182062,,,,
-CUST01236,phone:87887603,database_a,new,2025-10-13,Jibraan Rasheed,87887603,GB2B639066,,,
-CUST01237,phone:96899751,database_a,new,2025-10-15,Boon Teck,96899751,GB2B639049,,,
-CUST01238,phone:97544217,database_a,new,2025-10-15,Nazree,97544217,GB2B639062,,,
-CUST01239,phone:98179995,database_a,new,2025-10-18,Heng - Seow Kuan heng,98179995,,,,
-CUST00589,phone:96806961,database_a,exact_name,2025-10-18,Art lim,96806961,,phone:96806961,Art Lim,96806961
-CUST01240,phone:96626293,database_a,new,2025-10-20,Kelly Leong,96626293,GB2B564120,,,
-CUST01028,phone:98591069,database_a,exact_name,2025-10-21,Lim Seow thong,98591069,,phone:98591069,Lim Seow Thong,98591069
-CUST00803,phone:97247799,database_a,exact_name,2025-10-23,Lim Yu Leong,97247799,,phone:97247799,Lim Yu Leong,97247799
-CUST00934,phone:91800913,database_a,exact_name,2025-10-25,Eden toh kim yang,91800913,,phone:91800913,Eden Toh Kim Yang,91800913
-CUST00585,phone:97101290,database_a,partial_name,2025-10-26,Peggy,98520742,GB2B639053,phone:97101290,Peggy Chia,97101290
-CUST01185,phone:87970699,database_a,partial_name,2025-10-29,Serene wong,90266696,,phone:87970699,Wong,87970699
-CUST01241,phone:96287547,database_a,new,2025-10-29,Lionel Ling,96287547,,,,
+CUST01206,phone:97348973,database_a,exact_name,2025-08-04,Gayathiri Selvam,,,phone:97348973,Gayathiri Selvam,97348973
+CUST00621,phone:85778156,database_a,phone,2025-08-04,Chee Wei Jie,85778156,,phone:85778156,Chee Wei Jie,85778156
+CUST01213,phone:97930575,database_a,phone,2025-08-06,Kim / Hsin,97930575,,phone:97930575,Kim / Hsin,97930575
+CUST00956,phone:96477710,database_a,exact_name,2025-08-08,Reza Ho,,,phone:96477710,Reza Ho,96477710
+CUST01218,phone:96893528,database_a,phone,2025-08-19,Steven lee chai hee,96893528,,phone:96893528,Steven lee chai hee,96893528
+CUST01222,phone:85435311,database_a,phone,2025-08-25,Mr poh c/o Candy Siaw - Siaw Wan Ping,85435311,,phone:85435311,Mr poh c/o Candy Siaw - Siaw Wan Ping,85435311
+CUST01185,phone:96167518,database_a,phone,2025-08-25,Jong - ONG JOO ANN JONATHAN GERARD,96167518,,phone:96167518,Jong - ONG JOO ANN JONATHAN GERARD,96167518
+CUST01223,name:dino trakakis kostantinos,database_a,exact_name,2025-08-26,"""Dino"" TRAKAKIS KOSTANTINOS",,,name:dino trakakis kostantinos,"""Dino"" TRAKAKIS KOSTANTINOS",
+CUST01225,phone:81136969,database_a,new,2025-08-30,Dzul - DZULKIFLI BIN JA'AFAR,81136969,GB2B630543,,,
+CUST00976,phone:97399362,database_a,exact_name,2025-08-31,Wisman siew,97399362,GBH2010249,phone:97399362,Wisman Siew,97399362
+CUST01226,phone:81666690,database_a,new,2025-09-01,Chan Chong You c/o Ong Su May,81666690,GB2B630538,,,
+CUST01227,phone:97990038,database_a,new,2025-09-02,Kenneth Lek,97990038,,,,
+CUST01228,phone:82980585,database_a,new,2025-09-02,Yin Peishi Jessica,82980585,,,,
+CUST01158,phone:81880703,database_a,exact_name,2025-09-04,Pauline Siang po Ling,,,phone:81880703,Pauline Siang po Ling,81880703
+CUST00349,phone:90035906,database_a,partial_name,2025-09-04,Avi,98473257,,phone:90035906,Alexandre Gravier,90035906
+CUST01230,phone:98713921,database_a,new,2025-09-05,Joel Wee,98713921,GB2B560858,,,
+CUST01232,phone:94794245,database_a,new,2025-09-09,Idran Junadi,94794245,,,,
+CUST01233,phone:92477723,database_a,new,2025-09-09,Mohammed Nestaz,92477723,J378249248693,,,
+CUST01234,phone:8726418,database_a,new,2025-09-09,Nicholas Lim Kai Hung,8726418,GB2B630535,,,
+CUST01231,phone:8860385,database_a,new,2025-09-09,Cheryl Yi Mei Ying (Medipurpose),8860385,GB2B630529,,,
+CUST00766,phone:96913836,database_a,exact_name,2025-09-10,Colin Koh,96913836,,phone:96913836,Colin Koh,96913836
+CUST01235,phone:97585304,database_a,new,2025-09-13,Then Aik Bei (Deng yubei),97585304,GB2B630532,,,
+CUST01236,phone:98256567,database_a,new,2025-09-14,Jansen Sng Kai Rong - Jansen KR,98256567,GB2B560860,,,
+CUST01130,phone:97847336,database_a,partial_name,2025-09-14,Michael Goh,94894233,GB2B630545,phone:97847336,Michael Goh (Goh Tan Hock Goh Hwee Lan),97847336
+CUST00042,phone:81009876,database_a,exact_name,2025-09-14,Hafidz (Zohra) MUHAMMAD HAFIDZ BASRI,81009876,GB2B630527,phone:81009876,Hafidz (Zohra) MUHAMMAD HAFIDZ BASRI,81009876
+CUST00986,phone:88683999,database_a,phone,2025-09-15,Timothy Ngui,88683999,,phone:88683999,Timothy Ngui Choon Ming / Wei Junming,88683999
+CUST01224,phone:92992454,database_a,phone,2025-09-15,Roselen binte Rosenen - Elen - Elenjelly,92992454,,phone:92992454,Roselen binte Rosenen,92992454
+CUST01237,phone:98421887,database_a,new,2025-09-16,Yap Soon Mong c/o Suvene lim,98421887,GB2B630540,,,
+CUST01238,phone:90666595,database_a,new,2025-09-19,Mansha w/o Ashok,90666595,,,,
+CUST01239,phone:97491519,database_a,new,2025-09-21,Lawrence Wee - WEE ENG SIANG (WANG YINGXIANG),97491519,GB2B630541,,,
+CUST01240,phone:96691933,database_a,partial_name,2025-09-22,Jason Lim Jia Yinn - Lim Jia Yinn Jason,94564451,GB2B630525,phone:96691933,Jason Lim,96691933
+CUST00564,phone:98425255,database_a,partial_name,2025-09-23,Richard Lee,91252307,J378251276E71,phone:98425255,Richard,98425255
+CUST01241,phone:9617602,database_a,new,2025-09-26,Tan Soo Khoon,9617602,GB2B560863,,,
+CUST00884,phone:98255483,database_a,partial_name,2025-09-27,Quah Siew Hock c/o Wei Yiming,98255483,,phone:98255483,Wei Yiming,98255483
+CUST01095,phone:61406157533,database_a,phone,2025-09-28,Christopher Lee,61406157533,GBH2015345,phone:61406157533,Christopher Lee - paid cash 21 jan 2024,61406157533
+CUST00362,phone:90472077,database_a,partial_name,2025-09-28,Michael,94894233,P20252503,phone:90472077,Alvin Heah / Michael Lim,90472077
+CUST01197,phone:87970699,database_a,partial_name,2025-09-28,Kristy wong,97453573,GB28630526,phone:87970699,Wong,87970699
+CUST00645,phone:75,database_a,partial_name,2025-09-29,Victor goh Shui Hsin,84908351988,,phone:75,Hsin,75
+CUST01242,phone:93365236,database_a,new,2025-09-29,Amos Yeo aysh - Yeo Sung Hur Amos,93365236,GB2B630534,,,
+CUST00525,phone:90615530,database_a,exact_name,2025-09-30,Matthew Low Guang Wei,,,phone:90615530,Matthew Low Guang Wei,90615530
+CUST00793,phone:97383898,database_a,partial_name,2025-09-30,Desmond Ong Kian san,97383898,GBH2008811,phone:97383898,Desmond Ong,97383898
+CUST01212,phone:90385277,database_a,partial_name,2025-09-30,Julian Colin,96197709,GB2B564133,phone:90385277,Julian,
+CUST00228,phone:86869168,database_a,partial_name,2025-10-02,Dylan Hou - Hou junwei,86869168,GBH2015347,phone:86869168,Dylan Hou,86869168
+CUST01243,phone:40,database_a,new,2025-10-03,liyakamil,40,,,,
+CUST01224,phone:92992454,database_a,partial_name,2025-10-03,elenjelly,54,,phone:92992454,Roselen binte Rosenen - Elen - Elenjelly,92992454
+CUST00569,name:edmund,database_a,exact_name,2025-10-04,Edmund,98180083,GB2B630533,name:edmund,Edmund,
+CUST01244,phone:98345015,database_a,new,2025-10-06,Gan Choon Wah “Aerrick”,98345015,,,,
+CUST01140,phone:98419658,database_a,exact_name,2025-10-06,Don Mtmdon - MOHD TAHIR BIN MAHMOOD,98419658,GBH2015346,phone:98419658,Don Mtmdon - MOHD TAHIR BIN MAHMOOD,98419658
+CUST01240,phone:96691933,database_a,exact_name,2025-10-07,Jason Lim,94564351,SN23233471620,phone:96691933,Jason Lim,96691933
+CUST01231,phone:8860385,database_a,exact_name,2025-10-08,Cheryl Yi Mei Ying (Medipurpose),88603850,,phone:8860385,Cheryl Yi Mei Ying (Medipurpose),8860385
+CUST01245,phone:81255771,database_a,new,2025-10-09,Cheah Fatt,81255771,GB2B630548,,,
+CUST01246,phone:85182062,database_a,new,2025-10-10,Denise Ong Mei Yan,85182062,,,,
+CUST01247,phone:87887603,database_a,new,2025-10-13,Jibraan Rasheed,87887603,GB2B639066,,,
+CUST01248,phone:96899751,database_a,new,2025-10-15,Boon Teck,96899751,GB2B639049,,,
+CUST01249,phone:97544217,database_a,new,2025-10-15,Nazree,97544217,GB2B639062,,,
+CUST01250,phone:98179995,database_a,new,2025-10-18,Heng - Seow Kuan heng,98179995,,,,
+CUST00602,phone:96806961,database_a,exact_name,2025-10-18,Art lim,96806961,,phone:96806961,Art Lim,96806961
+CUST01251,phone:96626293,database_a,new,2025-10-20,Kelly Leong,96626293,GB2B564120,,,
+CUST01040,phone:98591069,database_a,exact_name,2025-10-21,Lim Seow thong,98591069,,phone:98591069,Lim Seow Thong,98591069
+CUST00815,phone:97247799,database_a,exact_name,2025-10-23,Lim Yu Leong,97247799,,phone:97247799,Lim Yu Leong,97247799
+CUST00946,phone:91800913,database_a,exact_name,2025-10-25,Eden toh kim yang,91800913,,phone:91800913,Eden Toh Kim Yang,91800913
+CUST00598,phone:97101290,database_a,partial_name,2025-10-26,Peggy,98520742,GB2B639053,phone:97101290,Peggy Chia,97101290
+CUST01197,phone:87970699,database_a,partial_name,2025-10-29,Serene wong,90266696,,phone:87970699,Wong,87970699
+CUST01252,phone:96287547,database_a,new,2025-10-29,Lionel Ling,96287547,,,,

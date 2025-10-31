@@ -19,6 +19,8 @@ NS_MAIN = {"main": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
 NS_REL = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
 NS_PKG_REL = {"rel": "http://schemas.openxmlformats.org/package/2006/relationships"}
 
+INV_TOKEN_RE = re.compile(r"\s*\(Inv[^)]*\)", re.IGNORECASE)
+
 EXCEL_DATE_BASE = datetime(1899, 12, 30)
 
 HEADER_OVERRIDES = {
@@ -324,6 +326,13 @@ def normalize_phone(value: str) -> str:
     return re.sub(r"\D", "", value or "")
 
 
+def strip_invoice_parenthetical(name: str) -> str:
+    if not name:
+        return ""
+    cleaned = INV_TOKEN_RE.sub("", name)
+    return re.sub(r"\s+", " ", cleaned).strip()
+
+
 def normalize_name(value: str) -> str:
     cleaned = re.sub(r"[^0-9A-Za-z]+", " ", value or "").strip().lower()
     return re.sub(r"\s+", " ", cleaned)
@@ -364,6 +373,13 @@ def build_record(
     existing_key: Optional[str] = None,
 ) -> Record:
     fields = {name: row[idx] for name, idx in index_map.items() if idx < len(row)}
+    if "name" in fields:
+        cleaned_name = strip_invoice_parenthetical(fields["name"])
+        if cleaned_name != fields["name"]:
+            fields["name"] = cleaned_name
+            name_idx = index_map.get("name")
+            if name_idx is not None and name_idx < len(row):
+                row[name_idx] = cleaned_name
     date = parse_excel_date(fields.get("date", ""))
     settlement = parse_excel_date(fields.get("actual_settlement_date", ""))
     name_norm = normalize_name(fields.get("name", ""))
