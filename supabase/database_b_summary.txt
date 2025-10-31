@@ -1,8 +1,8 @@
 Database B rebuild summary
-Total customers: 1296
+Total customers: 1292
 Total transactions: 3180
-Transactions added from Database A: 1249
-Database A transactions reviewed: 1998
+Transactions added from Database A: 1250
+Database A transactions reviewed: 1999
 Database A transactions already present by serial: 749
-Latest transaction date: 2025-10-29
-Potential manual review items: 31
+Latest transaction date: 2025-10-30
+Potential manual review items: 30
