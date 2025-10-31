@@ -41,6 +41,43 @@ HEADER_OVERRIDES = {
 
 NUMERIC_TEXT_COLUMNS = {"number", "number_text_primary", "number_text_secondary"}
 SCIENTIFIC_NOTATION_RE = re.compile(r"^[+-]?\d+(?:\.\d+)?[eE][+-]?\d+$")
+MONTH_NAME_MAP = {
+    "jan": 1,
+    "january": 1,
+    "feb": 2,
+    "february": 2,
+    "mar": 3,
+    "march": 3,
+    "apr": 4,
+    "april": 4,
+    "may": 5,
+    "jun": 6,
+    "june": 6,
+    "jul": 7,
+    "july": 7,
+    "aug": 8,
+    "august": 8,
+    "sep": 9,
+    "sept": 9,
+    "september": 9,
+    "oct": 10,
+    "october": 10,
+    "nov": 11,
+    "november": 11,
+    "dec": 12,
+    "december": 12,
+}
+TEXTUAL_DATE_PATTERNS = [
+    re.compile(
+        r"(?i)^(?P<day>\d{1,2})(?:st|nd|rd|th)?\s+(?P<month>[A-Za-z\.]+)\s+(?P<year>\d{2,4})$"
+    ),
+    re.compile(
+        r"(?i)^(?P<month>[A-Za-z\.]+)\s+(?P<day>\d{1,2})(?:st|nd|rd|th)?\s+(?P<year>\d{2,4})$"
+    ),
+    re.compile(
+        r"(?i)^(?P<year>\d{4})\s+(?P<month>[A-Za-z\.]+)\s+(?P<day>\d{1,2})(?:st|nd|rd|th)?$"
+    ),
+]
 
 
 @dataclass
@@ -199,7 +236,51 @@ def apply_header_overrides(headers: List[str]) -> List[str]:
     return [HEADER_OVERRIDES.get(name, name) for name in headers]
 
 
+def parse_textual_date(value: str) -> Optional[datetime]:
+    cleaned = (value or "").strip()
+    if not cleaned:
+        return None
+    cleaned = cleaned.replace(",", " ")
+    cleaned = re.sub(r"[-/]+", " ", cleaned)
+    cleaned = re.sub(r"(\d)(st|nd|rd|th)\b", r"\1", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"(?i)(\d)([A-Za-z])", r"\1 \2", cleaned)
+    cleaned = re.sub(r"(?i)([A-Za-z])(\d)", r"\1 \2", cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    for pattern in TEXTUAL_DATE_PATTERNS:
+        match = pattern.match(cleaned)
+        if not match:
+            continue
+        parts = match.groupdict()
+        day_raw = parts.get("day")
+        month_raw = parts.get("month")
+        year_raw = parts.get("year")
+        if not (day_raw and month_raw and year_raw):
+            continue
+        try:
+            day = int(day_raw)
+        except ValueError:
+            continue
+        month_key = month_raw.lower().rstrip(".")
+        month = MONTH_NAME_MAP.get(month_key)
+        if not month:
+            continue
+        try:
+            year = int(year_raw)
+        except ValueError:
+            continue
+        if len(year_raw) == 2:
+            year += 2000 if year < 50 else 1900
+        try:
+            return datetime(year, month, day)
+        except ValueError:
+            continue
+    return None
+
+
 def parse_excel_date(value: str) -> Optional[datetime]:
+    if not value:
+        return None
+    value = value.strip()
     if not value:
         return None
     try:
@@ -208,11 +289,30 @@ def parse_excel_date(value: str) -> Optional[datetime]:
             return None
         return EXCEL_DATE_BASE + timedelta(days=number)
     except ValueError:
-        for fmt in ("%Y-%m-%d", "%d/%m/%Y", "%d-%m-%Y", "%d %b %Y"):
-            try:
-                return datetime.strptime(value, fmt)
-            except ValueError:
-                continue
+        pass
+
+    for fmt in (
+        "%Y-%m-%d",
+        "%d/%m/%Y",
+        "%d-%m-%Y",
+        "%d %b %Y",
+        "%d %B %Y",
+        "%d-%b-%Y",
+        "%d %b %y",
+        "%d %B %y",
+        "%b %d %Y",
+        "%B %d %Y",
+        "%b %d %y",
+        "%B %d %y",
+    ):
+        try:
+            return datetime.strptime(value, fmt)
+        except ValueError:
+            continue
+
+    textual = parse_textual_date(value)
+    if textual is not None:
+        return textual
     return None
 
 
@@ -285,10 +385,14 @@ def build_record(
 
 def update_row_dates(record: Record, index_map: Dict[str, int]) -> None:
     date_idx = index_map.get("date")
-    if date_idx is not None and date_idx < len(record.row):
+    if record.date and date_idx is not None and date_idx < len(record.row):
         record.row[date_idx] = format_date(record.date)
     settlement_idx = index_map.get("actual_settlement_date")
-    if settlement_idx is not None and settlement_idx < len(record.row):
+    if (
+        record.settlement_date
+        and settlement_idx is not None
+        and settlement_idx < len(record.row)
+    ):
         record.row[settlement_idx] = format_date(record.settlement_date)
 
 
@@ -347,23 +451,21 @@ def main(argv: Iterable[str]) -> None:
     headers_a = apply_header_overrides(sanitize_headers(sheet_a[0]))
     index_map_a = {name: idx for idx, name in enumerate(headers_a)}
 
-    cutoff = datetime(2025, 7, 1)
+    total_rows_a = 0
+    existing_serial_matches = 0
     added_rows = 0
     for row in sheet_a[1:]:
         if not any(row):
             continue
         if len(row) < len(headers_a):
             row = row + [""] * (len(headers_a) - len(row))
-        date_idx = index_map_a.get("date")
-        date_value = row[date_idx] if date_idx is not None else ""
-        parsed_date = parse_excel_date(date_value) if date_value else None
-        if not parsed_date or parsed_date < cutoff:
-            continue
+        total_rows_a += 1
 
         serial_idx_a = index_map_a.get("serial_number")
         serial_value = row[serial_idx_a] if serial_idx_a is not None else ""
         serial_norm = normalize_serial(serial_value)
         if serial_norm and serial_norm in serial_index:
+            existing_serial_matches += 1
             continue
 
         phone_idx_a = index_map_a.get("number")
@@ -459,9 +561,9 @@ def main(argv: Iterable[str]) -> None:
         added_rows += 1
 
     print(
-        "Added "
-        f"{added_rows} new transactions from Database A >= {cutoff:%Y-%m-%d}"
-        f" using {a_path.name}"
+        "Processed "
+        f"{total_rows_a} transactions from Database A; "
+        f"{added_rows} added, {existing_serial_matches} already present by serial."
     )
 
     customers: Dict[str, List[Record]] = defaultdict(list)
@@ -705,7 +807,9 @@ def main(argv: Iterable[str]) -> None:
             "Database B rebuild summary\n"
             f"Total customers: {total_customers}\n"
             f"Total transactions: {total_transactions}\n"
-            f"Transactions added from Database A (>= {cutoff:%Y-%m-%d}): {new_transactions}\n"
+            f"Transactions added from Database A: {new_transactions}\n"
+            f"Database A transactions reviewed: {total_rows_a}\n"
+            f"Database A transactions already present by serial: {existing_serial_matches}\n"
             f"Latest transaction date: {format_date(latest_date)}\n"
             f"Potential manual review items: {manual_review_count}\n"
         )
